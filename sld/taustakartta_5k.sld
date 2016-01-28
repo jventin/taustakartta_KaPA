@@ -823,8 +823,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>38300</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d7f0fc</CssParameter>
@@ -849,8 +849,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32421</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ffe8cf</CssParameter>
@@ -875,8 +875,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32411</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fcd4b8</CssParameter>
@@ -892,8 +892,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32412</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fcd4b8</CssParameter>
@@ -909,8 +909,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32413</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fffcd1</CssParameter>
@@ -926,8 +926,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32415</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fffcd1</CssParameter>
@@ -943,8 +943,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32416</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fffcd1</CssParameter>
@@ -960,8 +960,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32414</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fff2c9</CssParameter>
@@ -977,8 +977,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32417</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fff2c9</CssParameter>
@@ -994,8 +994,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32418</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fff2c9</CssParameter>
@@ -1005,12 +1005,381 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>     
-   
+  <NamedLayer> <!-- mtk:suojaalueenreunaviiva -->
+    <Name>mtk:suojaalueenreunaviiva</Name>
+    <UserStyle>
+      <Title></Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+<!-- 62200 suoja-alue -->
         
-    
-  
+        <Rule>
+          <Name>62200</Name>
+          <Title>62200 Suoja-alue</Title>
+          
+          <ogc:Filter>
+         <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohderyhma</ogc:PropertyName>
+                <ogc:Literal>29</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>62200</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+      </ogc:And>  
+          </ogc:Filter>  
+
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
+          
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#e37fc3</CssParameter>
+              <CssParameter name="stroke-width">6</CssParameter>         
+              <CssParameter name="stroke-dasharray">80 20</CssParameter>              
+              <CssParameter name="stroke-dashoffset">16</CssParameter> 
+              <CssParameter name="stroke-linecap">butt</CssParameter>         
+            </Stroke>            
+          </LineSymbolizer>
+          
+        </Rule>    	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>      
+  <NamedLayer> <!-- mtk:kivikko  -->
+    <Name>mtk:kivikko</Name>
+    <UserStyle>
+      <Title>mtk:kivikko</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>34700</Name>
+          <Title>34700 Kivikko</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>34700</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
+          <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> <!-- Pkivikko 0 11 9 86 * 50 % -->
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <ExternalGraphic>
+                    <OnlineResource
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+xlink:href="taustakartta/Pkivikko_0_11_9_86.svg"/>
+                    <Format>image/svg+xml</Format>
+                  </ExternalGraphic>
+                  <Size>
+                    <ogc:Literal>48</ogc:Literal>
+                  </Size>               
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>         
+        </Rule>    	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>   
+  <NamedLayer> <!-- mtk:vesikivikko  -->
+    <Name>mtk:vesikivikko</Name>
+    <UserStyle>
+      <Title>mtk:vesikivikko</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>38600</Name>
+          <Title>38600 Vesikivikko</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>38600</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
+          <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> <!-- Pkivikko 0 11 9 86 * 50 % -->
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <ExternalGraphic>
+                    <OnlineResource
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+xlink:href="taustakartta/Pkivikko_0_11_9_86.svg"/>
+                    <Format>image/svg+xml</Format>
+                  </ExternalGraphic>
+                  <Size>
+                    <ogc:Literal>48</ogc:Literal>
+                  </Size>               
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>         
+        </Rule>        	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>     
+  <NamedLayer> <!-- mtk:maastokuvionreuna  -->
+    <Name>mtk:maastokuvionreuna</Name>
+    <UserStyle>
+      <Title>mtk:maastokuvionreuna</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>30211</Name>
+          <Title>30211 Yksikasitteiset maastoreunat</Title>
+          <ogc:Filter>
+            <ogc:And>     
+              <ogc:Or>             
+                <ogc:PropertyIsEqualTo> <!-- sora-, hiekkakuoppa  -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32111</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- hieno kivennaisaines  -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32112</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- turvetuotantoalue  -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32113</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- hautausmaa  -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32200</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- kaatopaikka -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32300</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- kiitotie paallystetty -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32411</ogc:Literal>
+                </ogc:PropertyIsEqualTo>			
+                <ogc:PropertyIsEqualTo> <!-- kiitotie paallystamaton -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32412</ogc:Literal>
+                </ogc:PropertyIsEqualTo>				
+                <ogc:PropertyIsEqualTo> <!-- muu lentokenttaalue -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32413</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- muu lentoliikennealue -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32414</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- muu lentokenttaalue, paallystetty -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32415</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- muu lentokenttaalue, paallystamaton -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32416</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- muu lentoliikennealue, paallystetty -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32417</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo><!-- muu lentoliikennealue, paallystamaton -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32418</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- autoliikennealue -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32421</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- louhos -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32500</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- pelto -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32611</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- puutarha -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32612</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- niitty -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32800</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- puisto -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32900</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- taytemaa -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>33000</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo><!-- urheilu ja virkistysalue -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>33100</ogc:Literal>
+                </ogc:PropertyIsEqualTo>    
+              </ogc:Or>              
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>30211</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                
+            </ogc:And>
+          </ogc:Filter> 
+          <!-- <MinScaleDenominator>15000</MinScaleDenominator> -->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">1.6</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>  
+        <Rule>
+          <Name>30212</Name>
+          <Title>30212 Maastoreuna epamaarainen</Title>
+          <ogc:Filter>
+            <ogc:And>     
+              <ogc:Or>             
+                <ogc:PropertyIsEqualTo> <!-- sora-, hiekkakuoppa  -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32111</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- hieno kivennaisaines  -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32112</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- turvetuotantoalue  -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32113</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- hautausmaa  -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32200</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- kaatopaikka -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32300</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- kiitotie paallystetty -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32411</ogc:Literal>
+                </ogc:PropertyIsEqualTo>			
+                <ogc:PropertyIsEqualTo> <!-- kiitotie paallystamaton -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32412</ogc:Literal>
+                </ogc:PropertyIsEqualTo>				
+                <ogc:PropertyIsEqualTo> <!-- muu lentokenttaalue -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32413</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- muu lentoliikennealue -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32414</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- muu lentokenttaalue, paallystetty -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32415</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- muu lentokenttaalue, paallystamaton -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32416</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- muu lentoliikennealue, paallystetty -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32417</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo><!-- muu lentoliikennealue, paallystamaton -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32418</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- autoliikennealue -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32421</ogc:Literal>
+                <ogc:PropertyIsEqualTo> <!-- pelto -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32611</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- puutarha -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32612</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- niitty -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32800</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- puisto -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>32900</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo> <!-- taytemaa -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>33000</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo><!-- urheilu ja virkistysalue -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>33100</ogc:Literal>
+                </ogc:PropertyIsEqualTo>  
+              </ogc:Or>              
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>30212</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                
+            </ogc:And>
+          </ogc:Filter> 
+           <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>
+              <CssParameter name="stroke-dasharray">1.2 6</CssParameter>
+            </Stroke>
+          </LineSymbolizer>	         
+        </Rule>   	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>
+
+  <NamedLayer> <!-- mtk:maasto2kuvionreuna -->
+    <Name>mtk:maasto2kuvionreuna</Name>
+    <UserStyle>
+      <Title>mtk:maasto2kuvionreuna</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>30211</Name>
+          <Title>30211 Yksikasitteiset maastoreunat</Title>
+          <ogc:Filter>
+            <ogc:And>            
+                <ogc:PropertyIsEqualTo> <!-- varastoalue -->
+                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                  <ogc:Literal>38900</ogc:Literal>
+                </ogc:PropertyIsEqualTo>    
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>30211</ogc:Literal>
+              </ogc:PropertyIsEqualTo>                
+            </ogc:And>
+          </ogc:Filter> 
+          <!-- <MinScaleDenominator>15000</MinScaleDenominator> -->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">1.6</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>   
+
+
   <!--
-  
   <NamedLayer> 
     <Name></Name>
     <UserStyle>
@@ -1020,9 +1389,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
 	  
       </FeatureTypeStyle>    
     </UserStyle>
-  </NamedLayer>   
-
--->  
-  
+  </NamedLayer>       
+  -->
 
 </StyledLayerDescriptor>  
