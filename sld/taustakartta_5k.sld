@@ -686,6 +686,7 @@ xlink:href="taustakartta/Psoist_3_2_0_64.svg"/>
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
+  
  <!--
   <NamedLayer> 
     <Name>mtk:</Name>
