@@ -868,7 +868,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <FeatureTypeStyle>    
         <Rule>
           <Name>32411</Name>
-          <Title>32411 Lentokent?n kiitotie p??llystetty</Title>
+          <Title>32411 Lentokentan kiitotie paallystetty</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
@@ -885,7 +885,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>
         <Rule>
           <Name>32412</Name>
-          <Title>32412 Lentokent?n kiitotie p??llyst?m?t?n</Title>
+          <Title>32412 Lentokentan kiitotie paallystamaton</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
@@ -902,7 +902,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>
         <Rule>
           <Name>32413</Name>
-          <Title>32413 Muu lentokentt?alue</Title>
+          <Title>32413 Muu lentokenttaalue</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
@@ -919,7 +919,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>    
         <Rule>
           <Name>32415</Name>
-          <Title>32415 Muu lentokentt?alue p??llystetty</Title>
+          <Title>32415 Muu lentokenttaalue paallystetty</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
@@ -936,7 +936,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>
         <Rule>
           <Name>32416</Name>
-          <Title>32416 Muu lentokentt?alue p??llyst?m?t?n</Title>
+          <Title>32416 Muu lentokenttaalue paallystamaton</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
@@ -970,7 +970,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>    
         <Rule>
           <Name>32417</Name>
-          <Title>32417 Muu lentoliikennealue p??llystetty</Title>
+          <Title>32417 Muu lentoliikennealue paallystetty</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
@@ -987,7 +987,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>
         <Rule>
           <Name>32418</Name>
-          <Title>32418 Muu lentoliikennealue p??llyst?m?t?n</Title>
+          <Title>32418 Muu lentoliikennealue paallystamaton</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
@@ -1071,7 +1071,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <ExternalGraphic>
                     <OnlineResource
 xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="taustakartta/Pkivikko_0_11_9_86.svg"/>
+xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Pkivikko_0_11_9_86.svg"/>
                     <Format>image/svg+xml</Format>
                   </ExternalGraphic>
                   <Size>
@@ -1109,7 +1109,7 @@ xlink:href="taustakartta/Pkivikko_0_11_9_86.svg"/>
                   <ExternalGraphic>
                     <OnlineResource
 xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="taustakartta/Pkivikko_0_11_9_86.svg"/>
+xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Pkivikko_0_11_9_86.svg"/>
                     <Format>image/svg+xml</Format>
                   </ExternalGraphic>
                   <Size>
@@ -1354,10 +1354,10 @@ xlink:href="taustakartta/Pkivikko_0_11_9_86.svg"/>
           <Title>30211 Yksikasitteiset maastoreunat</Title>
           <ogc:Filter>
             <ogc:And>            
-                <ogc:PropertyIsEqualTo> <!-- varastoalue -->
-                  <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
-                  <ogc:Literal>38900</ogc:Literal>
-                </ogc:PropertyIsEqualTo>    
+              <ogc:PropertyIsEqualTo> <!-- varastoalue -->
+                <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
+                <ogc:Literal>38900</ogc:Literal>
+              </ogc:PropertyIsEqualTo>    
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
                 <ogc:Literal>30211</ogc:Literal>
