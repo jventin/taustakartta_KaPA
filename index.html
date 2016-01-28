@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="http://ol3js.org/en/master/build/ol.css" type="text/css">
+    <style>
+      body, html {
+        height: 98%;
+        font-family: arial;
+        margin: 0;
+      }
+
+      .map {
+        height: 80%;
+        width: 100%;
+      }
+      a:visited, a {
+        color: #29A7F1
+      }
+      h2, p {
+        margin-left: 0.5em;
+      }
+
+    </style>
+    <script src="js/ol-simple.js" type="text/javascript"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/proj4js/1.1.0/proj4js-compressed.js"></script>
+    <title>Taustakartan kehitysdemo</title>
+  </head>
+  <body onload="init();">
+
+    <h2>Taustakartan kehitysdemo</h2>
+
+    <div id="map" class="map"></div>
+    <p>
+      Demosovellus, jossa n&auml;ytet&auml;&auml;n Taustakarttasarjan muokkauksia KaPA-projektia varten. Kartat muodostetaan lennossa, joten palvelu voi olla hidas.<br>
+Oletus/aloitus zoomtaso on JHS-taso 3, jolla n&auml;ytet&auml;&auml;n Taustakartta 4000k. <br>
+JHS 0-2: Taustakartta 8000k (ei muokattu)<br>
+JHS 3-4: Taustakartta 4000k (muokattu)<br>
+JHS 5: Taustakartta 2000k (muokattu)<br>
+JHS 6: Taustakartta 800k (muokattu)<br>
+JHS 7: Taustakartta 320k (muokattu)<br>
+JHS 8: Taustakartta 160k (ei muokattu)<br>
+JHS 9: Taustakartta 80k (ei muokatu)<br>
+JHS 10: Taustakartta 40k (ei muokatu)<br>
+JHS 11: Taustakartta 20k (ei muokatu)<br>
+JHS 12: Taustakartta 10k (ei muokatu)<br>
+JHS 13: Taustakartta 5k (ei muokatu)<br>
+<br>
+<br>
+      
+    </p>
+    <script type="text/javascript" src="js/code.js"></script>
+  </body>
+</html>
