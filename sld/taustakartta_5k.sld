@@ -794,7 +794,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <ExternalGraphic>
                     <OnlineResource
 xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="taustakartta/Phko_100_40_0_26.svg"/>
+xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Phko_100_40_0_26.svg"/>
                     <Format>image/svg+xml</Format>
                   </ExternalGraphic>
                   <Size>
