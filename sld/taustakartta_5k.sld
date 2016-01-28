@@ -1215,7 +1215,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
                   <ogc:Literal>33000</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo><!-- urheilu ja virkistysalue -->
+                <ogc:PropertyIsEqualTo> <!-- urheilu ja virkistysalue -->
                   <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
                   <ogc:Literal>33100</ogc:Literal>
                 </ogc:PropertyIsEqualTo>    
@@ -1297,6 +1297,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                 <ogc:PropertyIsEqualTo> <!-- autoliikennealue -->
                   <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
                   <ogc:Literal>32421</ogc:Literal>
+                </ogc:PropertyIsEqualTo>				  
                 <ogc:PropertyIsEqualTo> <!-- pelto -->
                   <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
                   <ogc:Literal>32611</ogc:Literal>
@@ -1317,7 +1318,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
                   <ogc:Literal>33000</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo><!-- urheilu ja virkistysalue -->
+                <ogc:PropertyIsEqualTo> <!-- urheilu ja virkistysalue -->
                   <ogc:PropertyName>kartografinenluokka</ogc:PropertyName>
                   <ogc:Literal>33100</ogc:Literal>
                 </ogc:PropertyIsEqualTo>  
@@ -1328,7 +1329,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:PropertyIsEqualTo>                
             </ogc:And>
           </ogc:Filter> 
-           <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
