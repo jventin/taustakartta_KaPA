@@ -439,7 +439,7 @@ xlink:href="taustakartta/Phko_0_11_9_86.svg"/>
                   <ExternalGraphic>
                     <OnlineResource
 xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="taustakartta/Psoist_0_39_72_29.svg"/>
+xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Psoist_0_39_72_29.svg"/>
                     <Format>image/svg+xml</Format>
                   </ExternalGraphic>
                   <Size>
@@ -482,7 +482,7 @@ xlink:href="taustakartta/Psoist_0_39_72_29.svg"/>
                   <ExternalGraphic>
                     <OnlineResource
 xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="taustakartta/Pkivikko_4_2_0_48.svg"/>
+xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Pkivikko_4_2_0_48.svg"/>
                     <Format>image/svg+xml</Format>
                   </ExternalGraphic>
                   <Size>
@@ -525,7 +525,7 @@ xlink:href="taustakartta/Pkivikko_4_2_0_48.svg"/>
                   <ExternalGraphic>
                     <OnlineResource
 xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="taustakartta/Phko_0_11_9_86.svg"/>
+xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Phko_0_11_9_86.svg"/>
                     <Format>image/svg+xml</Format>
                   </ExternalGraphic>
                   <Size>
@@ -594,7 +594,7 @@ xlink:href="taustakartta/Phko_0_11_9_86.svg"/>
                   <ExternalGraphic>
                     <OnlineResource
 xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="taustakartta/Psoist_3_2_0_64.svg"/>
+xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Psoist_3_2_0_64.svg"/>
                     <Format>image/svg+xml</Format>
                   </ExternalGraphic>
                   <Size>
