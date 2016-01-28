@@ -362,7 +362,7 @@
                   <ExternalGraphic>
                     <OnlineResource
 xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="taustakartta/Phko_0_11_9_86.svg"/>
+xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Phko_0_11_9_86.svg"/>
                     <Format>image/svg+xml</Format>
                   </ExternalGraphic>
                   <Size>
@@ -435,7 +435,7 @@ xlink:href="taustakartta/Phko_0_11_9_86.svg"/>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">  <!-- Psoist 0 39 72 29 * 50 % v?rill? -->
             <Fill>
               <GraphicFill>
-                <Graphic>
+                <Graphic>		
                   <ExternalGraphic>
                     <OnlineResource
 xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
