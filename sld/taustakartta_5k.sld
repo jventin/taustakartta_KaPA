@@ -686,7 +686,145 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>    
+  <NamedLayer> <!-- mtk:virtavesialue -->
+    <Name>mtk:virtavesialue</Name>
+    <UserStyle>
+      <Title>virtavesialue</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>36313</Name>
+          <Title>36313 Virtavesi yli 5 m</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>36313</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#c3e6fa</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule>    	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>   
+  <NamedLayer> 
+    <Name>mtk:allas</Name> <!-- 	mtk:allas -->
+    <UserStyle>
+      <Title>allas</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>     
+        <Rule>
+          <Name>44300</Name>
+          <Title>44300 Allas</Title>
+          <ogc:Filter>
+            <ogc:And>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>44300</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohderyhma</ogc:PropertyName>
+                <ogc:Literal>75</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>        
+          </ogc:Filter> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#c3e6fa</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule>     	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>     
+  <NamedLayer> <!-- mtk:muuavoinalue -->
+    <Name>mtk:muuavoinalue</Name>
+    <UserStyle>
+      <Title>avoin vesijatto</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>39130</Name>
+          <Title>39130 Avoin vesijatto</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>39130</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fffab0</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule>    	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>   
+  <NamedLayer> <!-- mtk:tulvaalue -->
+    <Name>mtk:tulvaalue</Name>
+    <UserStyle>
+      <Title>mtk:tulvaalue</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>38400</Name>
+          <Title>38400 Tulva-alue</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>38400</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
+          <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">  <!-- Phko 100 40 0 26 v?rill? * 50 % -->
+            <Fill>
+              <GraphicFill>
+                <Graphic>
+                  <ExternalGraphic>
+                    <OnlineResource
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+xlink:href="taustakartta/Phko_100_40_0_26.svg"/>
+                    <Format>image/svg+xml</Format>
+                  </ExternalGraphic>
+                  <Size>
+                    <ogc:Literal>36.8</ogc:Literal>
+                  </Size>               
+                </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>    
+        </Rule>      	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>     
+  
+  
+  
+  <!--
+  
+  <NamedLayer> 
+    <Name></Name>
+    <UserStyle>
+      <Title></Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>   
 
+-->  
   
 
 </StyledLayerDescriptor>  
