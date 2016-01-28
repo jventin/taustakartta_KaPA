@@ -808,8 +808,206 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>     
-  
-  
+  <NamedLayer> <!-- mtk:maatuvavesialue -->
+    <Name>mtk:maatuvavesialue</Name>
+    <UserStyle>
+      <Title>mtk:maatuvavesialue</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>38300</Name>
+          <Title>38300 Maatuva vesialue</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>38300</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#d7f0fc</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule> 	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>     
+  <NamedLayer> <!-- mtk:autoliikennealue -->
+    <Name>mtk:autoliikennealue</Name>
+    <UserStyle>
+      <Title>mtk:autoliikennealue</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>32421</Name>
+          <Title>32421 Autoliikennealue</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>32421</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffe8cf</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule>     	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>  
+  <NamedLayer> <!-- mtk:lentokenttaalue -->
+    <Name>mtk:lentokenttaalue</Name>
+    <UserStyle>
+      <Title>mtk:lentokenttaalue</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>32411</Name>
+          <Title>32411 Lentokent?n kiitotie p??llystetty</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>32411</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fcd4b8</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Name>32412</Name>
+          <Title>32412 Lentokent?n kiitotie p??llyst?m?t?n</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>32412</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fcd4b8</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Name>32413</Name>
+          <Title>32413 Muu lentokentt?alue</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>32413</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fffcd1</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule>    
+        <Rule>
+          <Name>32415</Name>
+          <Title>32415 Muu lentokentt?alue p??llystetty</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>32415</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fffcd1</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Name>32416</Name>
+          <Title>32416 Muu lentokentt?alue p??llyst?m?t?n</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>32416</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fffcd1</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Name>32414</Name>
+          <Title>32414 Muu lentoliikennealue</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>32414</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fff2c9</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule>    
+        <Rule>
+          <Name>32417</Name>
+          <Title>32417 Muu lentoliikennealue p??llystetty</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>32417</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fff2c9</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Name>32418</Name>
+          <Title>32418 Muu lentoliikennealue p??llyst?m?t?n</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>32418</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#fff2c9</CssParameter>
+            </Fill>            
+          </PolygonSymbolizer>
+        </Rule>    	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>     
+   
+        
+    
   
   <!--
   
