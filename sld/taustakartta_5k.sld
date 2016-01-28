@@ -190,7 +190,7 @@
   </NamedLayer>    
 
   <NamedLayer> <!-- puisto -->
-    <Name>mtk:puiso</Name>
+    <Name>mtk:puisto</Name>
     <UserStyle>
       <Title>puisto</Title>
       <Abstract>sld</Abstract>
