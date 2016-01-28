@@ -122,7 +122,9 @@ function init() {
 		   crossOrigin: 'anonymous',
 		   params: {
 			 'SLD': 'http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_5k.sld',
-			 'FORMAT': 'image/png'
+			 'FORMAT': 'image/png',
+			'BGCOLOR' : '0Xd8f0e1',
+			'TRANSPARENT' : 'false'			 
 		   },
 		   serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
 		 }),
