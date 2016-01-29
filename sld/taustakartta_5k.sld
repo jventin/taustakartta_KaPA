@@ -1625,7 +1625,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
   </NamedLayer>  
   
   <!--
-  <NamedLayer> <!--   -->
+  <NamedLayer> 
     <Name></Name>
     <UserStyle>
       <Title></Title>
