@@ -4662,8 +4662,235 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>     
+  <NamedLayer> <!-- mtk:aita -->
+    <Name>mtk:aita</Name>
+    <UserStyle>
+      <Title>mtk:aita</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>44213</Name>
+          <Title>44213 Aita, istutettu</Title>
+          <ogc:Filter>     
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>44213</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#6ad49f</CssParameter>
+              <CssParameter name="stroke-width">6</CssParameter>              
+              <CssParameter name="stroke-dasharray">0.8 16</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>              
+              <CssParameter name="stroke-dashoffet">0</CssParameter>              
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>    
+        <Rule>
+          <Name>44211</Name>
+          <Title>44211 Aita, tekoaines</Title>
+ 
+          <ogc:Filter>     
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>44211</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>                      
+              <CssParameter name="stroke-linecap">round</CssParameter>                         
+            </Stroke>
+          </LineSymbolizer>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">6</CssParameter>              
+              <CssParameter name="stroke-dasharray">0.8 20</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>              
+              <CssParameter name="stroke-dashoffet">0</CssParameter>              
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>      	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>  
+  <NamedLayer> <!-- mtk:aallonmurtaja -->
+    <Name>mtk:aallonmurtaja</Name>
+    <UserStyle>
+      <Title>mtk:aallonmurtaja</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>44100</Name>
+          <Title>44100 Aallonmurtaja</Title>
+          <ogc:Filter>     
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>44100</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">2.8</CssParameter>              
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>    
+  <NamedLayer> <!-- mtk:ilmarata -->
+    <Name>mtk:ilmarata</Name>
+    <UserStyle>
+      <Title>mtk:ilmarata</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>44500</Name>
+          <Title>44500 Ilmarata</Title>
+          <ogc:Filter>     
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>44500</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>              
+             </Stroke>
+          </LineSymbolizer>
+        </Rule>   
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer> <!-- mtk:rakennelma -->
+    <Name>mtk:rakennelma</Name>
+    <UserStyle>
+      <Title>mtk:rakennelma</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>45700</Name>
+          <Title>45700 Rakennelma</Title>
+          <ogc:Filter>     
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>45700</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">1.6</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>   
+  <NamedLayer> <!-- mtk:muuntoasema -->
+    <Name>mtk:muuntoasema</Name>
+    <UserStyle>
+      <Title>mtk:muuntoasema</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>22200</Name>
+          <Title>22200 Muuntoasema</Title>
+          <ogc:Filter>     
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>22200</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>              
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>    
+  <NamedLayer> <!-- mtk:putkijohto -->
+    <Name>mtk:putkijohto</Name>
+    <UserStyle>
+      <Title>mtk:putkijohto</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>26111</Name>
+          <Title>26111 Kaasujohto pinnan alla</Title>
+          <ogc:Filter>  
+            <ogc:And>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>26111</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>-1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>      
+            </ogc:And>
+          </ogc:Filter> 
+          <!-- <MinScaleDenominator>15000</MinScaleDenominator> -->
+          <MaxScaleDenominator>5000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>  
+              <CssParameter name="stroke-dasharray">40 20</CssParameter>          
+              <CssParameter name="stroke-dashoffset">8</CssParameter>                  
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+        <Rule>
+          <Name>26111</Name>
+          <Title>26111 Kaasujohto pinnalla</Title>
+          <ogc:Filter>  
+            <ogc:And>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>26111</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>      
+            </ogc:And>
+          </ogc:Filter>  
+          <!-- <MinScaleDenominator>15000</MinScaleDenominator> -->
+          <MaxScaleDenominator>5000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>              
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>        		
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>  
   <!--
-  <NamedLayer> 
+  <NamedLayer> <!--  -->
     <Name></Name>
     <UserStyle>
       <Title></Title>
@@ -4672,7 +4899,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
 	  
       </FeatureTypeStyle>    
     </UserStyle>
-  </NamedLayer>       
+  </NamedLayer>  
   -->
 
 </StyledLayerDescriptor>  
