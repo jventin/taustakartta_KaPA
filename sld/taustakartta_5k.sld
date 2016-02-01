@@ -3329,16 +3329,1174 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>    
- <!-- <NamedLayer> 
+  <NamedLayer> <!-- mtk:tieviiva --> <!-- sillalla olevat tiet -->
     <Name>mtk:tieviiva</Name>
     <UserStyle>
       <Title>mtk:tieviiva</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-	  
-      </FeatureTypeStyle>    
+      <Abstract>sld</Abstract> 
+      <FeatureTypeStyle> <!-- Ajo- ja muut polut, kavely- ja pyoratiet, ajotiet sillalla tasosijainti 1,2,3 -->
+        <Rule>
+          <Name>12316</Name>
+          <Title>12316 Ajopolku sillalla</Title>
+          <ogc:Filter>  
+            <ogc:And>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>12316</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                  <ogc:Literal>1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                  <ogc:Literal>3</ogc:Literal>
+                </ogc:PropertyIsEqualTo>        
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#a1a1a1</CssParameter>
+              <CssParameter name="stroke-width">3.2</CssParameter>      
+             <CssParameter name="stroke-linecap">butt</CssParameter>                
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>          
+        <Rule>
+          <Name>12314</Name>
+          <Title>12314 Kavely- ja pyoratie sillalla</Title>
+          <ogc:Filter>  
+            <ogc:And>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>12314</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                  <ogc:Literal>1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                  <ogc:Literal>3</ogc:Literal>
+                </ogc:PropertyIsEqualTo>        
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#a1a1a1</CssParameter>
+              <CssParameter name="stroke-width">3.2</CssParameter>            
+             <CssParameter name="stroke-linecap">butt</CssParameter>          
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>         
+        <Rule>
+          <Name>12313</Name>
+          <Title>12313 Polku sillalla</Title>
+          <ogc:Filter>  
+            <ogc:And>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>12313</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                  <ogc:Literal>1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                  <ogc:Literal>3</ogc:Literal>
+                </ogc:PropertyIsEqualTo>        
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#a1a1a1</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>                       
+            </Stroke>
+          </LineSymbolizer>      
+        </Rule>    
+        <Rule>
+          <Name>12141</Name>
+          <Title>12141 Ajotie sillalla</Title>
+          <ogc:Filter>  
+            <ogc:And>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>12141</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                  <ogc:Literal>1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                  <ogc:Literal>2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                  <ogc:Literal>3</ogc:Literal>
+                </ogc:PropertyIsEqualTo>        
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#a1a1a1</CssParameter>
+              <CssParameter name="stroke-width">3.2</CssParameter>              
+             <CssParameter name="stroke-linecap">butt</CssParameter>            
+            </Stroke>
+          </LineSymbolizer>      
+        </Rule>        
+      </FeatureTypeStyle>
+      <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 1 tummat reunat -->
+        <Rule>
+          <Name>12111</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12111</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">19.2</CssParameter>                          
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>         
+        <Rule>
+          <Name>12112</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12112</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">19.2</CssParameter>                     
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>     
+<!--12121 autotie 2 a reuna -->
+        <Rule>
+          <Name>12121</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12121</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">17.6</CssParameter>                           
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>         
+        <Rule>
+          <Name>12122</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12122</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">16</CssParameter>                              
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>        
+        <Rule>
+          <Name>12131</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12131</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">14.4</CssParameter>                      
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>      
+        <Rule>
+          <Name>12132</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12132</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">12.8</CssParameter>                        
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>         
+      </FeatureTypeStyle>
+      <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 1 vaalea taytto -->
+        <Rule>
+          <Name>12132</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12132</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">9.6</CssParameter>              
+             <CssParameter name="stroke-linecap">round</CssParameter>                   
+            </Stroke>            
+          </LineSymbolizer>      
+        </Rule>       
+        <Rule>
+          <Name>12131</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12131</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">11.2</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>     
+            </Stroke>            
+          </LineSymbolizer>    
+        </Rule>      
+        <Rule>
+          <Name>12122</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12122</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">12.8</CssParameter>              
+             <CssParameter name="stroke-linecap">round</CssParameter>         
+            </Stroke>            
+          </LineSymbolizer>    
+        </Rule>      
+        <Rule>
+          <Name>12121</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12121</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">14.4</CssParameter>              
+             <CssParameter name="stroke-linecap">round</CssParameter>            
+            </Stroke>            
+          </LineSymbolizer>        
+        </Rule>       
+        <Rule>
+          <Name>12112</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12112</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">16</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>               
+            </Stroke>            
+          </LineSymbolizer>
+        </Rule>       
+        <Rule>
+          <Name>12111</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12111</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">16</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>          
+            </Stroke>            
+          </LineSymbolizer>
+        </Rule>      
+      </FeatureTypeStyle>  
+      <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 2 tummat reunat -->
+        <Rule>
+          <Name>12111</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12111</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">19.2</CssParameter>                          
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>         
+        <Rule>
+          <Name>12112</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12112</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">19.2</CssParameter>                     
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>         
+        <Rule>
+          <Name>12121</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12121</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">17.6</CssParameter>                           
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>         
+        <Rule>
+          <Name>12122</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12122</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">16</CssParameter>                              
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>        
+        <Rule>
+          <Name>12131</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12131</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">14.4</CssParameter>                      
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>      
+        <Rule>
+          <Name>12132</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12132</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">12.8</CssParameter>                        
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>         
+      </FeatureTypeStyle>
+      <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 2 vaalea taytto -->
+        <Rule>
+          <Name>12132</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12132</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">9.6</CssParameter>              
+             <CssParameter name="stroke-linecap">round</CssParameter>                   
+            </Stroke>            
+          </LineSymbolizer>      
+        </Rule>       
+        <Rule>
+          <Name>12131</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12131</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>			
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">11.2</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>     
+            </Stroke>            
+          </LineSymbolizer>    
+        </Rule>      
+        <Rule>
+          <Name>12122</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12122</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">12.8</CssParameter>              
+             <CssParameter name="stroke-linecap">round</CssParameter>         
+            </Stroke>            
+          </LineSymbolizer>    
+        </Rule>      
+        <Rule>
+          <Name>12121</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12121</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">14.4</CssParameter>              
+             <CssParameter name="stroke-linecap">round</CssParameter>            
+            </Stroke>            
+          </LineSymbolizer>        
+        </Rule>       
+        <Rule>
+          <Name>12112</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12112</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">16</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>               
+            </Stroke>            
+          </LineSymbolizer>
+        </Rule>       
+        <Rule>
+          <Name>12111</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12111</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>2</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">16</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>          
+            </Stroke>            
+          </LineSymbolizer>
+        </Rule>      
+      </FeatureTypeStyle>
+
+      <FeatureTypeStyle>    <!-- tiet sillalla tasosijainti 3 tummat reunat -->
+        <Rule>
+          <Name>12111</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12111</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">19.2</CssParameter>                          
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>         
+        <Rule>
+          <Name>12112</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12112</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">19.2</CssParameter>                     
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>           
+        <Rule>
+          <Name>12121</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12121</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">17.6</CssParameter>                           
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>         
+        <Rule>
+          <Name>12122</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12122</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">16</CssParameter>                              
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>        
+        <Rule>
+          <Name>12131</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12131</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">14.4</CssParameter>                      
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>      
+        <Rule>
+          <Name>12132</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12132</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">12.8</CssParameter>                        
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>         
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>    <!-- tiet sillalla tasosijainti 3 vaalea taytto -->  
+        <Rule>
+          <Name>12132</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12132</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">9.6</CssParameter>              
+             <CssParameter name="stroke-linecap">round</CssParameter>                   
+            </Stroke>            
+          </LineSymbolizer>      
+        </Rule>       
+        <Rule>
+          <Name>12131</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12131</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">11.2</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>     
+            </Stroke>            
+          </LineSymbolizer>    
+        </Rule>      
+        <Rule>
+          <Name>12122</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12122</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">12.8</CssParameter>              
+             <CssParameter name="stroke-linecap">round</CssParameter>         
+            </Stroke>            
+          </LineSymbolizer>    
+        </Rule>      
+        <Rule>
+          <Name>12121</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12121</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">14.4</CssParameter>              
+             <CssParameter name="stroke-linecap">round</CssParameter>            
+            </Stroke>            
+          </LineSymbolizer>        
+        </Rule>       
+        <Rule>
+          <Name>12112</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12112</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">16</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>               
+            </Stroke>            
+          </LineSymbolizer>
+        </Rule>       
+        <Rule>
+          <Name>12111</Name>
+          <ogc:Filter>  
+           <ogc:And>      
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12111</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>3</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
+            <Stroke>
+              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke-width">16</CssParameter>              
+              <CssParameter name="stroke-linecap">round</CssParameter>          
+            </Stroke>            
+          </LineSymbolizer>
+        </Rule>      
+      </FeatureTypeStyle>   
     </UserStyle>
-  </NamedLayer>        -->
+  </NamedLayer>       
   <!--
   <NamedLayer> 
     <Name></Name>
