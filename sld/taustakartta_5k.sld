@@ -1715,7 +1715,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>    
-  <NamedLayer> <!-- mtk:tieviiva  -->
+  <NamedLayer> <!-- mtk:tieviiva  --> <!-- polut -->
     <Name>mtk:tieviiva</Name>
     <UserStyle>
       <Title>mtk:tieviiva</Title>
@@ -2074,155 +2074,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <CssParameter name="stroke-dashoffset">8</CssParameter>                
             </Stroke>        
           </LineSymbolizer>  
-        </Rule>                  
-        <Rule>
-          <Name>14111</Name>
-          <Title>14111 Rautatie tunnelissa</Title>
-          <ogc:Filter> 
-            <ogc:And>        
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>14111</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
-                <ogc:Literal>-11</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>        
-          </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator>
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">      
-            <Geometry>      
-              <ogc:Function name="buffer"> 
-                <ogc:PropertyName>sijainti_viiva</ogc:PropertyName> 
-                <ogc:Literal>2.4</ogc:Literal>                 
-              </ogc:Function> 
-            </Geometry>         
-            <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>  
-              <CssParameter name="stroke-dasharray">32 16</CssParameter>          
-              <CssParameter name="stroke-linecap">butt</CssParameter>    
-              <CssParameter name="stroke-dashoffset">8</CssParameter>                
-            </Stroke>        
-          </LineSymbolizer>  
-        </Rule>        
-        <Rule>
-          <Name>14112</Name>
-          <Title>14112 Sahkoistamaton rautatie tunnelissa</Title>
-          <ogc:Filter> 
-            <ogc:And>      
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>14112</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
-                <ogc:Literal>-11</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>valmiusaste</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-               </ogc:And>        
-          </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator>
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">      
-            <Geometry>      
-              <ogc:Function name="buffer"> 
-                <ogc:PropertyName>sijainti_viiva</ogc:PropertyName> 
-                <ogc:Literal>2.4</ogc:Literal>                 
-              </ogc:Function> 
-            </Geometry>         
-            <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>  
-              <CssParameter name="stroke-dasharray">32 16</CssParameter>          
-              <CssParameter name="stroke-linecap">butt</CssParameter>    
-              <CssParameter name="stroke-dashoffset">8</CssParameter>                
-            </Stroke>        
-          </LineSymbolizer>  
-        </Rule>        
-        <Rule>
-          <Name>14131</Name>
-          <Title>14131 Metro tunnelissa</Title>
-          <ogc:Filter>  
-            <ogc:And>      
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>14131</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
-                <ogc:Literal>-11</ogc:Literal>
-              </ogc:PropertyIsEqualTo>      
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator>
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">      
-            <Geometry>      
-              <ogc:Function name="buffer"> 
-                <ogc:PropertyName>sijainti_viiva</ogc:PropertyName> 
-                <ogc:Literal>1.6</ogc:Literal>                 
-              </ogc:Function> 
-            </Geometry>      
-            <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>  
-              <CssParameter name="stroke-dasharray">32 16</CssParameter>          
-              <CssParameter name="stroke-linecap">butt</CssParameter>    
-              <CssParameter name="stroke-dashoffset">8</CssParameter>                
-            </Stroke>        
-          </LineSymbolizer>  
-        </Rule>
-        <Rule>
-          <Name>14121</Name>
-          <Title>14121 Kapearaiteinen rautatie tunnelissa</Title>
-          <ogc:Filter>  
-            <ogc:And>      
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>14121</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
-                <ogc:Literal>-11</ogc:Literal>
-              </ogc:PropertyIsEqualTo>      
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator>
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">      
-            <Geometry>      
-              <ogc:Function name="buffer"> 
-                <ogc:PropertyName>sijainti_viiva</ogc:PropertyName> 
-                <ogc:Literal>1.6</ogc:Literal>                 
-              </ogc:Function> 
-            </Geometry>         
-            <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>  
-              <CssParameter name="stroke-dasharray">32 16</CssParameter>          
-              <CssParameter name="stroke-linecap">butt</CssParameter>    
-              <CssParameter name="stroke-dashoffset">8</CssParameter>                
-            </Stroke>        
-          </LineSymbolizer>  
-        </Rule>    
+        </Rule>                   
       </FeatureTypeStyle>
       <FeatureTypeStyle> <!-- Tiet, kaytossa (valmiusaste 0) olevat pinnalla (tasosijainti 0 & -1) olevat -->
         <Rule>
@@ -2801,6 +2653,205 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </LineSymbolizer>
         </Rule>      
         <Rule>
+          <Name>12151</Name>
+          <Title>12151 Lautta</Title>
+          <ogc:Filter>     
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12151</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#e6ae8c</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>              
+              <CssParameter name="stroke-dasharray">28 24</CssParameter>
+              <CssParameter name="stroke-dashoffset">8</CssParameter>             
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>         
+        <Rule>
+          <Name>12152</Name>
+          <Title>12152 Lossi</Title> 
+          <ogc:Filter>     
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>12152</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator> 
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#e6ae8c</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>                       
+              <CssParameter name="stroke-dasharray">28 24</CssParameter>
+              <CssParameter name="stroke-dashoffset">8</CssParameter>                 
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>      	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>   
+  <NamedLayer> <!-- mtk:rautatie  -->
+    <Name>mtk:rautatie</Name>
+    <UserStyle>
+      <Title>mtk:rautatie</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    <!-- tunneilssa (tasosijainti -11) kaytossa (valmiusaste 0) -->                
+        <Rule>
+          <Name>14111</Name>
+          <Title>14111 Rautatie tunnelissa</Title>
+          <ogc:Filter> 
+            <ogc:And>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>14111</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>-11</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>        
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">      
+            <Geometry>      
+              <ogc:Function name="buffer"> 
+                <ogc:PropertyName>sijainti_viiva</ogc:PropertyName> 
+                <ogc:Literal>2.4</ogc:Literal>                 
+              </ogc:Function> 
+            </Geometry>         
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>  
+              <CssParameter name="stroke-dasharray">32 16</CssParameter>          
+              <CssParameter name="stroke-linecap">butt</CssParameter>    
+              <CssParameter name="stroke-dashoffset">8</CssParameter>                
+            </Stroke>        
+          </LineSymbolizer>  
+        </Rule>        
+        <Rule>
+          <Name>14112</Name>
+          <Title>14112 Sahkoistamaton rautatie tunnelissa</Title>
+          <ogc:Filter> 
+            <ogc:And>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>14112</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>-11</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+               </ogc:And>        
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">      
+            <Geometry>      
+              <ogc:Function name="buffer"> 
+                <ogc:PropertyName>sijainti_viiva</ogc:PropertyName> 
+                <ogc:Literal>2.4</ogc:Literal>                 
+              </ogc:Function> 
+            </Geometry>         
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>  
+              <CssParameter name="stroke-dasharray">32 16</CssParameter>          
+              <CssParameter name="stroke-linecap">butt</CssParameter>    
+              <CssParameter name="stroke-dashoffset">8</CssParameter>                
+            </Stroke>        
+          </LineSymbolizer>  
+        </Rule>        
+        <Rule>
+          <Name>14131</Name>
+          <Title>14131 Metro tunnelissa</Title>
+          <ogc:Filter>  
+            <ogc:And>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>14131</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>-11</ogc:Literal>
+              </ogc:PropertyIsEqualTo>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">      
+            <Geometry>      
+              <ogc:Function name="buffer"> 
+                <ogc:PropertyName>sijainti_viiva</ogc:PropertyName> 
+                <ogc:Literal>1.6</ogc:Literal>                 
+              </ogc:Function> 
+            </Geometry>      
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>  
+              <CssParameter name="stroke-dasharray">32 16</CssParameter>          
+              <CssParameter name="stroke-linecap">butt</CssParameter>    
+              <CssParameter name="stroke-dashoffset">8</CssParameter>                
+            </Stroke>        
+          </LineSymbolizer>  
+        </Rule>
+        <Rule>
+          <Name>14121</Name>
+          <Title>14121 Kapearaiteinen rautatie tunnelissa</Title>
+          <ogc:Filter>  
+            <ogc:And>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>14121</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
+                <ogc:Literal>-11</ogc:Literal>
+              </ogc:PropertyIsEqualTo>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter> 
+          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
+          <MaxScaleDenominator>5000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">      
+            <Geometry>      
+              <ogc:Function name="buffer"> 
+                <ogc:PropertyName>sijainti_viiva</ogc:PropertyName> 
+                <ogc:Literal>1.6</ogc:Literal>                 
+              </ogc:Function> 
+            </Geometry>         
+            <Stroke>
+              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke-width">1.2</CssParameter>  
+              <CssParameter name="stroke-dasharray">32 16</CssParameter>          
+              <CssParameter name="stroke-linecap">butt</CssParameter>    
+              <CssParameter name="stroke-dashoffset">8</CssParameter>                
+            </Stroke>        
+          </LineSymbolizer>  
+        </Rule>    
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
           <Name>14111</Name>
           <Title>14111 Rautatie pinnalla</Title>
           <ogc:Filter>  
@@ -2964,49 +3015,12 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
             </Stroke>            
           </LineSymbolizer>
         </Rule>    
-        <Rule>
-          <Name>12151</Name>
-          <Title>12151 Lautta</Title>
-          <ogc:Filter>     
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>12151</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator> 
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#e6ae8c</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>              
-              <CssParameter name="stroke-dasharray">28 24</CssParameter>
-              <CssParameter name="stroke-dashoffset">8</CssParameter>             
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>         
-        <Rule>
-          <Name>12152</Name>
-          <Title>12152 Lossi</Title> 
-          <ogc:Filter>     
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>12152</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--<MinScaleDenominator>15000</MinScaleDenominator>-->
-          <MaxScaleDenominator>5000</MaxScaleDenominator> 
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#e6ae8c</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>                       
-              <CssParameter name="stroke-dasharray">28 24</CssParameter>
-              <CssParameter name="stroke-dashoffset">8</CssParameter>                 
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>      	  
+ 	  
       </FeatureTypeStyle>    
     </UserStyle>
-  </NamedLayer>   
+  </NamedLayer>     
+  
+  
   <!--
   <NamedLayer> 
     <Name></Name>
