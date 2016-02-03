@@ -2291,7 +2291,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->        
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">         
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#c14a0a</CssParameter>
               <CssParameter name="stroke-width">17.6</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
@@ -2326,7 +2326,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">         
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">16</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>         
             </Stroke>            
@@ -2361,7 +2361,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->         
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">         
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">14.4</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>     
             </Stroke>            
@@ -2397,7 +2397,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">         
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">12.8</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>                   
             </Stroke>                      </LineSymbolizer>              </Rule>         </FeatureTypeStyle>    
@@ -2432,7 +2432,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">         
             <Stroke>
-              <CssParameter name="stroke">#fcfcfc</CssParameter>
+              <CssParameter name="stroke">#ffeee5</CssParameter>
               <CssParameter name="stroke-width">9.6</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>                   
             </Stroke>            
@@ -2467,7 +2467,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->         
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">         
             <Stroke>
-              <CssParameter name="stroke">#fcfcfc</CssParameter>
+              <CssParameter name="stroke">#ffeee5</CssParameter>
               <CssParameter name="stroke-width">11.2</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>     
             </Stroke>            
@@ -2502,7 +2502,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">         
             <Stroke>
-              <CssParameter name="stroke">#fcfcfc</CssParameter>
+              <CssParameter name="stroke">#ffeee5</CssParameter>
               <CssParameter name="stroke-width">12.8</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>         
             </Stroke>            
@@ -2537,7 +2537,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->        
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">         
             <Stroke>
-              <CssParameter name="stroke">#fcfcfc</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">14.4</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
