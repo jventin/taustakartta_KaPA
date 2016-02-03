@@ -10237,7 +10237,6 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
             <!-- karttanimen sijainnin marittaminen -->            
             <LabelPlacement>
               <PointPlacement>
-			  
                 <AnchorPoint>
                   <AnchorPointX>0</AnchorPointX>
                   <AnchorPointY>0</AnchorPointY>
@@ -10267,9 +10266,6 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                 </Rotation>        
               </PointPlacement>
             </LabelPlacement>   
-<!--            <Halo>
-              <Radius>1</Radius>
-            </Halo> -->
             <!-- karttanimen varin maarittaminen -->
             <Fill>
               <CssParameter name="fill">                               
@@ -10372,9 +10368,6 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                 </Rotation>        
               </PointPlacement>
             </LabelPlacement>            
-<!--            <Halo>
-              <Radius>1</Radius>
-            </Halo> -->
             <!-- karttanimen varin maarittaminen -->
             <Fill>
               <CssParameter name="fill">                               
@@ -10468,9 +10461,6 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                 </Rotation>        
               </PointPlacement>
             </LabelPlacement>   
-<!--            <Halo>
-              <Radius>1</Radius>
-            </Halo> -->
             <!-- karttanimen varin maarittaminen -->
             <Fill>
               <CssParameter name="fill">                               
@@ -10484,9 +10474,452 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
+  <NamedLayer> <!-- mtk:paikannimi_25000 --> <!-- avaus eli halo -->
+    <Name>mtk:paikannimi_25000</Name>
+    <UserStyle>
+      <Title>mtk:paikannimi_25000</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <ogc:Filter>
+            <ogc:Or>		  
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>34601</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>34901</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>25010</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>35010</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>35020</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>35030</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>35040</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>35050</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>35060</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>35070</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>35080</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>35090</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>35101</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>38501</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>		  			  
+          </ogc:Filter>         
+          <MaxScaleDenominator>5000</MaxScaleDenominator>         
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <ogc:PropertyName>teksti</ogc:PropertyName>
+            </Label>
+            <Font>            			  
+              <!-- Fontin valinta -->			
+              <CssParameter name="font-family">		
+                <ogc:Function name="if_then_else">
+ 				  <ogc:Function name="equalTo">
+                    <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
+                    <ogc:Literal>10</ogc:Literal>					
+                  </ogc:Function>                  
+                <ogc:Literal>LiberationSansNLSFIRight</ogc:Literal>  
+                 <ogc:Literal>LiberationSansNLSFIBoldRight</ogc:Literal>                                                     
+                </ogc:Function>           
+              </CssParameter>			  
+             <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
+             <CssParameter name="font-size">
+                <ogc:Div>
+                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                  <ogc:Literal>4.5</ogc:Literal>
+                </ogc:Div>         
+              </CssParameter>
+            </Font> 
+            <!-- karttanimen sijainnin marittaminen -->            
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0</AnchorPointX>
+                  <AnchorPointY>0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>
+                    <ogc:Div>
+                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                      <ogc:Literal>-150</ogc:Literal>
+                    </ogc:Div>
+                  </DisplacementX>
+                  <DisplacementY>
+                    <ogc:Div>
+                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                      <ogc:Literal>-30</ogc:Literal>
+                    </ogc:Div>
+                  </DisplacementY>
+                </Displacement>  
+                <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
+                <Rotation>
+                  <ogc:Function name="toDegrees">
+                    <ogc:Div>
+                      <ogc:PropertyName>suunta</ogc:PropertyName>
+                      <ogc:Literal>-10000</ogc:Literal> 
+                    </ogc:Div>        
+                  </ogc:Function> 
+                </Rotation>        
+              </PointPlacement>
+            </LabelPlacement>   
+            <Halo>
+              <Radius>1</Radius>
+            </Halo>
+            <!-- karttanimen varin maarittaminen -->
+            <Fill>
+              <CssParameter name="fill">                               
+                <ogc:Literal>#ffffff</ogc:Literal>  
+              </CssParameter>
+            </Fill>
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="partials">true</VendorOption>     
+          </TextSymbolizer>
+        </Rule>              
+<!-- Vesistonimet 36111 -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:Or>		  
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>36101</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>36201</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>36301</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>36410</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>36420</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>36490</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>38201</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>		  			  
+          </ogc:Filter>         
+          <MaxScaleDenominator>5000</MaxScaleDenominator>         
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <ogc:PropertyName>teksti</ogc:PropertyName>
+            </Label>
+            <Font>            			  
+              <!-- Fontin valinta -->			
+              <CssParameter name="font-family">		
+                <ogc:Function name="if_then_else">					  
+ 				  <ogc:Function name="equalTo">
+                    <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
+                    <ogc:Literal>10</ogc:Literal>					
+                  </ogc:Function>                  
+                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>                   
+                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                </ogc:Function>           
+              </CssParameter>		  
+             <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
+             <CssParameter name="font-size">
+                <ogc:Div>
+                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                  <ogc:Literal>4.5</ogc:Literal>
+                </ogc:Div>         
+              </CssParameter>
+            </Font> 
+            <!-- karttanimen sijainnin marittaminen -->            
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0</AnchorPointX>
+                  <AnchorPointY>0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>
+                    <ogc:Div>
+                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                      <ogc:Literal>-150</ogc:Literal>
+                    </ogc:Div>
+                  </DisplacementX>
+                  <DisplacementY>
+                    <ogc:Div>
+                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                      <ogc:Literal>-30</ogc:Literal>
+                    </ogc:Div>
+                  </DisplacementY>
+                </Displacement>  
+                <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
+                <Rotation>
+                  <ogc:Function name="toDegrees">
+                    <ogc:Div>
+                      <ogc:PropertyName>suunta</ogc:PropertyName>
+                      <ogc:Literal>-10000</ogc:Literal> 
+                    </ogc:Div>        
+                  </ogc:Function> 
+                </Rotation>        
+              </PointPlacement>
+            </LabelPlacement>   
+            <Halo>
+              <Radius>1</Radius>
+            </Halo>
+            <!-- karttanimen varin maarittaminen -->
+            <Fill>
+              <CssParameter name="fill">                               
+                <ogc:Literal>#ffffff</ogc:Literal>  
+              </CssParameter>
+            </Fill>
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="partials">true</VendorOption>     
+          </TextSymbolizer>
+        </Rule>   		
+<!-- Asutusnimet 48100 -->
+        <Rule>
+          <ogc:Filter>
+            <ogc:Or>		  
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>48111</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>48112</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>48120</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>48130</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>48190</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>		  			  
+          </ogc:Filter>         
+          <MaxScaleDenominator>5000</MaxScaleDenominator>         
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <ogc:PropertyName>teksti</ogc:PropertyName>
+            </Label>
+            <Font>            			  
+              <!-- Fontin valinta -->			
+              <CssParameter name="font-family">		
+                <ogc:Function name="if_then_else">					  
+ 				  <ogc:Function name="equalTo">
+                    <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
+                    <ogc:Literal>10</ogc:Literal>					
+                  </ogc:Function>                  
+                <ogc:Literal>LiberationSansNLSFI</ogc:Literal>                  
+                 <ogc:Literal>LiberationSansNLSFIBold</ogc:Literal>                                                     
+                </ogc:Function>           
+              </CssParameter>			  
+             <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
+             <CssParameter name="font-size">
+                <ogc:Div>
+                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                  <ogc:Literal>4.5</ogc:Literal>
+                </ogc:Div>         
+              </CssParameter>
+            </Font> 
+            <!-- karttanimen sijainnin marittaminen -->            
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0</AnchorPointX>
+                  <AnchorPointY>0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>
+                    <ogc:Div>
+                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                      <ogc:Literal>-150</ogc:Literal>
+                    </ogc:Div>
+                  </DisplacementX>
+                  <DisplacementY>
+                    <ogc:Div>
+                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                      <ogc:Literal>-30</ogc:Literal>
+                    </ogc:Div>
+                  </DisplacementY>
+                </Displacement>  
+                <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
+                <Rotation>
+                  <ogc:Function name="toDegrees">
+                    <ogc:Div>
+                      <ogc:PropertyName>suunta</ogc:PropertyName>
+                      <ogc:Literal>-10000</ogc:Literal> 
+                    </ogc:Div>        
+                  </ogc:Function> 
+                </Rotation>        
+              </PointPlacement>
+            </LabelPlacement>   
+            <Halo>
+              <Radius>1</Radius>
+            </Halo>
+            <!-- karttanimen varin maarittaminen -->
+            <Fill>
+              <CssParameter name="fill">                               
+                <ogc:Literal>#ffffff</ogc:Literal>  
+              </CssParameter>
+            </Fill>
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="partials">true</VendorOption>     
+          </TextSymbolizer>
+        </Rule>	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>  
+
+  <NamedLayer> <!-- mtk:vedenpinnankorkeusluku_25000 -->
+    <Name>mtk:vedenpinnankorkeusluku_25000</Name>
+    <UserStyle>
+      <Title>mtk:vedenpinnankorkeusluku_25000</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <ogc:Filter>
+            <ogc:Not>
+              <ogc:Or>		
+                <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
+                  <ogc:PropertyName>teksti</ogc:PropertyName>
+                  <ogc:Literal>u</ogc:Literal>
+                </ogc:PropertyIsLike>
+                <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
+                  <ogc:PropertyName>teksti</ogc:PropertyName>
+                  <ogc:Literal>n</ogc:Literal>
+                </ogc:PropertyIsLike>
+                <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
+                  <ogc:PropertyName>teksti</ogc:PropertyName>
+                  <ogc:Literal>s</ogc:Literal>
+                </ogc:PropertyIsLike>
+                <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
+                  <ogc:PropertyName>teksti</ogc:PropertyName>
+                  <ogc:Literal>e</ogc:Literal>
+                </ogc:PropertyIsLike>
+                <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
+                  <ogc:PropertyName>teksti</ogc:PropertyName>
+                  <ogc:Literal>t</ogc:Literal>
+                </ogc:PropertyIsLike>	
+                <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
+                  <ogc:PropertyName>teksti</ogc:PropertyName>
+                  <ogc:Literal>A</ogc:Literal>
+                </ogc:PropertyIsLike>					
+              </ogc:Or>			
+            </ogc:Not>		
+          </ogc:Filter>		
+           <MaxScaleDenominator>5000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <ogc:PropertyName>teksti</ogc:PropertyName>
+            </Label>
+            <Font>
+              <!-- Fontin valinta -->			
+              <CssParameter name="font-family">		
+                <ogc:Function name="if_then_else">					  
+ 				  <ogc:Function name="equalTo">
+                    <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
+                    <ogc:Literal>10</ogc:Literal>					
+                  </ogc:Function>                  
+                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>                   
+                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                </ogc:Function>           
+              </CssParameter>			  
+           <!-- lasketaan fontin koko attribuutikent?n "kirjasinkoko" perusteella -->                
+             <CssParameter name="font-size">
+                <ogc:Div>
+                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                  <ogc:Literal>4</ogc:Literal>
+                </ogc:Div>         
+              </CssParameter>              
+            </Font> 
+            <!-- karttanimen sijainnin m??ritt?minen -->            
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0</AnchorPointX>
+                  <AnchorPointY>0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-10</DisplacementY>
+                </Displacement> 
+                <!-- suuntakulman muuntaminen asteisiin ja jakolaskulla pilkku oikeaan paikkaan --> 
+                <Rotation>
+                  <ogc:Function name="toDegrees">
+                    <ogc:Div>
+                      <ogc:PropertyName>suunta</ogc:PropertyName>
+                      <ogc:Literal>-10000</ogc:Literal> 
+                    </ogc:Div>        
+                  </ogc:Function> 
+                </Rotation>				
+              </PointPlacement>
+            </LabelPlacement>   
+            <!-- tekstin maski -->         
+            <Halo>
+              <Radius>1</Radius>
+            </Halo>
+            <!-- karttanimen v?rin m??ritt?minen -->            
+            <Fill>
+              <CssParameter name="fill">
+                <ogc:Literal>#6b9bd1</ogc:Literal>                                                            
+    	      </CssParameter>
+            </Fill>
+            <!-- varmistetaan, ett? merkit piirtyv?t vaikka olisivat p??llekk?in -->			
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="partials">true</VendorOption>		 
+          </TextSymbolizer>
+        </Rule>          	  	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>  
 
   <!--
-  <NamedLayer>
+  <NamedLayer> 
     <Name></Name>
     <UserStyle>
       <Title></Title>
