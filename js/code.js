@@ -98,6 +98,20 @@ function init() {
 				   minResolution: 64,
 				   maxResolution: 128
 		}),
+		new ol.layer.Image({
+		 extent: extent,
+		 source: new ol.source.ImageWMS({
+		   url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
+		   crossOrigin: 'anonymous',
+		   params: {
+			 'SLD': 'http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_160k.sld',
+			 'FORMAT': 'image/png'
+		   },
+		   serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
+		 }),
+				   minResolution: 32,
+				   maxResolution: 64
+		}),		
 
 		new ol.layer.Image({
 		 extent: extent,
@@ -112,7 +126,7 @@ function init() {
 			serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
 			}),
 			minResolution: 2,
-			maxResolution: 64
+			maxResolution: 32
 			}),
 
 		new ol.layer.Image({
