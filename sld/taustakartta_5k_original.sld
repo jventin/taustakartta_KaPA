@@ -1683,7 +1683,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>    
-  <NamedLayer> <!-- mtk:tieviiva  -->
+  <NamedLayer> <!-- mtk:tieviiva  --> <!-- tunnelissa ja pinnalla olevat -->
     <Name>mtk:tieviiva</Name>
     <UserStyle>
       <Title>mtk:tieviiva</Title>
@@ -10136,7 +10136,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <Title>mtk:paikannimi_25000</Title>
       <Abstract>sld</Abstract>
       <FeatureTypeStyle>    
-        <Rule>
+        <Rule> <!-- maastonimet -->
           <ogc:Filter>
             <ogc:Or>		  
               <ogc:PropertyIsEqualTo>
@@ -10471,7 +10471,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <Title>mtk:paikannimi_25000</Title>
       <Abstract>sld</Abstract>
       <FeatureTypeStyle>    
-        <Rule>
+        <Rule> <!-- maastonimet -->
           <ogc:Filter>
             <ogc:Or>		  
               <ogc:PropertyIsEqualTo>

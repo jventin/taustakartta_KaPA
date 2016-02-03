@@ -1683,7 +1683,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>    
-  <NamedLayer> <!-- mtk:tieviiva  -->
+  <NamedLayer> <!-- mtk:tieviiva  --> <!-- tunnelissa ja pinnalla olevat -->
     <Name>mtk:tieviiva</Name>
     <UserStyle>
       <Title>mtk:tieviiva</Title>
@@ -2037,7 +2037,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </LineSymbolizer>  
         </Rule>                   
       </FeatureTypeStyle>
-      <FeatureTypeStyle> <!-- Tiet, kaytossa (valmiusaste 0) olevat pinnalla (tasosijainti 0 & -1) olevat -->
+      <FeatureTypeStyle> <!-- tavli-, ajotiet, kavyely ja pyoratie, kaytossa (valmiusaste 0) olevat pinnalla (tasosijainti 0 & -1) olevat -->
         <Rule>
           <Name>12312</Name>
           <Title>12312 Talvitie</Title>
@@ -3536,13 +3536,13 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#c14a0a</CssParameter>
               <CssParameter name="stroke-width">17.6</CssParameter>                           
             </Stroke>
           </LineSymbolizer>
         </Rule>         
         <Rule>
-          <Name>12122</Name>
+          <Name>autotie 2b</Name>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3563,13 +3563,13 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">16</CssParameter>                              
             </Stroke>
           </LineSymbolizer>
         </Rule>        
         <Rule>
-          <Name>12131</Name>
+          <Name>autotie 3a 12131</Name>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3590,13 +3590,13 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">14.4</CssParameter>                      
             </Stroke>
           </LineSymbolizer>
         </Rule>      
         <Rule>
-          <Name>12132</Name>
+          <Name>autotie 3b 12132</Name>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3617,7 +3617,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">12.8</CssParameter>                        
             </Stroke>
           </LineSymbolizer>
@@ -3625,7 +3625,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>
       <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 1 vaalea taytto -->
         <Rule>
-          <Name>12132</Name>
+          <Name>autotie 3b 12132</Name>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3646,14 +3646,14 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
-              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke">#ffeee5</CssParameter>
               <CssParameter name="stroke-width">9.6</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>                   
             </Stroke>            
           </LineSymbolizer>      
         </Rule>       
         <Rule>
-          <Name>12131</Name>
+          <Name>autotie 3a 12131</Name>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3674,14 +3674,14 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
-              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke">#ffeee5</CssParameter>
               <CssParameter name="stroke-width">11.2</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>     
             </Stroke>            
           </LineSymbolizer>    
         </Rule>      
         <Rule>
-          <Name>12122</Name>
+          <Name>autotie 2b 12122</Name>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3702,14 +3702,14 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
-              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke">#ffeee5</CssParameter>
               <CssParameter name="stroke-width">12.8</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>         
             </Stroke>            
           </LineSymbolizer>    
         </Rule>      
         <Rule>
-          <Name>12121</Name>
+          <Name>autotie 2a 12121</Name>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3730,7 +3730,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
-              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">14.4</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
@@ -10136,7 +10136,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <Title>mtk:paikannimi_25000</Title>
       <Abstract>sld</Abstract>
       <FeatureTypeStyle>    
-        <Rule>
+        <Rule> <!-- maastonimet -->
           <ogc:Filter>
             <ogc:Or>		  
               <ogc:PropertyIsEqualTo>
@@ -10455,7 +10455,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
             <!-- karttanimen varin maarittaminen -->
             <Fill>
               <CssParameter name="fill">                               
-                <ogc:Literal>#918a8c</ogc:Literal>  
+                <ogc:Literal>#666666</ogc:Literal>  
               </CssParameter>
             </Fill>
             <VendorOption name="conflictResolution">false</VendorOption>
@@ -10471,7 +10471,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <Title>mtk:paikannimi_25000</Title>
       <Abstract>sld</Abstract>
       <FeatureTypeStyle>    
-        <Rule>
+        <Rule> <!-- maastonimet -->
           <ogc:Filter>
             <ogc:Or>		  
               <ogc:PropertyIsEqualTo>
