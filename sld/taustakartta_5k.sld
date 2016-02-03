@@ -2405,7 +2405,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
 <!-- 12132 autotie 3 b -->        
         <Rule>
           <Name>12132</Name>
-          <Title>12132 Autotie 3bpintavari</Title>
+          <Title>12132 Autotie 3b pintavari</Title>
           <ogc:Filter>  
             <ogc:And>      
               <ogc:PropertyIsEqualTo>
@@ -2507,7 +2507,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="stroke-linecap">round</CssParameter>         
             </Stroke>            
           </LineSymbolizer>    
-        </Rule>      
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
         <Rule>
           <Name>12121</Name>
           <Title>12121 Autotie 2a pinnalla pintavari</Title>
