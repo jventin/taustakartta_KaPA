@@ -3461,6 +3461,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 1 tummat reunat -->
         <Rule>
           <Name>12111</Name>
+          <Title>Autotie 1a sillalla +1 reunaviiva</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3488,6 +3489,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>         
         <Rule>
           <Name>12112</Name>
+          <Title>Autotie 1b sillalla +1 reunaviiva</Title>		  
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3516,6 +3518,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
 <!--12121 autotie 2 a reuna -->
         <Rule>
           <Name>12121</Name>
+          <Title>Autotie 2a sillalla +1 reunaviiva</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3542,7 +3545,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </LineSymbolizer>
         </Rule>         
         <Rule>
-          <Name>autotie 2b</Name>
+          <Name>12112</Name>
+          <Title>Autotie 2b sillalla +1 reunaviiva</Title>		  
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3569,7 +3573,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </LineSymbolizer>
         </Rule>        
         <Rule>
-          <Name>autotie 3a 12131</Name>
+          <Name>12131</Name>
+          <Title>Autotie 3a sillalla +1 reunaviiva</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3596,7 +3601,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </LineSymbolizer>
         </Rule>      
         <Rule>
-          <Name>autotie 3b 12132</Name>
+          <Name>12132</Name>
+          <Title>Autotie 3b sillalla +1 reunaviiva</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3625,7 +3631,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>
       <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 1 vaalea taytto -->
         <Rule>
-          <Name>autotie 3b 12132</Name>
+          <Name>12132</Name>
+          <Title>Autotie 3b sillalla +1 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3653,7 +3660,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </LineSymbolizer>      
         </Rule>       
         <Rule>
-          <Name>autotie 3a 12131</Name>
+          <Name>12131</Name>
+          <Title>Autotie 3a sillalla +1 taytto</Title>		  
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3681,7 +3689,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </LineSymbolizer>    
         </Rule>      
         <Rule>
-          <Name>autotie 2b 12122</Name>
+          <Name>12122</Name>
+          <Title>Autotie 2b sillalla +1 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3709,7 +3718,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </LineSymbolizer>    
         </Rule>      
         <Rule>
-          <Name>autotie 2a 12121</Name>
+          <Name>12121</Name>
+          <Title>Autotie 2a sillalla +1 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3738,6 +3748,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12112</Name>
+          <Title>Autotie 1b sillalla +1 taytto</Title>		  
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3766,6 +3777,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12111</Name>
+          <Title>Autotie 2a sillalla +1 taytto</Title>		  
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3796,6 +3808,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 2 tummat reunat -->
         <Rule>
           <Name>12111</Name>
+          <Title>Autotie 1a sillalla +2 reunaviivat</Title>		  
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3823,6 +3836,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>         
         <Rule>
           <Name>12112</Name>
+          <Title>Autotie 1b sillalla +2 reunaviivat</Title>		  
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3850,6 +3864,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>         
         <Rule>
           <Name>12121</Name>
+          <Title>Autotie 2a sillalla +2 reunaviivat</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3870,13 +3885,14 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#c14a0a</CssParameter>
               <CssParameter name="stroke-width">17.6</CssParameter>                           
             </Stroke>
           </LineSymbolizer>
         </Rule>         
         <Rule>
           <Name>12122</Name>
+          <Title>Autotie 2b sillalla +2 reunaviivat</Title>		  
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3897,13 +3913,14 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">16</CssParameter>                              
             </Stroke>
           </LineSymbolizer>
         </Rule>        
         <Rule>
           <Name>12131</Name>
+          <Title>Autotie 3a sillalla +2 reunaviivat</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3924,13 +3941,14 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">14.4</CssParameter>                      
             </Stroke>
           </LineSymbolizer>
         </Rule>      
         <Rule>
           <Name>12132</Name>
+          <Title>Autotie 3b sillalla +2 reunaviivat</Title>		  
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3951,7 +3969,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">12.8</CssParameter>                        
             </Stroke>
           </LineSymbolizer>
@@ -3960,6 +3978,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 2 vaalea taytto -->
         <Rule>
           <Name>12132</Name>
+          <Title>Autotie 3b sillalla +2 taytto</Title>		  
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3980,7 +3999,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
-              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke">#ffeee5</CssParameter>
               <CssParameter name="stroke-width">9.6</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>                   
             </Stroke>            
@@ -3988,6 +4007,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12131</Name>
+          <Title>Autotie 3a sillalla +2 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4008,7 +4028,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
-              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke">#ffeee5</CssParameter>
               <CssParameter name="stroke-width">11.2</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>     
             </Stroke>            
@@ -4016,6 +4036,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12122</Name>
+          <Title>Autotie 2b sillalla +2 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4036,7 +4057,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
-              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke">#ffeee5</CssParameter>
               <CssParameter name="stroke-width">12.8</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>         
             </Stroke>            
@@ -4044,6 +4065,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12121</Name>
+          <Title>Autotie 2a sillalla +2 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4064,7 +4086,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
-              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">14.4</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
@@ -4072,6 +4094,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12112</Name>
+          <Title>Autotie 1b sillalla +2 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4100,6 +4123,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12111</Name>
+          <Title>Autotie 1a sillalla +2 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4131,6 +4155,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <FeatureTypeStyle>    <!-- tiet sillalla tasosijainti 3 tummat reunat -->
         <Rule>
           <Name>12111</Name>
+          <Title>Autotie 1a sillalla +3 reunaviiva</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4158,6 +4183,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>         
         <Rule>
           <Name>12112</Name>
+          <Title>Autotie 1b sillalla +3 reunaviiva</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4185,6 +4211,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>           
         <Rule>
           <Name>12121</Name>
+          <Title>Autotie 2a sillalla +3 reunaviiva</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4205,13 +4232,14 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#c14a0a</CssParameter>
               <CssParameter name="stroke-width">17.6</CssParameter>                           
             </Stroke>
           </LineSymbolizer>
         </Rule>         
         <Rule>
           <Name>12122</Name>
+          <Title>Autotie 2b sillalla +3 reunaviiva</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4232,13 +4260,14 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">16</CssParameter>                              
             </Stroke>
           </LineSymbolizer>
         </Rule>        
         <Rule>
           <Name>12131</Name>
+          <Title>Autotie 3a sillalla +3 reunaviiva</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4259,13 +4288,14 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">14.4</CssParameter>                      
             </Stroke>
           </LineSymbolizer>
         </Rule>      
         <Rule>
           <Name>12132</Name>
+          <Title>Autotie 3b sillalla +3 reunaviiva</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4286,7 +4316,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">12.8</CssParameter>                        
             </Stroke>
           </LineSymbolizer>
@@ -4295,6 +4325,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <FeatureTypeStyle>    <!-- tiet sillalla tasosijainti 3 vaalea taytto -->  
         <Rule>
           <Name>12132</Name>
+          <Title>Autotie 3b sillalla +3 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4315,7 +4346,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
-              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke">#ffeee5</CssParameter>
               <CssParameter name="stroke-width">9.6</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>                   
             </Stroke>            
@@ -4323,6 +4354,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12131</Name>
+          <Title>Autotie 3a sillalla +3 taytto</Title>		  
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4343,7 +4375,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
-              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke">#ffeee5</CssParameter>
               <CssParameter name="stroke-width">11.2</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>     
             </Stroke>            
@@ -4351,6 +4383,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12122</Name>
+          <Title>Autotie 2a sillalla +3 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4371,7 +4404,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
-              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke">#ffeee5</CssParameter>
               <CssParameter name="stroke-width">12.8</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>         
             </Stroke>            
@@ -4379,6 +4412,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12121</Name>
+          <Title>Autotie 2b sillalla +3 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4399,7 +4433,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
-              <CssParameter name="stroke">#FCFCFC</CssParameter>
+              <CssParameter name="stroke">#f8ae86</CssParameter>
               <CssParameter name="stroke-width">14.4</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
@@ -4407,6 +4441,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12112</Name>
+          <Title>Autotie 1b sillalla +3 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4435,6 +4470,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12111</Name>
+          <Title>Autotie 1a sillalla +3 taytto</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
