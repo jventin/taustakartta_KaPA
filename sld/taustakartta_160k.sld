@@ -801,7 +801,8 @@
             </Stroke>            
           </LineSymbolizer>
         </Rule>      
-    
+    </FeatureTypeStyle>    
+    <FeatureTypeStyle>       
 <!--  12121 autotie 2 a-->        
         
         <Rule>
