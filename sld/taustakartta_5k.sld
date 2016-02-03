@@ -1542,7 +1542,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>     
-  <NamedLayer> <!-- mtk:rakennusreunaviiva  -->
+  <NamedLayer> <!-- mtk:rakennusreunaviiva  --> <!-- altaan reunaviiva -->
     <Name>mtk:rakennusreunaviiva</Name>
     <UserStyle>
       <Title></Title>
@@ -1709,12 +1709,12 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>    
-  <NamedLayer> <!-- mtk:tieviiva  --> <!-- polut -->
+  <NamedLayer> <!-- mtk:tieviiva  -->
     <Name>mtk:tieviiva</Name>
     <UserStyle>
       <Title>mtk:tieviiva</Title>
       <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
+      <FeatureTypeStyle>     <!-- polut -->
         <Rule>
           <Name>12313</Name>
           <Title>12313 Polku pitkospuut</Title>
@@ -1802,13 +1802,6 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </LineSymbolizer>
         </Rule> 	  
       </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>    
-  <NamedLayer> <!-- mtk:tieviiva  -->
-    <Name>mtk:tieviiva</Name>
-    <UserStyle>
-      <Title>mtk:tieviiva</Title>
-      <Abstract>sld</Abstract>
       <FeatureTypeStyle>    <!-- tunneilssa (tasosijainti -11) kaytossa (valmiusaste 0) -->
         <Rule>
           <Name>12141</Name>
@@ -6407,7 +6400,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- mtk:tieviiva -->
+  <NamedLayer> <!-- mtk:tieviiva --> <!-- tienimet -->
     <Name>mtk:tieviiva</Name>
     <UserStyle>
       <Title>mtk:tieviiva</Title>
