@@ -2544,7 +2544,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
           </LineSymbolizer>        
-        </Rule>       
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12112</Name>
           <Title>12112 Autotie 1b pintavari pinnalla</Title>
@@ -2574,7 +2576,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->         
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">         
             <Stroke>
-              <CssParameter name="stroke">#fcfcfc</CssParameter>
+              <CssParameter name="stroke">#f25d0d</CssParameter>
               <CssParameter name="stroke-width">16</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>               
             </Stroke>            
@@ -2609,7 +2611,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">         
             <Stroke>
-              <CssParameter name="stroke">#fcfcfc</CssParameter>
+              <CssParameter name="stroke">#f25d0d</CssParameter>
               <CssParameter name="stroke-width">16</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
