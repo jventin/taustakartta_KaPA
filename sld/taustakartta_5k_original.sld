@@ -205,7 +205,7 @@
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->  
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#bde5b8</CssParameter>                
+              <CssParameter name="fill">#ddedc2</CssParameter>                
             </Fill>            
           </PolygonSymbolizer>
         </Rule>    	  
@@ -248,7 +248,7 @@
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->  
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#bde5b8</CssParameter>                
+              <CssParameter name="fill">#fffcd6</CssParameter>                
             </Fill>            
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> <!-- Ppt -->
@@ -261,7 +261,7 @@
                       <CssParameter name="fill">#6ad49f</CssParameter>          
                     </Fill>
                     <Stroke>
-                      <CssParameter name="stroke">#bde5b8</CssParameter>
+                      <CssParameter name="stroke">#fffcd6</CssParameter>
                       <CssParameter name="stroke-width">7</CssParameter>
                     </Stroke>
                   </Mark>
@@ -319,7 +319,7 @@
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->        
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#bde5b8</CssParameter>                
+              <CssParameter name="fill">#fffceb</CssParameter>                
             </Fill>            
           </PolygonSymbolizer>          
         </Rule>  
@@ -620,7 +620,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#a6c7fe</CssParameter>
+              <CssParameter name="fill">#c3e6fa</CssParameter>
             </Fill>            
           </PolygonSymbolizer>
         </Rule>    
@@ -646,19 +646,19 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->        
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#a6c7fe</CssParameter>
+              <CssParameter name="fill">#c3e6fa</CssParameter>
             </Fill>            
           </PolygonSymbolizer>
         </Rule>    
       </FeatureTypeStyle>    
     </UserStyle>
-  </NamedLayer>  
-  <NamedLayer> <!-- virtavesialue -->
+  </NamedLayer>   
+  <NamedLayer> <!-- mtk:virtavesialue -->
     <Name>mtk:virtavesialue</Name>
     <UserStyle>
       <Title>virtavesialue</Title>
       <Abstract>sld</Abstract>
-      <FeatureTypeStyle>  
+      <FeatureTypeStyle>    
         <Rule>
           <Name>36313</Name>
           <Title>36313 Virtavesi yli 5 m</Title>
@@ -672,13 +672,13 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#a6c7fe</CssParameter>
+              <CssParameter name="fill">#c3e6fa</CssParameter>
             </Fill>            
           </PolygonSymbolizer>
-        </Rule>    
+        </Rule>    	  
       </FeatureTypeStyle>    
     </UserStyle>
-  </NamedLayer>      
+  </NamedLayer>   
   <NamedLayer> 
     <Name>mtk:allas</Name> <!-- 	mtk:allas -->
     <UserStyle>
@@ -704,7 +704,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#a6c7fe</CssParameter>
+              <CssParameter name="fill">#c3e6fa</CssParameter>
             </Fill>            
           </PolygonSymbolizer>
         </Rule>     	  
@@ -1364,7 +1364,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#a6c7fe</CssParameter>
+              <CssParameter name="stroke">#86bfe3</CssParameter>
               <CssParameter name="stroke-width">2</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>  
               <CssParameter name="stroke-dasharray">24 8</CssParameter>          
@@ -1390,7 +1390,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#a6c7fe</CssParameter>
+              <CssParameter name="stroke">#86bfe3</CssParameter>
               <CssParameter name="stroke-width">3.2</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>  
               <CssParameter name="stroke-dasharray">24 8</CssParameter>        
@@ -1422,7 +1422,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#a6c7fe</CssParameter>
+              <CssParameter name="stroke">#86bfe3</CssParameter>
               <CssParameter name="stroke-width">2</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>
@@ -1619,7 +1619,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->   
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#a6c7fe</CssParameter> 
+              <CssParameter name="stroke">#86bfe3</CssParameter> 
               <CssParameter name="stroke-width">2.8</CssParameter>  
               <CssParameter name="stroke-linecap">round</CssParameter>                
               <CssParameter name="stroke-dasharray">2.4 9.6</CssParameter>              
@@ -1655,7 +1655,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>5000</MaxScaleDenominator-->  
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#a6c7fe</CssParameter>
+              <CssParameter name="stroke">#86bfe3</CssParameter>
               <CssParameter name="stroke-width">1.6</CssParameter>  
               <CssParameter name="stroke-linecap">round</CssParameter>                
             </Stroke>
