@@ -2259,7 +2259,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <CssParameter name="stroke-linecap">round</CssParameter>               
             </Stroke>            
           </LineSymbolizer>
-        </Rule>       
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12121</Name>
           <Title>12121 Autotie 2a reunaviiva</Title>
@@ -2294,7 +2296,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
           </LineSymbolizer>        
-        </Rule>   
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12122</Name>
           <Title>12122 Autotie 2b reunaviiva</Title>
@@ -2508,7 +2512,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="stroke-linecap">round</CssParameter>         
             </Stroke>            
           </LineSymbolizer>    
-        </Rule>      
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12121</Name>
           <Title>12121 Autotie 2a pinnalla pintavari</Title>
@@ -2543,7 +2549,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
           </LineSymbolizer>        
-        </Rule>       
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12112</Name>
           <Title>12112 Autotie 1b pintavari pinnalla</Title>
@@ -3515,7 +3523,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <CssParameter name="stroke-width">19.2</CssParameter>                     
             </Stroke>
           </LineSymbolizer>
-        </Rule>     
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12121</Name>
           <Title>Autotie 2a sillalla</Title>
@@ -3543,7 +3553,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <CssParameter name="stroke-width">17.6</CssParameter>                           
             </Stroke>
           </LineSymbolizer>
-        </Rule>         
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12122</Name>
           <Title>Autotie 2b sillalla</Title>
@@ -3716,7 +3728,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="stroke-linecap">round</CssParameter>         
             </Stroke>            
           </LineSymbolizer>    
-        </Rule>      
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12121</Name>
           <Title>Autotie 2a sillalla</Title>
@@ -3745,7 +3759,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
           </LineSymbolizer>        
-        </Rule>       
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12112</Name>
           <Title>Autotie 1b sillalla</Title>
@@ -3861,7 +3877,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <CssParameter name="stroke-width">19.2</CssParameter>                     
             </Stroke>
           </LineSymbolizer>
-        </Rule>         
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12121</Name>
           <Title>Autotie 2a sillalla</Title>
@@ -3889,7 +3907,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <CssParameter name="stroke-width">17.6</CssParameter>                           
             </Stroke>
           </LineSymbolizer>
-        </Rule>         
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12122</Name>
           <Title>Autotie 2b sillalla</Title>
@@ -4062,7 +4082,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="stroke-linecap">round</CssParameter>         
             </Stroke>            
           </LineSymbolizer>    
-        </Rule>      
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12121</Name>
           <Title>Autotie 2a sillalla</Title>
@@ -4091,7 +4113,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
           </LineSymbolizer>        
-        </Rule>       
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12112</Name>
           <Title>Autotie 1b sillalla</Title>
@@ -4208,7 +4232,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <CssParameter name="stroke-width">19.2</CssParameter>                     
             </Stroke>
           </LineSymbolizer>
-        </Rule>           
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12121</Name>
           <Title>Autotie 2a sillalla</Title>
@@ -4236,7 +4262,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <CssParameter name="stroke-width">17.6</CssParameter>                           
             </Stroke>
           </LineSymbolizer>
-        </Rule>         
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12122</Name>
           <Title>Autotie 2b sillalla</Title>
@@ -4409,7 +4437,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="stroke-linecap">round</CssParameter>         
             </Stroke>            
           </LineSymbolizer>    
-        </Rule>      
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12121</Name>
           <Title>Autotie 2a sillalla</Title>
@@ -4438,7 +4468,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
           </LineSymbolizer>        
-        </Rule>       
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>		
         <Rule>
           <Name>12112</Name>
           <Title>Autotie 1b sillalla</Title>
