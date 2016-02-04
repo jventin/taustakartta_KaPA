@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
 <!-- taustakartta 5k sld -->   
-  <NamedLayer> <!-- varvikko -->
+  <NamedLayer> <!-- mtk:varvikko -->
     <Name>mtk:muuavoinalue</Name>
     <UserStyle>
       <Title>varvikko</Title>
@@ -39,7 +39,7 @@
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>
-  <NamedLayer> <!-- suo -->
+  <NamedLayer> <!-- mtk:suo -->
     <Name>mtk:suo</Name>
     <UserStyle>
       <Title>suot</Title>
@@ -160,7 +160,7 @@
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- hautausmaa -->
+  <NamedLayer> <!-- mtk:hautausmaa -->
     <Name>mtk:hautausmaa</Name>
     <UserStyle>
       <Title>hautausmaa</Title>
@@ -186,7 +186,7 @@
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>    
-  <NamedLayer> <!-- puisto -->
+  <NamedLayer> <!-- mtk:puisto -->
     <Name>mtk:puisto</Name>
     <UserStyle>
       <Title>puisto</Title>
@@ -212,7 +212,7 @@
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- pelto ja puutarha -->
+  <NamedLayer> <!-- mtk:pelto ja puutarha -->
     <Name>mtk:maatalousmaa</Name>
     <UserStyle>
       <Title>pelto ja puutarha</Title>
@@ -274,7 +274,7 @@
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>
-  <NamedLayer> <!-- Urheilu- ja virkistysalue -->
+  <NamedLayer> <!-- mtk:urheilujavirkistysalue -->
     <Name>mtk:urheilujavirkistysalue</Name>
     <UserStyle>
       <Title>urheilu- ja virkistysalue</Title>
@@ -300,7 +300,7 @@
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- niitty -->
+  <NamedLayer> <!-- mtk:niitty -->
     <Name>mtk:niitty</Name>
     <UserStyle>
       <Title>niitty</Title>
@@ -326,7 +326,7 @@
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer> 
-  <NamedLayer> <!-- sorakuoppa, savenottoalue, turpeenottoalue -->
+  <NamedLayer> <!-- mtk:maaaineksenottoalue --><!-- sorakuoppa, savenottoalue, turpeenottoalue -->
     <Name>mtk:maaaineksenottoalue</Name>
     <UserStyle>
       <Title>maaaineksenottoalue</Title>
@@ -403,7 +403,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>
-  <NamedLayer> <!-- kaatopaikka -->
+  <NamedLayer> <!-- mtk:kaatopaikka -->
     <Name>mtk:kaatopaikka</Name>
     <UserStyle>
       <Title>kaatopaikka</Title>
@@ -446,7 +446,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- louhos -->
+  <NamedLayer> <!-- mtk:louhos -->
     <Name>mtk:louhos</Name>
     <UserStyle>
       <Title>louhos</Title>
@@ -489,7 +489,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- hietikko -->
+  <NamedLayer> <!-- mtk:hietikko -->
     <Name>mtk:hietikko</Name>
     <UserStyle>
       <Title>hietikko</Title>
@@ -532,7 +532,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- varastoalue -->
+  <NamedLayer> <!-- mtk:varastoalue -->
     <Name>mtk:varastoalue</Name>
     <UserStyle>
       <Title>varastoalue</Title>
@@ -558,7 +558,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- taytemaa -->
+  <NamedLayer> <!-- mtk:taytemaa -->
     <Name>mtk:taytemaa</Name>
     <UserStyle>
       <Title>taytemaa</Title>
@@ -601,7 +601,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- jarvi -->
+  <NamedLayer> <!-- mtk:jarvi -->
     <Name>mtk:jarvi</Name>
     <UserStyle>
       <Title></Title>
@@ -627,7 +627,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- meri -->
+  <NamedLayer> <!-- mtk:meri -->
     <Name>mtk:meri</Name>
     <UserStyle>
       <Title>meri</Title>
@@ -679,8 +679,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>   
-  <NamedLayer> 
-    <Name>mtk:allas</Name> <!-- 	mtk:allas -->
+  <NamedLayer> <!-- mtk:allas -->
+    <Name>mtk:allas</Name>
     <UserStyle>
       <Title>allas</Title>
       <Abstract>sld</Abstract>
@@ -1683,7 +1683,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>    
-  <NamedLayer> <!-- mtk:tieviiva  --> <!-- tunnelissa ja pinnalla olevat -->
+  <NamedLayer> <!-- mtk:tieviiva  --> <!-- polut pinnalla (tasosijainti 0 ja -1) sekä tunnelissa ja pinnalla olevat tiet -->
     <Name>mtk:tieviiva</Name>
     <UserStyle>
       <Title>mtk:tieviiva</Title>
@@ -1776,7 +1776,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </LineSymbolizer>
         </Rule> 	  
       </FeatureTypeStyle>    
-      <FeatureTypeStyle>    <!-- tunneilssa (tasosijainti -11) kaytossa (valmiusaste 0) -->
+      <FeatureTypeStyle>    <!-- tunnelissa (tasosijainti -11) kaytossa (valmiusaste 0) -->
         <Rule>
           <Name>12141</Name>
           <Title>12141 Ajotie tunnelissa</Title>
@@ -2037,7 +2037,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </LineSymbolizer>  
         </Rule>                   
       </FeatureTypeStyle>
-      <FeatureTypeStyle> <!-- Tiet, kaytossa (valmiusaste 0) olevat pinnalla (tasosijainti 0 & -1) olevat -->
+      <FeatureTypeStyle> <!-- Tiet, kaytossa (valmiusaste 0) olevat pinnalla (tasosijainti 0 & -1) olevat, tummat reunaviivat -->
         <Rule>
           <Name>12312</Name>
           <Title>12312 Talvitie</Title>
@@ -2190,8 +2190,6 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
             </Stroke>
           </LineSymbolizer>           
         </Rule>        
-      </FeatureTypeStyle>
-      <FeatureTypeStyle>    <!-- tiet pinnalla (tasosijainti 0 & -1), tummat reunaviivat, kaytossa olevat (valmiusaste = 0) -->
         <Rule>	  
           <Name>12111</Name>
           <Title>12111 Autotie 1a reunaviiva</Title>
@@ -2401,11 +2399,11 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <CssParameter name="stroke-width">12.8</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>                   
             </Stroke>                      </LineSymbolizer>              </Rule>         </FeatureTypeStyle>    
-      <FeatureTypeStyle>        <!-- pintavarit, kaytossa olevat (valmiusaste = 0)  -->
+      <FeatureTypeStyle>        <!-- pintavarit, kaytossa olevat (valmiusaste = 0), pinnalla (tasosijainti 0 & -1)  -->
 <!-- 12132 autotie 3 b -->        
         <Rule>
           <Name>12132</Name>
-          <Title>12132 Autotie 3bpintavari</Title>
+          <Title>12132 Autotie 3b pintavari</Title>
           <ogc:Filter>  
             <ogc:And>      
               <ogc:PropertyIsEqualTo>
@@ -2661,7 +2659,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
     <UserStyle>
       <Title>mtk:rautatie</Title>
       <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    <!-- tunneilssa (tasosijainti -11) kaytossa (valmiusaste 0) -->                
+      <FeatureTypeStyle>    <!-- tunnelissa (tasosijainti -11) kaytossa (valmiusaste 0) -->                
         <Rule>
           <Name>14111</Name>
           <Title>14111 Rautatie tunnelissa</Title>
@@ -3461,6 +3459,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 1 tummat reunat -->
         <Rule>
           <Name>12111</Name>
+          <Title>Autotie 1a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3488,6 +3487,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>         
         <Rule>
           <Name>12112</Name>
+          <Title>Autotie 1b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3513,9 +3513,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
             </Stroke>
           </LineSymbolizer>
         </Rule>     
-<!--12121 autotie 2 a reuna -->
         <Rule>
           <Name>12121</Name>
+          <Title>Autotie 2a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3543,6 +3543,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>         
         <Rule>
           <Name>12122</Name>
+          <Title>Autotie 2b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3570,6 +3571,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>        
         <Rule>
           <Name>12131</Name>
+          <Title>Autotie 3a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3597,6 +3599,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12132</Name>
+          <Title>Autotie 3b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3626,6 +3629,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 1 vaalea taytto -->
         <Rule>
           <Name>12132</Name>
+          <Title>Autotie 3b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3654,6 +3658,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12131</Name>
+          <Title>Autotie 3a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3682,6 +3687,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12122</Name>
+          <Title>Autotie 2b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3710,6 +3716,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12121</Name>
+          <Title>Autotie 2a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3738,6 +3745,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12112</Name>
+          <Title>Autotie 1b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3766,6 +3774,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12111</Name>
+          <Title>Autotie 1a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3796,6 +3805,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 2 tummat reunat -->
         <Rule>
           <Name>12111</Name>
+          <Title>Autotie 1a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3823,6 +3833,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>         
         <Rule>
           <Name>12112</Name>
+          <Title>Autotie 1b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3850,6 +3861,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>         
         <Rule>
           <Name>12121</Name>
+          <Title>Autotie 2a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3877,6 +3889,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>         
         <Rule>
           <Name>12122</Name>
+          <Title>Autotie 2b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3904,6 +3917,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>        
         <Rule>
           <Name>12131</Name>
+          <Title>Autotie 3a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3931,6 +3945,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12132</Name>
+          <Title>Autotie 3b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3960,6 +3975,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <FeatureTypeStyle> <!-- tiet sillalla tasosijainti 2 vaalea taytto -->
         <Rule>
           <Name>12132</Name>
+          <Title>Autotie 3b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -3988,6 +4004,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12131</Name>
+          <Title>Autotie 3a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4016,6 +4033,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12122</Name>
+          <Title>Autotie 2b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4044,6 +4062,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12121</Name>
+          <Title>Autotie 2a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4072,6 +4091,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12112</Name>
+          <Title>Autotie 1b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4100,6 +4120,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12111</Name>
+          <Title>Autotie 1a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4131,6 +4152,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <FeatureTypeStyle>    <!-- tiet sillalla tasosijainti 3 tummat reunat -->
         <Rule>
           <Name>12111</Name>
+          <Title>Autotie 1a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4158,6 +4180,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>         
         <Rule>
           <Name>12112</Name>
+          <Title>Autotie 1b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4185,6 +4208,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>           
         <Rule>
           <Name>12121</Name>
+          <Title>Autotie 2a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4212,6 +4236,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>         
         <Rule>
           <Name>12122</Name>
+          <Title>Autotie 2b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4239,6 +4264,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>        
         <Rule>
           <Name>12131</Name>
+          <Title>Autotie 3a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4266,6 +4292,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12132</Name>
+          <Title>Autotie 3b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4295,6 +4322,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <FeatureTypeStyle>    <!-- tiet sillalla tasosijainti 3 vaalea taytto -->  
         <Rule>
           <Name>12132</Name>
+          <Title>Autotie 3b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4323,6 +4351,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12131</Name>
+          <Title>Autotie 3a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4351,6 +4380,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12122</Name>
+          <Title>Autotie 2b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4379,6 +4409,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>      
         <Rule>
           <Name>12121</Name>
+          <Title>Autotie 2a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4407,6 +4438,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12112</Name>
+          <Title>Autotie 1b sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -4435,6 +4467,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
         </Rule>       
         <Rule>
           <Name>12111</Name>
+          <Title>Autotie 1a sillalla</Title>
           <ogc:Filter>  
            <ogc:And>      
             <ogc:PropertyIsEqualTo>
@@ -5805,7 +5838,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
     </UserStyle>
   </NamedLayer>  
   <NamedLayer> <!-- mtk:lahestymisvalo -->  
-    <Name>mtk:lahestymisvalo</Name> 
+    <Name>mtk:lahestymisvalo</Name>
     <UserStyle>
       <Title>mtk:lahestymisvalo</Title>
       <Abstract>sld</Abstract>
