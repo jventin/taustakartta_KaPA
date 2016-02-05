@@ -26,10 +26,10 @@
               <CssParameter name="fill">#80ffff</CssParameter>
             </Fill>            
           </PolygonSymbolizer>
-          <PolygonSymbolizer>
+          <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#7cd7f7</CssParameter>
-              <CssParameter name="stroke-width">10</CssParameter>                      
+              <CssParameter name="stroke-width">2</CssParameter>                      
             </Stroke>
           </PolygonSymbolizer>
         </Rule>			  
@@ -46,16 +46,437 @@
               <CssParameter name="fill">#80ffff</CssParameter>
             </Fill>            
           </PolygonSymbolizer>
-          <PolygonSymbolizer>
+          <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#7cd7f7</CssParameter>
-              <CssParameter name="stroke-width">10</CssParameter>                      
+              <CssParameter name="stroke-width">2</CssParameter>                      
             </Stroke>
           </PolygonSymbolizer>
         </Rule>			  
       </FeatureTypeStyle>
     </UserStyle>
+  </NamedLayer>
+  <NamedLayer> <!-- visumapprint:korkeuskayra_mk50k_yleistetty -->
+    <Name>visumapprint:korkeuskayra_mk50k_yleistetty</Name>
+    <UserStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Korkeuskayra, johtokayra</Name>
+          <Title>Korkeuskayra, johtokayra</Title>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>52100</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:And>
+                    <ogc:PropertyIsGreaterThanOrEqualTo>
+                      <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                      <ogc:Literal>20000</ogc:Literal>
+                    </ogc:PropertyIsGreaterThanOrEqualTo>
+                    <ogc:PropertyIsLessThan>
+                      <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                      <ogc:Literal>100000</ogc:Literal>
+                    </ogc:PropertyIsLessThan>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>1</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>0</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>3</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>0</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:And>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>0</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>1</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>2</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>0</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>1</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>4</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>0</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>1</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>6</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>0</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>1</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>8</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:And>
+                    <ogc:PropertyIsGreaterThanOrEqualTo>
+                      <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                      <ogc:Literal>100000</ogc:Literal>
+                    </ogc:PropertyIsGreaterThanOrEqualTo>
+                    <ogc:PropertyIsLessThan>
+                      <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                      <ogc:Literal>1000000</ogc:Literal>
+                    </ogc:PropertyIsLessThan>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>3</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>0</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>3</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>4</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>0</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:And>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>1</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>0</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>1</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>2</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>1</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>4</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>1</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>6</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>1</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>8</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:And>
+                    <ogc:PropertyIsGreaterThanOrEqualTo>
+                      <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                      <ogc:Literal>1000000</ogc:Literal>
+                    </ogc:PropertyIsGreaterThanOrEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>3</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>4</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>0</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>4</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>5</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>0</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:And>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>3</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>0</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>3</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>2</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>3</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>4</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>3</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>6</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>3</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>
+                      <ogc:Literal>8</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#ab5700</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+              <CssParameter name="stroke-width">8</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Name>valikayra</Name>
+        <Rule>
+          <Name>Korkeuskayra, valikayra</Name>
+          <Title>Korkeuskayra, valikayra</Title>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>52100</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                  <ogc:Literal>5000</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:And>
+                  <ogc:PropertyIsGreaterThanOrEqualTo>
+                    <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                    <ogc:Literal>10000</ogc:Literal>
+                  </ogc:PropertyIsGreaterThanOrEqualTo>
+                  <ogc:PropertyIsLessThan>
+                    <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                    <ogc:Literal>100000</ogc:Literal>
+                  </ogc:PropertyIsLessThan>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:Function name="strSubstring">
+                      <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                      <ogc:Function name="parseInt">
+                        <ogc:Literal>2</ogc:Literal>
+                      </ogc:Function>
+                      <ogc:Function name="parseInt">
+                        <ogc:Literal>3</ogc:Literal>
+                      </ogc:Function>
+                    </ogc:Function>
+                    <ogc:Literal>0</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:Function name="strSubstring">
+                      <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                      <ogc:Function name="parseInt">
+                        <ogc:Literal>3</ogc:Literal>
+                      </ogc:Function>
+                      <ogc:Function name="parseInt">
+                        <ogc:Literal>4</ogc:Literal>
+                      </ogc:Function>
+                    </ogc:Function>
+                    <ogc:Literal>0</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsGreaterThanOrEqualTo>
+                    <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                    <ogc:Literal>100000</ogc:Literal>
+                  </ogc:PropertyIsGreaterThanOrEqualTo>
+                  <ogc:PropertyIsLessThan>
+                    <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                    <ogc:Literal>1000000</ogc:Literal>
+                  </ogc:PropertyIsLessThan>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:Function name="strSubstring">
+                      <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                      <ogc:Function name="parseInt">
+                        <ogc:Literal>3</ogc:Literal>
+                      </ogc:Function>
+                      <ogc:Function name="parseInt">
+                        <ogc:Literal>4</ogc:Literal>
+                      </ogc:Function>
+                    </ogc:Function>
+                    <ogc:Literal>0</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:Function name="strSubstring">
+                      <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                      <ogc:Function name="parseInt">
+                        <ogc:Literal>4</ogc:Literal>
+                      </ogc:Function>
+                      <ogc:Function name="parseInt">
+                        <ogc:Literal>5</ogc:Literal>
+                      </ogc:Function>
+                    </ogc:Function>
+                    <ogc:Literal>0</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsGreaterThanOrEqualTo>
+                    <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                    <ogc:Literal>1000000</ogc:Literal>
+                  </ogc:PropertyIsGreaterThanOrEqualTo>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:Function name="strSubstring">
+                      <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                      <ogc:Function name="parseInt">
+                        <ogc:Literal>4</ogc:Literal>
+                      </ogc:Function>
+                      <ogc:Function name="parseInt">
+                        <ogc:Literal>5</ogc:Literal>
+                      </ogc:Function>
+                    </ogc:Function>
+                    <ogc:Literal>0</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                </ogc:And>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#ab5700</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+              <CssParameter name="stroke-width">4</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>	  
+      </FeatureTypeStyle>
+    </UserStyle>
   </NamedLayer>  
+  
   
 <!--  
   <NamedLayer> 
