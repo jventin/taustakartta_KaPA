@@ -398,11 +398,11 @@
 			
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">60</CssParameter>              
+              <CssParameter name="font-size">50</CssParameter>              
             </Font>
 			
             <Halo>
-              <Radius>1</Radius>
+              <Radius>2</Radius>
             </Halo> 	
 			
             <Fill>
@@ -414,7 +414,7 @@
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">100</VendorOption>
             <VendorOption name="maxDisplacement">150</VendorOption> 
-            <VendorOption name="repeat">500</VendorOption>
+            <VendorOption name="repeat">2000</VendorOption>
 			
           </TextSymbolizer>   		  
         </Rule>
