@@ -363,7 +363,7 @@
               <ogc:Function name="if_then_else">
                 <ogc:Function name="lessThan">
                   <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
-                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Literal>10000</ogc:Literal>
                 </ogc:Function>					
                 <ogc:Function name="strSubstring">
                   <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
@@ -371,14 +371,14 @@
                     <ogc:Literal>0</ogc:Literal>
                   </ogc:Function>
                   <ogc:Function name="parseInt">
-                    <ogc:Literal>2</ogc:Literal>
+                    <ogc:Literal>1</ogc:Literal>
                   </ogc:Function>
                 </ogc:Function>           
                 <ogc:Function name="if_then_else">
                   <ogc:Function name="between">
                     <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
-                    <ogc:Literal>100000</ogc:Literal>
-                    <ogc:Literal>900000</ogc:Literal>
+                    <ogc:Literal>10000</ogc:Literal>
+                    <ogc:Literal>90000</ogc:Literal>
                   </ogc:Function>						  
                   <ogc:Function name="strSubstring">
                     <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
@@ -386,7 +386,7 @@
                       <ogc:Literal>0</ogc:Literal>
                     </ogc:Function>
                     <ogc:Function name="parseInt">
-                      <ogc:Literal>3</ogc:Literal>
+                      <ogc:Literal>2</ogc:Literal>
                     </ogc:Function>
                   </ogc:Function>  
                   <!--<ogc:Function name="if_then_else">
@@ -400,7 +400,7 @@
                         <ogc:Literal>0</ogc:Literal>
                       </ogc:Function>
                       <ogc:Function name="parseInt">
-                        <ogc:Literal>4</ogc:Literal>
+                        <ogc:Literal>3</ogc:Literal>
                       </ogc:Function>
                     </ogc:Function>
                   <!--</ogc:Function> -->				  
