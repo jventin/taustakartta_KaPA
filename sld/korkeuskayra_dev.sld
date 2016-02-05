@@ -389,11 +389,11 @@
                       <ogc:Literal>3</ogc:Literal>
                     </ogc:Function>
                   </ogc:Function>  
-                  <ogc:Function name="if_then_else">
+                  <!--<ogc:Function name="if_then_else">
                     <ogc:Function name="greaterThan">
                       <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
                       <ogc:Literal>1000000</ogc:Literal>
-                    </ogc:Function>					
+                    </ogc:Function>					-->
                     <ogc:Function name="strSubstring">
                       <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
                       <ogc:Function name="parseInt">
@@ -403,52 +403,26 @@
                         <ogc:Literal>4</ogc:Literal>
                       </ogc:Function>
                     </ogc:Function>
-                  </ogc:Function>				  
+                  <!--</ogc:Function> -->				  
                 </ogc:Function>				  
-              </ogc:Function>					  
-<!--                   </ogc:Function>				  
-                </ogc:Function>
-                <ogc:PropertyName>nimi_pohjoissaame</ogc:PropertyName>
-                <ogc:Function name="if_then_else">               
-                  <ogc:Function name="not">			
-                    <ogc:Function name="isNull">			
-                      <ogc:PropertyName>nimi_koltansaame</ogc:PropertyName>            
-                    </ogc:Function>				  
-                  </ogc:Function>
-                  <ogc:PropertyName>nimi_koltansaame</ogc:PropertyName>		
-                  <ogc:Function name="if_then_else">                
-                    <ogc:Function name="not">			
-                      <ogc:Function name="isNull">			
-                        <ogc:PropertyName>nimi_inarinsaame</ogc:PropertyName>            
-                      </ogc:Function>				  
-                    </ogc:Function>
-                    <ogc:PropertyName>nimi_inarinsaame</ogc:PropertyName>								  
-                    <ogc:PropertyName>nimi_suomi</ogc:PropertyName>								  
-                  </ogc:Function>				  
-                </ogc:Function>				  
-              </ogc:Function>		 -->		  
+              </ogc:Function>					  	  
             </Label>
-			
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
               <CssParameter name="font-size">30</CssParameter>              
             </Font>
-			
             <Halo>
               <Radius>3</Radius>
             </Halo> 	
-			
             <Fill>
               <CssParameter name="fill">#913d00</CssParameter>
             </Fill>
-			
             <VendorOption name="group">yes</VendorOption>     
             <VendorOption name="conflictResolution">true</VendorOption>
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">10</VendorOption>
             <VendorOption name="maxDisplacement">100</VendorOption> 
             <VendorOption name="repeat">3000</VendorOption>
-			
           </TextSymbolizer>   		  
         </Rule>
       </FeatureTypeStyle>
