@@ -360,10 +360,10 @@
           </LineSymbolizer>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:Function name="if_then_else">
-                <ogc:Function name="lessThan">
+<!--               <ogc:Function name="if_then_else">
+                <ogc:Function name="lessThan"> -->
                   <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
-                  <ogc:Literal>100000</ogc:Literal>
+<!--                   <ogc:Literal>100000</ogc:Literal>
                 </ogc:Function>					
                 <ogc:Function name="strSubstring">
                   <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
@@ -401,7 +401,7 @@
                     </ogc:Function>
 			  
                 </ogc:Function>				  
-              </ogc:Function>					  	  
+              </ogc:Function> -->					  	  
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
