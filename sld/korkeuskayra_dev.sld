@@ -56,8 +56,8 @@
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
-  <NamedLayer> <!-- visumapprint:korkeuskayra_mk50k_yleistetty -->
-    <Name>visumapprint:korkeuskayra_mk50k_yleistetty</Name>
+  <NamedLayer> <!-- mtk:korkeuskayra -->
+    <Name>mtk:korkeuskayra</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
