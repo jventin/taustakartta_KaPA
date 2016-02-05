@@ -369,7 +369,7 @@
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">30</CssParameter>              
+              <CssParameter name="font-size">50</CssParameter>              
             </Font>
             <Halo>
               <Radius>3</Radius>
@@ -382,7 +382,7 @@
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">15</VendorOption>
             <VendorOption name="maxDisplacement">100</VendorOption> 
-            <VendorOption name="repeat">2000</VendorOption>
+            <VendorOption name="repeat">1000</VendorOption>
           </TextSymbolizer>   		  
         </Rule>
       </FeatureTypeStyle>
