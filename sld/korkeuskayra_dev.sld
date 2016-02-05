@@ -364,7 +364,15 @@
 <!--               <ogc:Function name="if_then_else">                 
                 <ogc:Function name="not">			
                   <ogc:Function name="isNull">	 -->		
-                    <ogc:PropertyName>korkeusarvo</ogc:PropertyName>            
+                      <ogc:Function name="strSubstring">
+                        <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>1</ogc:Literal>
+                        </ogc:Function>
+                        <ogc:Function name="parseInt">
+                          <ogc:Literal>2</ogc:Literal>
+                        </ogc:Function>
+                      </ogc:Function>           
 <!--                   </ogc:Function>				  
                 </ogc:Function>
                 <ogc:PropertyName>nimi_pohjoissaame</ogc:PropertyName>
