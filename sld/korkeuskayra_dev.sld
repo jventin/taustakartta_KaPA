@@ -412,7 +412,7 @@
             <VendorOption name="group">yes</VendorOption>     
             <VendorOption name="conflictResolution">true</VendorOption>
             <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">0</VendorOption>
+            <VendorOption name="maxAngleDelta">10</VendorOption>
             <VendorOption name="maxDisplacement">150</VendorOption> 
             <VendorOption name="repeat">3000</VendorOption>
 			
