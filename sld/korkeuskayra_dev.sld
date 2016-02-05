@@ -355,7 +355,7 @@
             <Stroke>
               <CssParameter name="stroke">#ab5700</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
-              <CssParameter name="stroke-width">8</CssParameter>
+              <CssParameter name="stroke-width">6</CssParameter>
             </Stroke>
           </LineSymbolizer>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -398,11 +398,11 @@
 			
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">50</CssParameter>              
+              <CssParameter name="font-size">40</CssParameter>              
             </Font>
 			
             <Halo>
-              <Radius>2</Radius>
+              <Radius>4</Radius>
             </Halo> 	
 			
             <Fill>
@@ -412,9 +412,9 @@
             <VendorOption name="group">yes</VendorOption>     
             <VendorOption name="conflictResolution">true</VendorOption>
             <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">100</VendorOption>
+            <VendorOption name="maxAngleDelta">0</VendorOption>
             <VendorOption name="maxDisplacement">150</VendorOption> 
-            <VendorOption name="repeat">2000</VendorOption>
+            <VendorOption name="repeat">3000</VendorOption>
 			
           </TextSymbolizer>   		  
         </Rule>
