@@ -402,10 +402,12 @@
 			  
                 </ogc:Function>				  
               </ogc:Function>	 -->
+<ogc:Function name="round">
 <ogc:Div>
 <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
 <ogc:Literal>1000</ogc:Literal>
-</ogc:Div>			  
+</ogc:Div>		
+</ogc:Function>	  
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
