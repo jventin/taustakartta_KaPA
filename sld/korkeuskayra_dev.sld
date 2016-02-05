@@ -57,7 +57,8 @@
     </UserStyle>
   </NamedLayer>  
   
-  <NamedLayer> <!--  -->
+<!--  
+  <NamedLayer> 
     <Name></Name>
     <UserStyle>
       <FeatureTypeStyle>
@@ -65,5 +66,5 @@
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>    
-  
+  -->
 </StyledLayerDescriptor>  
