@@ -363,7 +363,7 @@
               <ogc:Function name="if_then_else">
                 <ogc:Function name="lessThan">
                   <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
-                  <ogc:Literal>10000</ogc:Literal>
+                  <ogc:Literal>1000</ogc:Literal>
                 </ogc:Function>					
                 <ogc:Function name="strSubstring">
                   <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
