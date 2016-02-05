@@ -367,10 +367,10 @@
                       <ogc:Function name="strSubstring">
                         <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
                         <ogc:Function name="parseInt">
-                          <ogc:Literal>1</ogc:Literal>
+                          <ogc:Literal>0</ogc:Literal>
                         </ogc:Function>
                         <ogc:Function name="parseInt">
-                          <ogc:Literal>2</ogc:Literal>
+                          <ogc:Literal>3</ogc:Literal>
                         </ogc:Function>
                       </ogc:Function>           
 <!--                   </ogc:Function>				  
