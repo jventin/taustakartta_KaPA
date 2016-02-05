@@ -398,22 +398,22 @@
 			
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">40</CssParameter>              
+              <CssParameter name="font-size">30</CssParameter>              
             </Font>
 			
             <Halo>
-              <Radius>4</Radius>
+              <Radius>3</Radius>
             </Halo> 	
 			
             <Fill>
-              <CssParameter name="fill">#ab5700</CssParameter>
+              <CssParameter name="fill">#913d00</CssParameter>
             </Fill>
 			
             <VendorOption name="group">yes</VendorOption>     
             <VendorOption name="conflictResolution">true</VendorOption>
             <VendorOption name="followLine">true</VendorOption>
             <VendorOption name="maxAngleDelta">10</VendorOption>
-            <VendorOption name="maxDisplacement">150</VendorOption> 
+            <VendorOption name="maxDisplacement">100</VendorOption> 
             <VendorOption name="repeat">3000</VendorOption>
 			
           </TextSymbolizer>   		  
