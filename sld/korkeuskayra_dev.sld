@@ -360,48 +360,6 @@
           </LineSymbolizer>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-<!--               <ogc:Function name="if_then_else">
-                <ogc:Function name="lessThan">
-                  <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
-                  <ogc:Literal>100000</ogc:Literal>
-                </ogc:Function>					
-                <ogc:Function name="strSubstring">
-                  <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
-                  <ogc:Function name="parseInt">
-                    <ogc:Literal>0</ogc:Literal>
-                  </ogc:Function>
-                  <ogc:Function name="parseInt">
-                    <ogc:Literal>1</ogc:Literal>
-                  </ogc:Function>
-                </ogc:Function>           
-                <ogc:Function name="if_then_else">
-                  <ogc:Function name="between">
-                    <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
-                    <ogc:Literal>100000</ogc:Literal>
-                    <ogc:Literal>900000</ogc:Literal>
-                  </ogc:Function>						  
-                  <ogc:Function name="strSubstring">
-                    <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
-                    <ogc:Function name="parseInt">
-                      <ogc:Literal>0</ogc:Literal>
-                    </ogc:Function>
-                    <ogc:Function name="parseInt">
-                      <ogc:Literal>2</ogc:Literal>
-                    </ogc:Function>
-                  </ogc:Function>  
-
-                    <ogc:Function name="strSubstring">
-                      <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
-                      <ogc:Function name="parseInt">
-                        <ogc:Literal>0</ogc:Literal>
-                      </ogc:Function>
-                      <ogc:Function name="parseInt">
-                        <ogc:Literal>3</ogc:Literal>
-                      </ogc:Function>
-                    </ogc:Function>
-			  
-                </ogc:Function>				  
-              </ogc:Function>	 -->
 <ogc:Function name="round">
 <ogc:Div>
 <ogc:PropertyName>korkeusarvo</ogc:PropertyName>
@@ -417,14 +375,14 @@
               <Radius>3</Radius>
             </Halo> 	
             <Fill>
-              <CssParameter name="fill">#913d00</CssParameter>
+              <CssParameter name="fill">#ff0000</CssParameter>
             </Fill>
             <VendorOption name="group">yes</VendorOption>     
             <VendorOption name="conflictResolution">true</VendorOption>
             <VendorOption name="followLine">true</VendorOption>
-            <VendorOption name="maxAngleDelta">10</VendorOption>
+            <VendorOption name="maxAngleDelta">15</VendorOption>
             <VendorOption name="maxDisplacement">100</VendorOption> 
-            <VendorOption name="repeat">3000</VendorOption>
+            <VendorOption name="repeat">2000</VendorOption>
           </TextSymbolizer>   		  
         </Rule>
       </FeatureTypeStyle>
