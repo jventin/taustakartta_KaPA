@@ -358,6 +358,57 @@
               <CssParameter name="stroke-width">8</CssParameter>
             </Stroke>
           </LineSymbolizer>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+		  
+            <Label>
+<!--               <ogc:Function name="if_then_else">                 
+                <ogc:Function name="not">			
+                  <ogc:Function name="isNull">	 -->		
+                    <ogc:PropertyName>korkeusarvo</ogc:PropertyName>            
+<!--                   </ogc:Function>				  
+                </ogc:Function>
+                <ogc:PropertyName>nimi_pohjoissaame</ogc:PropertyName>
+                <ogc:Function name="if_then_else">               
+                  <ogc:Function name="not">			
+                    <ogc:Function name="isNull">			
+                      <ogc:PropertyName>nimi_koltansaame</ogc:PropertyName>            
+                    </ogc:Function>				  
+                  </ogc:Function>
+                  <ogc:PropertyName>nimi_koltansaame</ogc:PropertyName>		
+                  <ogc:Function name="if_then_else">                
+                    <ogc:Function name="not">			
+                      <ogc:Function name="isNull">			
+                        <ogc:PropertyName>nimi_inarinsaame</ogc:PropertyName>            
+                      </ogc:Function>				  
+                    </ogc:Function>
+                    <ogc:PropertyName>nimi_inarinsaame</ogc:PropertyName>								  
+                    <ogc:PropertyName>nimi_suomi</ogc:PropertyName>								  
+                  </ogc:Function>				  
+                </ogc:Function>				  
+              </ogc:Function>		 -->		  
+            </Label>
+			
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">12</CssParameter>              
+            </Font>
+			
+            <Halo>
+              <Radius>1</Radius>
+            </Halo> 	
+			
+            <Fill>
+              <CssParameter name="fill">#242020</CssParameter>
+            </Fill>
+			
+            <VendorOption name="group">yes</VendorOption>     
+            <VendorOption name="conflictResolution">true</VendorOption>
+            <VendorOption name="followLine">true</VendorOption>
+            <VendorOption name="maxAngleDelta">100</VendorOption>
+            <VendorOption name="maxDisplacement">150</VendorOption> 
+            <VendorOption name="repeat">500</VendorOption>
+			
+          </TextSymbolizer>   		  
         </Rule>
       </FeatureTypeStyle>
       <FeatureTypeStyle>
