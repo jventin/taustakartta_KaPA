@@ -435,6 +435,24 @@ xlink:href="taustakartta_40k/Phko_0_11_9_86.svg"/>
     <Name>mtkshp100k:maasto2alue</Name>
     <UserStyle>
       <FeatureTypeStyle>
+<!--  Varastoalue -->
+        <Rule>
+          <Name>38900</Name>
+          <Title>38900 Varastoalue</Title>
+          <ogc:Filter> 
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokk</ogc:PropertyName>
+              <ogc:Literal>38900</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <MinScaleDenominator>20000</MinScaleDenominator>
+          <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <PolygonSymbolizer>
+		    <Fill>
+			  <CssParameter name="fill">#faf7f5</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>	
+        </Rule> 
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
