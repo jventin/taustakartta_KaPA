@@ -128,6 +128,51 @@ function init() {
 			minResolution: 2,
 			maxResolution: 32
 			}),
+		new ol.layer.Image({
+		 extent: extent,
+		 source: new ol.source.ImageWMS({
+		   url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
+		   crossOrigin: 'anonymous',
+			params: {'LAYERS': 'Taustakartta',
+			'BGCOLOR' : '0Xd8f0e1',
+			'TRANSPARENT' : 'false',
+			'FORMAT' : 'image/png'
+			},
+			serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
+			}),
+			minResolution: 8,
+			maxResolution: 32
+			}),		new ol.layer.Image({
+		 extent: extent,
+		 source: new ol.source.ImageWMS({
+		   url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
+		   crossOrigin: 'anonymous',
+		   params: {
+			 'SLD': 'http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_20k_original.sld',
+			 'FORMAT': 'image/png',
+			'BGCOLOR' : '0Xd8f0e1',
+			'TRANSPARENT' : 'false'			 
+		   },
+			serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
+			}),
+			minResolution: 4,
+			maxResolution: 8
+			}),			
+		new ol.layer.Image({
+		 extent: extent,
+		 source: new ol.source.ImageWMS({
+		   url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
+		   crossOrigin: 'anonymous',
+		   params: {
+			 'SLD': 'http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_10k_original.sld',
+			 'FORMAT': 'image/png',
+			'BGCOLOR' : '0Xd8f0e1',
+			'TRANSPARENT' : 'false'			 
+		   },pe: /** @type {ol.source.wms.ServerType} */ ('geoserver')
+			}),
+			minResolution: 2,
+			maxResolution: 4
+			}),			
 
 		new ol.layer.Image({
 		 extent: extent,
