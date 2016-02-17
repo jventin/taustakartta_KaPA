@@ -4978,7 +4978,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Function name ="offset">
                 <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>4.5</ogc:Literal>
+                <ogc:Literal>2.3</ogc:Literal>
               </ogc:Function>        
             </Geometry>  
             <Graphic>
@@ -5094,7 +5094,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4.5</ogc:Literal>
+                  <ogc:Literal>2.3</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -5105,20 +5105,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <AnchorPointX>0</AnchorPointX>
                   <AnchorPointY>0</AnchorPointY>
                 </AnchorPoint>
-                <Displacement>
-                  <DisplacementX>
-                    <ogc:Div>
-                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-150</ogc:Literal>
-                    </ogc:Div>
-                  </DisplacementX>
+                 <Displacement>
+                  <DisplacementX>0</DisplacementX>
                   <DisplacementY>
                     <ogc:Div>
                       <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-30</ogc:Literal>
+                      <ogc:Literal>-14.04</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
-                </Displacement>  
+                </Displacement>
                 <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
                 <Rotation>
                   <ogc:Function name="toDegrees">
@@ -5196,7 +5191,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4.5</ogc:Literal>
+                  <ogc:Literal>2.3</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -5207,20 +5202,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <AnchorPointX>0</AnchorPointX>
                   <AnchorPointY>0</AnchorPointY>
                 </AnchorPoint>
-                <Displacement>
-                  <DisplacementX>
-                    <ogc:Div>
-                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-150</ogc:Literal>
-                    </ogc:Div>
-                  </DisplacementX>
+                 <Displacement>
+                  <DisplacementX>0</DisplacementX>
                   <DisplacementY>
                     <ogc:Div>
                       <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-30</ogc:Literal>
+                      <ogc:Literal>-14.04</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
-                </Displacement>  
+                </Displacement> 
                 <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
                 <Rotation>
                   <ogc:Function name="toDegrees">
@@ -5290,7 +5280,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4.5</ogc:Literal>
+                  <ogc:Literal>2.3</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -5301,20 +5291,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <AnchorPointX>0</AnchorPointX>
                   <AnchorPointY>0</AnchorPointY>
                 </AnchorPoint>
-                <Displacement>
-                  <DisplacementX>
-                    <ogc:Div>
-                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-150</ogc:Literal>
-                    </ogc:Div>
-                  </DisplacementX>
+                 <Displacement>
+                  <DisplacementX>0</DisplacementX>
                   <DisplacementY>
                     <ogc:Div>
                       <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-30</ogc:Literal>
+                      <ogc:Literal>-14.04</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
-                </Displacement>  
+                </Displacement>
                 <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
                 <Rotation>
                   <ogc:Function name="toDegrees">
@@ -5428,7 +5413,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4.5</ogc:Literal>
+                  <ogc:Literal>2.3</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -5439,20 +5424,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <AnchorPointX>0</AnchorPointX>
                   <AnchorPointY>0</AnchorPointY>
                 </AnchorPoint>
-                <Displacement>
-                  <DisplacementX>
-                    <ogc:Div>
-                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-150</ogc:Literal>
-                    </ogc:Div>
-                  </DisplacementX>
+                 <Displacement>
+                  <DisplacementX>0</DisplacementX>
                   <DisplacementY>
                     <ogc:Div>
                       <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-30</ogc:Literal>
+                      <ogc:Literal>-14.04</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
-                </Displacement>  
+                </Displacement>
                 <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
                 <Rotation>
                   <ogc:Function name="toDegrees">
@@ -5533,7 +5513,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4.5</ogc:Literal>
+                  <ogc:Literal>2.3</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -5544,20 +5524,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <AnchorPointX>0</AnchorPointX>
                   <AnchorPointY>0</AnchorPointY>
                 </AnchorPoint>
-                <Displacement>
-                  <DisplacementX>
-                    <ogc:Div>
-                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-150</ogc:Literal>
-                    </ogc:Div>
-                  </DisplacementX>
+                 <Displacement>
+                  <DisplacementX>0</DisplacementX>
                   <DisplacementY>
                     <ogc:Div>
                       <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-30</ogc:Literal>
+                      <ogc:Literal>-14.04</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
-                </Displacement>  
+                </Displacement>
                 <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
                 <Rotation>
                   <ogc:Function name="toDegrees">
@@ -5630,7 +5605,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4.5</ogc:Literal>
+                  <ogc:Literal>2.3</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -5641,20 +5616,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <AnchorPointX>0</AnchorPointX>
                   <AnchorPointY>0</AnchorPointY>
                 </AnchorPoint>
-                <Displacement>
-                  <DisplacementX>
-                    <ogc:Div>
-                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-150</ogc:Literal>
-                    </ogc:Div>
-                  </DisplacementX>
+                 <Displacement>
+                  <DisplacementX>0</DisplacementX>
                   <DisplacementY>
                     <ogc:Div>
                       <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-30</ogc:Literal>
+                      <ogc:Literal>-14.04</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
-                </Displacement>  
+                </Displacement>
                 <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
                 <Rotation>
                   <ogc:Function name="toDegrees">
@@ -5741,7 +5711,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4</ogc:Literal>
+                  <ogc:Literal>2.3</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>              
             </Font> 
