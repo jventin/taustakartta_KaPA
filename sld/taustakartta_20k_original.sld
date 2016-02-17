@@ -2623,11 +2623,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
                 <ogc:Literal>42252</ogc:Literal>
-              </ogc:PropertyIsEqualTo>      
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>42270</ogc:Literal>
-              </ogc:PropertyIsEqualTo>              
+              </ogc:PropertyIsEqualTo>                       
             </ogc:Or>
           </ogc:Filter> 
           <!--MinScaleDenominator>10000</MinScaleDenominator-->
@@ -2638,37 +2634,32 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>         
-  <NamedLayer> <!-- mtk:rakennusreunaviiva -->
-    <Name>mtk:rakennusreunaviiva</Name>
-    <UserStyle>
-      <Title>mtk:rakennusreunaviiva</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
         <Rule>
-          <Name>rakennusreunaviiva</Name>
-          <Title>rakennusreunaviiva</Title>
-           <ogc:Filter>
-             <ogc:PropertyIsNotEqualTo>
-               <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-               <ogc:Literal>44300</ogc:Literal>
-             </ogc:PropertyIsNotEqualTo>      
-          </ogc:Filter>  
+          <Name>42270</Name>
+          <Title>42270 Kirkko symboli</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+              <ogc:Literal>42270</ogc:Literal>
+            </ogc:PropertyIsEqualTo>              
+          </ogc:Filter>
           <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator-->
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#a1a1a1</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>              
-              <CssParameter name="stroke-linecap">square</CssParameter>  
-            </Stroke>
-          </LineSymbolizer>          
-        </Rule>
+          <!--MaxScaleDenominator>20000</MaxScaleDenominator-->      
+          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Graphic>
+              <Mark>
+                <WellKnownName>cross</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#a1a1a1</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>60</Size>
+            </Graphic>              
+          </PointSymbolizer>
+        </Rule>   		
       </FeatureTypeStyle>    
     </UserStyle>
-  </NamedLayer>    
+  </NamedLayer>
   <NamedLayer> <!-- mtk:tieviiva --> <!-- sillalla olevat tiet -->
     <Name>mtk:tieviiva</Name>
     <UserStyle>
@@ -2709,7 +2700,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#a1a1a1</CssParameter>
-              <CssParameter name="stroke-width">4</CssParameter>      
+              <CssParameter name="stroke-width">8</CssParameter>      
              <CssParameter name="stroke-linecap">butt</CssParameter>                
             </Stroke>
           </LineSymbolizer>
@@ -2748,48 +2739,10 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#a1a1a1</CssParameter>
-              <CssParameter name="stroke-width">4</CssParameter>            
+              <CssParameter name="stroke-width">8</CssParameter>            
              <CssParameter name="stroke-linecap">butt</CssParameter>          
             </Stroke>
           </LineSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>12313</Name>
-          <Title>12313 Polku sillalla</Title>
-          <ogc:Filter>  
-            <ogc:And>      
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>12313</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:Or>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
-                  <ogc:Literal>1</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
-                  <ogc:Literal>2</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>tasosijainti</ogc:PropertyName>
-                  <ogc:Literal>3</ogc:Literal>
-                </ogc:PropertyIsEqualTo>        
-              </ogc:Or>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>valmiusaste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator-->
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#a1a1a1</CssParameter>
-              <CssParameter name="stroke-width">4</CssParameter>                       
-            </Stroke>
-          </LineSymbolizer>      
         </Rule>
         <Rule>
           <Name>12141</Name>
@@ -2825,7 +2778,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#a1a1a1</CssParameter>
-              <CssParameter name="stroke-width">4</CssParameter>              
+              <CssParameter name="stroke-width">8</CssParameter>              
              <CssParameter name="stroke-linecap">butt</CssParameter>            
             </Stroke>
           </LineSymbolizer>      
@@ -2866,7 +2819,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#b4b6b8</CssParameter>
-              <CssParameter name="stroke-width">5</CssParameter>              
+              <CssParameter name="stroke-width">10</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>                   
             </Stroke>            
           </LineSymbolizer>        
@@ -2905,7 +2858,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#b4b6b8</CssParameter>
-              <CssParameter name="stroke-width">6</CssParameter>              
+              <CssParameter name="stroke-width">12</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>  
             </Stroke>            
           </LineSymbolizer>     
@@ -2944,7 +2897,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#b4b6b8</CssParameter>
-              <CssParameter name="stroke-width">6.5</CssParameter>              
+              <CssParameter name="stroke-width">13</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>         
             </Stroke>            
           </LineSymbolizer>     
@@ -2983,7 +2936,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#b4b6b8</CssParameter>
-              <CssParameter name="stroke-width">8</CssParameter>              
+              <CssParameter name="stroke-width">16</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>            
             </Stroke>            
           </LineSymbolizer>           
@@ -3022,7 +2975,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#b4b6b8</CssParameter>
-              <CssParameter name="stroke-width">10</CssParameter>              
+              <CssParameter name="stroke-width">20</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>              
             </Stroke>            
           </LineSymbolizer>
@@ -3061,7 +3014,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#b4b6b8</CssParameter>
-              <CssParameter name="stroke-width">10</CssParameter>              
+              <CssParameter name="stroke-width">20</CssParameter>              
              <CssParameter name="stroke-linecap">round</CssParameter>           
             </Stroke>            
           </LineSymbolizer>
@@ -3109,7 +3062,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#a1a1a1</CssParameter>
-              <CssParameter name="stroke-width">7</CssParameter>    
+              <CssParameter name="stroke-width">14</CssParameter>    
              <CssParameter name="stroke-linecap">butt</CssParameter>          
             </Stroke>
           </LineSymbolizer>
@@ -3148,7 +3101,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#a1a1a1</CssParameter>
-              <CssParameter name="stroke-width">7</CssParameter>      
+              <CssParameter name="stroke-width">14</CssParameter>      
              <CssParameter name="stroke-linecap">butt</CssParameter>          
             </Stroke>
           </LineSymbolizer>
@@ -3187,7 +3140,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#a1a1a1</CssParameter>
-              <CssParameter name="stroke-width">7</CssParameter>     
+              <CssParameter name="stroke-width">14</CssParameter>     
              <CssParameter name="stroke-linecap">butt</CssParameter>          
             </Stroke>
           </LineSymbolizer>
@@ -3226,7 +3179,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#a1a1a1</CssParameter>
-              <CssParameter name="stroke-width">4.5</CssParameter>   
+              <CssParameter name="stroke-width">9</CssParameter>   
              <CssParameter name="stroke-linecap">butt</CssParameter>          
             </Stroke>
           </LineSymbolizer>
@@ -3234,65 +3187,6 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>     
-  <NamedLayer> <!-- mtk:aita -->
-    <Name>mtk:aita</Name>
-    <UserStyle>
-      <Title>mtk:aita</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>44213</Name>
-          <Title>44213 Aita, istutettu</Title>
-          <ogc:Filter>     
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>44213</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#6ad49f</CssParameter>
-              <CssParameter name="stroke-width">7.5</CssParameter>              
-              <CssParameter name="stroke-dasharray">1 20</CssParameter>              
-              <CssParameter name="stroke-linecap">round</CssParameter>              
-              <CssParameter name="stroke-dashoffet">0</CssParameter>              
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>44211</Name>
-          <Title>44211 Aita, tekoaines</Title>
- 
-          <ogc:Filter>     
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>44211</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>                      
-              <CssParameter name="stroke-linecap">round</CssParameter>                         
-            </Stroke>
-          </LineSymbolizer>
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">7.5</CssParameter>              
-              <CssParameter name="stroke-dasharray">1 25</CssParameter>              
-              <CssParameter name="stroke-linecap">round</CssParameter>              
-              <CssParameter name="stroke-dashoffet">0</CssParameter>              
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>  
   <NamedLayer> <!-- mtk:aallonmurtaja -->
     <Name>mtk:aallonmurtaja</Name>
     <UserStyle>
@@ -3313,7 +3207,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">3.5</CssParameter>              
+              <CssParameter name="stroke-width">7</CssParameter>              
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -3340,7 +3234,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>              
+              <CssParameter name="stroke-width">5</CssParameter>              
              </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -3367,7 +3261,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>              
+              <CssParameter name="stroke-width">4</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -3395,7 +3289,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>              
+              <CssParameter name="stroke-width">5</CssParameter>              
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -3428,9 +3322,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>  
-              <CssParameter name="stroke-dasharray">50 25</CssParameter>          
-              <CssParameter name="stroke-dashoffset">10</CssParameter>                  
+              <CssParameter name="stroke-width">5</CssParameter>  
+              <CssParameter name="stroke-dasharray">100 50</CssParameter>          
+              <CssParameter name="stroke-dashoffset">20</CssParameter>                  
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -3454,7 +3348,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>              
+              <CssParameter name="stroke-width">5</CssParameter>              
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -3487,32 +3381,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">3.5</CssParameter>              
-              <CssParameter name="stroke-linecap">round</CssParameter>                            
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>22312</Name>
-          <Title>22312 Sahkolinja jakelujannite, pinnalla</Title>
-          <ogc:Filter>  
-            <ogc:And>      
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>22312</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsEqualTo>      
-            </ogc:And>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator-->
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>              
+              <CssParameter name="stroke-width">7</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>                            
             </Stroke>
           </LineSymbolizer>
@@ -3537,32 +3406,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>              
-              <CssParameter name="stroke-linecap">round</CssParameter>                            
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>22312</Name>
-          <Title>22312 Sahkolinja jakelujannite, pinnan ylla</Title>
-          <ogc:Filter>  
-            <ogc:And>      
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>22312</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>tasosijainti</ogc:PropertyName>
-                <ogc:Literal>1</ogc:Literal>
-              </ogc:PropertyIsEqualTo>      
-            </ogc:And>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator-->
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>              
+              <CssParameter name="stroke-width">5</CssParameter>              
               <CssParameter name="stroke-linecap">round</CssParameter>                            
             </Stroke>
           </LineSymbolizer>
@@ -3590,196 +3434,14 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>              
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer> 	  
-  <NamedLayer> <!-- mtk:pistolaituriviiva -->
-    <Name>mtk:pistolaituriviiva</Name>
-    <UserStyle>
-      <Title>mtk:pistolaituriviiva</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-        <Name>45111</Name>
-        <Title>45111 Pistolaituri alle 5 m</Title>
-          <ogc:Filter>     
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>45111</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator-->      
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>              
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>45112</Name>
-          <Title>45112 Pistolaituri alle 5 m</Title>
-          <ogc:Filter>     
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>45112</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator-->
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#918a8c</CssParameter>
               <CssParameter name="stroke-width">5</CssParameter>              
             </Stroke>
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>    
     </UserStyle>
-  </NamedLayer>    
-  <NamedLayer> <!-- mtk:muuntaja -->
-    <Name>mtk:muuntaja</Name>
-    <UserStyle>
-      <Title>mtk:muuntaja</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>22100</Name>
-          <Title>22100 Muuntaja</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>22100</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>        
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Smu.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>16.7</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>        
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>   
-  <NamedLayer> <!-- mtk:rautatiensymboli -->
-    <Name>mtk:rautatiensymboli</Name>
-    <UserStyle>
-      <Title>mtk:rautatiensymboli</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>14191</Name>
-          <Title>14191 Rautatien sahkoistyssymboli</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>14191</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>        
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Sz_0_11_9_86.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>27</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>        
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>14192</Name>
-          <Title>14192 Kaytosta poistetun rautatien sahkoistyssymboli</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>14192</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>        
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Sratiekpois.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>29</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>        
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>    
+  </NamedLayer> 	  
+
   <NamedLayer> <!-- mtk:putkijohdonsymboli -->
     <Name>mtk:putkijohdonsymboli</Name>
     <UserStyle>
@@ -3875,246 +3537,9 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
             </Graphic>
           </PointSymbolizer>
         </Rule>
-        <Rule>
-          <Name>22395</Name>
-          <Title>22395 Jakelujannitelinjan z-merkki</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>22395</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Sz_0_11_9_86.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>27</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>   
-  <NamedLayer> <!-- mtk:suurjannitelinjanpylvas -->
-    <Name>mtk:suurjannitelinjanpylvas</Name>
-    <UserStyle>
-      <Title>mtk:suurjannitelinjanpylvas</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>22392</Name>
-          <Title>22392 Suurjannitelinjan pylvas</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>22392</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Sslp_1.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>20</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>    
-  <NamedLayer> <!-- mtk:tunnelinaukko -->
-    <Name>mtk:tunnelinaukko</Name>
-    <UserStyle>
-      <Title>mtk:tunnelinaukko</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>16800</Name>
-          <Title>16800 Tunnelin aukko</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>16800</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/STs.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>18</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>    
-  <NamedLayer> <!-- mtk:ilmaradankannatinpylvas -->
-    <Name>mtk:ilmaradankannatinpylvas</Name>
-    <UserStyle>
-      <Title>mtk:ilmaradankannatinpylvas</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>44591</Name>
-          <Title>44591 Ilmaradan kannatinpylv?s</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>44591</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Silmarata_1.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>2.6</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>    
-  <NamedLayer> <!-- mtk:kellotapuli -->
-    <Name>mtk:kellotapuli</Name>
-    <UserStyle>
-      <Title>mtk:kellotapuli</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>44600</Name>
-          <Title>44600 Kellotapuli</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>44600</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-                  
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>9</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Sktli.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>41</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>  
   <NamedLayer> <!-- mtk:masto -->
     <Name>mtk:masto</Name>
     <UserStyle>
@@ -4164,153 +3589,6 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- mtk:nakotorni -->
-    <Name>mtk:nakotorni</Name>
-    <UserStyle>
-      <Title>mtk:nakotorni</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>45000</Name>
-          <Title>45000 N?k?torni</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>45000</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">       
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>10.5</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Snt.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>42.5</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>  
-  <NamedLayer> <!-- mtk:savupiippu -->
-    <Name>mtk:savupiippu</Name>
-    <UserStyle>
-      <Title>mtk:savupiippu</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>45300</Name>
-          <Title>45300 Savupiippu</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>45300</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Ssp.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>20</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>  
-  <NamedLayer> <!-- mtk:tervahauta -->
-    <Name>mtk:tervahauta</Name>
-    <UserStyle>
-      <Title>mtk:tervahauta</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>45400</Name>
-          <Title>45400 Tervahauta</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>45400</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Stervahauta.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>17.5</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>  
   <NamedLayer> <!-- mtk:tuulivoimala -->
     <Name>mtk:tuulivoimala</Name>
     <UserStyle>
@@ -4345,153 +3623,6 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ExternalGraphic>
               <Size>
                 <ogc:Literal>62.5</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>  
-  <NamedLayer> <!-- mtk:lahestymisvalo -->  
-    <Name>mtk:lahestymisvalo</Name> 
-    <UserStyle>
-      <Title>mtk:lahestymisvalo</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>44700</Name>
-          <Title>44700 Lahestymisvalo</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>44700</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Seste.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>30.5</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>  
-  <NamedLayer> <!-- mtk:portti -->
-    <Name>mtk:portti</Name>
-    <UserStyle>
-      <Title>mtk:portti</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>45200</Name>
-          <Title>45200 Portti</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>45200</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Sportti.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>20.5</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>    
-    </UserStyle>
-  </NamedLayer>  
-  <NamedLayer> <!-- mtk:tulentekopaikka -->
-    <Name>mtk:tulentekopaikka</Name>
-    <UserStyle>
-      <Title>mtk:tulentekopaikka</Title>
-      <Abstract>sld</Abstract>
-      <FeatureTypeStyle>    
-        <Rule>
-          <Name>45710</Name>
-          <Title>45710 Tulentekopaikka</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>45710</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>10.8</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/Stuli.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>55.5</ogc:Literal>
               </Size>
               <Rotation> 
                 <ogc:Function name="toDegrees">
@@ -4807,86 +3938,6 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <Title>mtk:turvalaite</Title>
       <Abstract>sld</Abstract>
       <FeatureTypeStyle>    
-        <Rule>
-          <Name>16121</Name>
-          <Title>16121 Kummeli</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>16121</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>7</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/SKum.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>16.5</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>16122</Name>
-          <Title>16122 Tunnusmajakka</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-              <ogc:Literal>16122</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter> 
-          <!--MinScaleDenominator>10000</MinScaleDenominator-->
-          <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
-          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> 
-            <Geometry>
-              <ogc:Function name ="offset">
-                <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>12</ogc:Literal>
-              </ogc:Function>        
-            </Geometry>  
-            <Graphic>
-              <ExternalGraphic>
-                <OnlineResource
-xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
-xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/STmaja.svg"/>
-                <Format>image/svg+xml</Format>
-              </ExternalGraphic>
-              <Size>
-                <ogc:Literal>12</ogc:Literal>
-              </Size>
-              <Rotation> 
-                <ogc:Function name="toDegrees">
-                  <ogc:Div>                  
-                    <ogc:PropertyName>suunta</ogc:PropertyName> 
-                    <ogc:Literal>-10000</ogc:Literal>
-                  </ogc:Div>        
-                </ogc:Function>
-              </Rotation>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
         <Rule>
           <Name>16126</Name>
           <Title>16126 Merimajakka</Title>
