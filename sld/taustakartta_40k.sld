@@ -14,8 +14,8 @@
               <ogc:Literal>39120</ogc:Literal>
             </ogc:PropertyIsEqualTo>	 
           </ogc:Filter> 
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">  <!-- Psuvv -->
             <Fill>
               <GraphicFill>
@@ -49,8 +49,8 @@
               <ogc:Literal>35411</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> <!-- Psuo3 -->
             <Fill>
               <GraphicFill>
@@ -77,8 +77,8 @@
               <ogc:Literal>35412</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> <!-- Psuo3 -->
             <Fill>
               <GraphicFill>
@@ -105,8 +105,8 @@
               <ogc:Literal>35421</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>         
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->         
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> <!-- Psuo12 -->
             <Fill>
               <GraphicFill>
@@ -133,8 +133,8 @@
               <ogc:Literal>35422</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre"> <!-- Psuo12 -->
             <Fill>
               <GraphicFill>
@@ -168,8 +168,8 @@
               <ogc:Literal>40200</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#f5d0e1</CssParameter>
@@ -192,8 +192,8 @@
               <ogc:Literal>32611</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#fffcd6</CssParameter>
@@ -209,8 +209,8 @@
               <ogc:Literal>32612</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#fffcd6</CssParameter>
@@ -226,8 +226,8 @@
               <ogc:Literal>32800</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#fffceb</CssParameter>
@@ -250,8 +250,8 @@
               <ogc:Literal>33100</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#ebf2c2</CssParameter>
@@ -267,8 +267,8 @@
               <ogc:Literal>32111</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#fffcf0</CssParameter>
@@ -301,8 +301,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32113</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>          
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->          
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#e8dabc</CssParameter>
@@ -318,8 +318,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32112</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#f2e4c4</CssParameter>
@@ -335,8 +335,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32300</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#fffcf0</CssParameter>
@@ -369,8 +369,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32500</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#fffcf0</CssParameter>
@@ -403,8 +403,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>34300</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#fffcf0</CssParameter>
@@ -445,8 +445,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>38900</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#faf7f5</CssParameter>
@@ -469,8 +469,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>44300</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator> 
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator--> 
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#86bfe3</CssParameter>
@@ -490,8 +490,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>36200</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#b6e6fa</CssParameter>
@@ -507,8 +507,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>36211</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#b6e6fa</CssParameter>
@@ -524,8 +524,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>36315</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#b6e6fa</CssParameter>
@@ -541,8 +541,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>44300</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#b6e6fa</CssParameter>
@@ -564,8 +564,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:PropertyIsEqualTo>			  
              </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#b6e6fa</CssParameter>
@@ -588,8 +588,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32441</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#fffcd1</CssParameter>
@@ -612,8 +612,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32442</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
 		  <PolygonSymbolizer>
 		    <Fill>
 			  <CssParameter name="fill">#fffcd1</CssParameter>
@@ -643,8 +643,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32431</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#fccab6</CssParameter>
@@ -662,8 +662,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>32432</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#fccab6</CssParameter>
@@ -688,8 +688,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>36311</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#86bfe3</CssParameter>
@@ -707,8 +707,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>36312</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#86bfe3</CssParameter>
@@ -726,8 +726,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>36314</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#86bfe3</CssParameter>
@@ -751,8 +751,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:PropertyIsEqualTo>			  
              </ogc:And>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#86bfe3</CssParameter>
@@ -783,8 +783,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:PropertyIsEqualTo>			  
              </ogc:And>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#918a8c</CssParameter>
@@ -809,8 +809,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>84113</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#ae9dd1</CssParameter>
@@ -828,8 +828,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>84112</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#ae9dd1</CssParameter>
@@ -847,8 +847,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>84115</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#ae9dd1</CssParameter>
@@ -866,8 +866,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>82100</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#ae9dd1</CssParameter>
@@ -885,8 +885,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>84111</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#ae9dd1</CssParameter>
@@ -911,8 +911,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>42233</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>    
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->    
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <Mark>
@@ -940,8 +940,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>42213</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>    
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->    
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <Mark>
@@ -969,8 +969,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>42223</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>    
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->    
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <Mark>
@@ -998,8 +998,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>42243</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>    
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->    
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <Mark>
@@ -1027,8 +1027,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>42253</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>    
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->    
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <Mark>
@@ -1056,8 +1056,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>42263</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>    
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->    
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <Mark>
@@ -1085,8 +1085,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>42270</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>    
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->    
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <Mark>
@@ -1115,8 +1115,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>12141</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator>  
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->  
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#b4b6b8</CssParameter>
@@ -1134,8 +1134,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>12132</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator>  
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->  
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#b4b6b8</CssParameter>
@@ -1153,8 +1153,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>12131</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator--> 
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#b4b6b8</CssParameter>
@@ -1172,8 +1172,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>12122</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator>  
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->  
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#b4b6b8</CssParameter>
@@ -1191,8 +1191,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>12121</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator>  
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->  
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#b4b6b8</CssParameter>
@@ -1210,8 +1210,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>12112</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator--> 
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#b4b6b8</CssParameter>
@@ -1229,8 +1229,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>12111</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator--> 
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#acacad</CssParameter>
@@ -1250,8 +1250,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>12111</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator--> 
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#FCFCFC</CssParameter>
@@ -1269,8 +1269,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>12151</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator--> 
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#e6ae8c</CssParameter>
@@ -1290,8 +1290,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>12152</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator--> 
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#e6ae8c</CssParameter>
@@ -1318,8 +1318,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>14110</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator--> 
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#a1a1a1</CssParameter>
@@ -1345,8 +1345,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>14121</ogc:Literal>
             </ogc:PropertyIsEqualTo>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator--> 
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#a1a1a1</CssParameter>
@@ -1396,8 +1396,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:Or>      
             </ogc:And>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator--> 
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#a1a1a1</CssParameter>
@@ -1436,8 +1436,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:PropertyIsNotEqualTo>
             </ogc:And>        
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator--> 
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#918a8c</CssParameter>
@@ -1462,8 +1462,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>16511</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator> 
-          <MaxScaleDenominator>40000</MaxScaleDenominator> 
+          <!--MinScaleDenominator>20000</MinScaleDenominator--> 
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator--> 
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">            
             <Stroke>
               <CssParameter name="stroke">#918a8c</CssParameter>
@@ -1488,8 +1488,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>44800</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>	  
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->	  
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Geometry>
               <ogc:Function name ="offset">
@@ -1520,8 +1520,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>45500</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>	  
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->	  
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Geometry>
               <ogc:Function name ="offset">
@@ -1552,8 +1552,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>45800</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>	  
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->	  
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <Mark>
@@ -1582,8 +1582,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Literal>16126</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>20000</MinScaleDenominator>
-          <MaxScaleDenominator>40000</MaxScaleDenominator>	  
+          <!--MinScaleDenominator>20000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>40000</MaxScaleDenominator-->	  
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
@@ -1664,8 +1664,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:PropertyIsEqualTo>               
             </ogc:Or>
           </ogc:Filter> 
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:PropertyName>teksti</ogc:PropertyName>
@@ -1747,8 +1747,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:PropertyIsEqualTo>           
             </ogc:Or> 
           </ogc:Filter> 
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:PropertyName>teksti</ogc:PropertyName>
@@ -1822,8 +1822,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:PropertyIsEqualTo>      
             </ogc:Or>           
           </ogc:Filter>       
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>   
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->   
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:PropertyName>teksti</ogc:PropertyName>
@@ -1936,8 +1936,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:PropertyIsEqualTo>               
             </ogc:Or>
           </ogc:Filter> 
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:PropertyName>teksti</ogc:PropertyName>
@@ -2022,8 +2022,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:PropertyIsEqualTo>           
             </ogc:Or> 
           </ogc:Filter> 
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:PropertyName>teksti</ogc:PropertyName>
@@ -2100,8 +2100,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:PropertyIsEqualTo>      
             </ogc:Or>           
           </ogc:Filter>       
-		  <MinScaleDenominator>20000</MinScaleDenominator>
-		  <MaxScaleDenominator>40000</MaxScaleDenominator>   
+		  <!--MinScaleDenominator>20000</MinScaleDenominator-->
+		  <!--MaxScaleDenominator>40000</MaxScaleDenominator-->   
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:PropertyName>teksti</ogc:PropertyName>
