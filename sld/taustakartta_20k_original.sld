@@ -2581,7 +2581,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#fac3dc</CssParameter>              
+              <CssParameter name="fill">#acacad</CssParameter>              
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2608,7 +2608,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <!--MaxScaleDenominator>20000</MaxScaleDenominator--> 
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#acacad</CssParameter>              
+              <CssParameter name="fill">#b4b6b8</CssParameter>              
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -2616,20 +2616,28 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <Name>42240</Name>
           <Title>42240 Teollinen rakennus</Title>
           <ogc:Filter>
-            <ogc:Or>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>42240</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>42241</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>42242</ogc:Literal>
-              </ogc:PropertyIsEqualTo>              
-            </ogc:Or>
+            <ogc:And>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                  <ogc:Literal>42240</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                  <ogc:Literal>42241</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                  <ogc:Literal>42242</ogc:Literal>
+                </ogc:PropertyIsEqualTo>              
+              </ogc:Or>
+              <ogc:PropertyIsGreaterThanOrEqualTo>       
+                <ogc:Function name="area"> 
+                  <ogc:PropertyName>sijainti_alue</ogc:PropertyName>                
+                </ogc:Function> 
+                <ogc:Literal>400</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>          
+            </ogc:And>        
           </ogc:Filter> 
           <!--MinScaleDenominator>10000</MinScaleDenominator-->
           <!--MaxScaleDenominator>20000</MaxScaleDenominator-->
@@ -2643,21 +2651,29 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           <Name>42260</Name>
           <Title>42260 Muu rakennus</Title>
           <ogc:Filter>
-            <ogc:Or>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>42260</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>42261</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>42262</ogc:Literal>
-              </ogc:PropertyIsEqualTo>              
-            </ogc:Or>      
-          </ogc:Filter> 
+            <ogc:And>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                  <ogc:Literal>42260</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                  <ogc:Literal>42261</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                  <ogc:Literal>42262</ogc:Literal>
+                </ogc:PropertyIsEqualTo>              
+              </ogc:Or>
+              <ogc:PropertyIsGreaterThanOrEqualTo>       
+                <ogc:Function name="area"> 
+                  <ogc:PropertyName>sijainti_alue</ogc:PropertyName>                
+                </ogc:Function> 
+                <ogc:Literal>400</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>          
+            </ogc:And>        
+          </ogc:Filter>
           <!--MinScaleDenominator>10000</MinScaleDenominator-->
           <!--MaxScaleDenominator>20000</MaxScaleDenominator-->
           <PolygonSymbolizer>
