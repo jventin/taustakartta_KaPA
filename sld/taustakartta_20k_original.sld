@@ -5005,10 +5005,10 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- mtk:paikannimi_25000 -->
-    <Name>mtk:paikannimi_25000</Name>
+  <NamedLayer> <!-- mtk:paikannimi_50000 -->
+    <Name>mtk:paikannimi_50000</Name>
     <UserStyle>
-      <Title>mtk:paikannimi_25000</Title>
+      <Title>mtk:paikannimi_50000</Title>
       <Abstract>sld</Abstract>
       <FeatureTypeStyle>    
         <Rule> <!-- maastonimet -->
@@ -5339,10 +5339,10 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- mtk:paikannimi_25000 --> <!-- avaus eli halo. Geoserverin ominaisuuden takia halot on maaritettava piirrettavaksi tekstien paalle, vaikka ne tosiasiassa piirretaan alle -->
-    <Name>mtk:paikannimi_25000</Name>
+  <NamedLayer> <!-- mtk:paikannimi_50000 --> <!-- avaus eli halo. Geoserverin ominaisuuden takia halot on maaritettava piirrettavaksi tekstien paalle, vaikka ne tosiasiassa piirretaan alle -->
+    <Name>mtk:paikannimi_50000</Name>
     <UserStyle>
-      <Title>mtk:paikannimi_25000</Title>
+      <Title>mtk:paikannimi_50000</Title>
       <Abstract>sld</Abstract>
       <FeatureTypeStyle>    
         <Rule> <!-- maastonimet -->
@@ -5682,10 +5682,10 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
-  <NamedLayer> <!-- mtk:vedenpinnankorkeusluku_25000 -->
-    <Name>mtk:vedenpinnankorkeusluku_25000</Name>
+  <NamedLayer> <!-- mtk:vedenpinnankorkeusluku_50000 -->
+    <Name>mtk:vedenpinnankorkeusluku_50000</Name>
     <UserStyle>
-      <Title>mtk:vedenpinnankorkeusluku_25000</Title>
+      <Title>mtk:vedenpinnankorkeusluku_50000</Title>
       <Abstract>sld</Abstract>
       <FeatureTypeStyle>    
         <Rule>
