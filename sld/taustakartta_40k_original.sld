@@ -1602,7 +1602,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
     </UserStyle>
   </NamedLayer>
   <NamedLayer> <!-- mtk:karttanimi_40000 -->
-    <Name></Name>
+    <Name>mtk:karttanimi_40000</Name>
     <UserStyle>
       <FeatureTypeStyle>
         <Rule>
@@ -1874,7 +1874,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
     </UserStyle>
   </NamedLayer>
   <NamedLayer> <!-- mtk:karttanimi_40000 -->
-    <Name></Name>
+    <Name>mtk:karttanimi_40000</Name>
     <UserStyle>
       <FeatureTypeStyle>
        <Rule>
