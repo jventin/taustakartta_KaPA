@@ -14,7 +14,7 @@ function init() {
             var view = new ol.View({
                 center: [405644, 7000165], //Turun linna
                 projection: 'EPSG:3067',
-                zoom: 8
+                zoom: 2
             });	
 	
 	
