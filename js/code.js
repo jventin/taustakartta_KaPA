@@ -22,10 +22,10 @@ function init() {
 
         layers: [
 			new ol.layer.Group({
-				'title': 'Base Maps',
+				'title': 'Taustakartta kehitys KaPA',
 				layers: [
                     new ol.layer.Group({
-                        'title': 'Taustakartta_v1',
+                        'title': 'Muokattu versio',
                         type: 'base',
                        // combine: true,
                        // visible: true,
