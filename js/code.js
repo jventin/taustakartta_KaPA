@@ -37,7 +37,7 @@ function init() {
 									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'http://jventin.github.io/taustakartta_KaPA/taustakartta_sld_160509/taustakartta_4000k.sld',
+										'SLD': 'http://jventin.github.io/taustakartta_KaPA/taustakartta_sld_160509/taustakartta_8000k.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
