@@ -688,7 +688,7 @@
             </Label>
             <Font>
               <CssParameter name="font-family">
-                <ogc:Literal>Arial Lihavoitu</ogc:Literal>                                                            
+                <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                            
               </CssParameter>
               <CssParameter name="font-size">
                 <ogc:Div> 
@@ -712,14 +712,6 @@
               </PointPlacement>
             </LabelPlacement>         
       
-            <!--<Halo>
-              <Radius>
-                <ogc:Div> 
-                  <ogc:PropertyName>kirjkoko</ogc:PropertyName>
-                  <ogc:Literal>0.35</ogc:Literal>
-                </ogc:Div>         
-              </Radius>        
-            </Halo> -->
             <Fill>
               <CssParameter name="fill">#4d4d4d</CssParameter>
             </Fill>
