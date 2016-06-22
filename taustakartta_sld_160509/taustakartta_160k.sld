@@ -1194,14 +1194,14 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                  <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                  <ogc:Literal>10</ogc:Literal>
                </ogc:Function>                                
-               <ogc:Literal>Arial Etukeno</ogc:Literal>  
-               <ogc:Literal>Arial Lihavoitu Etukeno</ogc:Literal>                                                     
+               <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+               <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
              </ogc:Function>        
            </CssParameter>
            <CssParameter name="font-size">
              <ogc:Div> 
                <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-               <ogc:Literal>0.45</ogc:Literal>
+               <ogc:Literal>0.4</ogc:Literal>
               </ogc:Div>         
              </CssParameter>
          </Font>  
@@ -1296,14 +1296,14 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                  <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                  <ogc:Literal>10</ogc:Literal>
                </ogc:Function>                                
-               <ogc:Literal>Arial Takakeno</ogc:Literal>  
-               <ogc:Literal>Arial Lihavoitu Takakeno</ogc:Literal>                                                     
+               <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
+               <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                    
              </ogc:Function>        
            </CssParameter>
            <CssParameter name="font-size">
              <ogc:Div> 
                <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-               <ogc:Literal>0.45</ogc:Literal>
+               <ogc:Literal>0.4</ogc:Literal>
               </ogc:Div>         
              </CssParameter>
 
@@ -1400,14 +1400,14 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                  <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                  <ogc:Literal>10</ogc:Literal>
                </ogc:Function>                                
-               <ogc:Literal>Arial</ogc:Literal>  
-               <ogc:Literal>Arial Lihavoitu</ogc:Literal>                                                     
+               <ogc:Literal>LiberationSansNLSF</ogc:Literal>   
+               <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                      
              </ogc:Function>        
            </CssParameter>  
            <CssParameter name="font-size">
              <ogc:Div> 
                <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-               <ogc:Literal>0.45</ogc:Literal>
+               <ogc:Literal>0.4</ogc:Literal>
               </ogc:Div>         
              </CssParameter>
 
@@ -1534,9 +1534,6 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
       <!--MinScaleDenominator>90000</MinScaleDenominator-->
       <!--MaxScaleDenominator>180000</MaxScaleDenominator-->
 
-       
-
-        
        <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
          <Label>
            <ogc:PropertyName>teksti</ogc:PropertyName>
@@ -1548,14 +1545,14 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                  <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                  <ogc:Literal>10</ogc:Literal>
                </ogc:Function>                                
-               <ogc:Literal>Arial Etukeno</ogc:Literal>  
-               <ogc:Literal>Arial Lihavoitu Etukeno</ogc:Literal>                                                     
+               <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+               <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
              </ogc:Function>        
            </CssParameter>
            <CssParameter name="font-size">
              <ogc:Div> 
                <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-               <ogc:Literal>0.45</ogc:Literal>
+               <ogc:Literal>0.4</ogc:Literal>
               </ogc:Div>         
              </CssParameter>
          </Font>  
@@ -1595,15 +1592,10 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
             <VendorOption name="partials">true</VendorOption>
        </TextSymbolizer>
        </Rule>                  
-  
- </FeatureTypeStyle>
+     </FeatureTypeStyle>
+     <FeatureTypeStyle>
 
-<FeatureTypeStyle>
-       
-	   
-	   
-	   
-<!--VESIST�NIMI 36111 valkoinen avaus -->        
+<!--VESISTONIMI 36111 valkoinen avaus -->        
        <Rule>
         
           <ogc:Filter>        
@@ -1653,14 +1645,14 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                  <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                  <ogc:Literal>10</ogc:Literal>
                </ogc:Function>                                
-               <ogc:Literal>Arial Takakeno</ogc:Literal>  
-               <ogc:Literal>Arial Lihavoitu Takakeno</ogc:Literal>                                                     
+               <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
+               <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                    
              </ogc:Function>        
            </CssParameter>
            <CssParameter name="font-size">
              <ogc:Div> 
                <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-               <ogc:Literal>0.45</ogc:Literal>
+               <ogc:Literal>0.4</ogc:Literal>
               </ogc:Div>         
              </CssParameter>
 
@@ -1706,10 +1698,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
        </Rule>          
   
       </FeatureTypeStyle>
-	  
-	  
 
-	  
       <FeatureTypeStyle>
   
 <!-- ASUTUSNIMET 48100 valkoinen avaus  -->        
@@ -1764,14 +1753,14 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                  <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                  <ogc:Literal>10</ogc:Literal>
                </ogc:Function>                                
-               <ogc:Literal>Arial</ogc:Literal>  
-               <ogc:Literal>Arial Lihavoitu</ogc:Literal>                                                     
+               <ogc:Literal>LiberationSansNLSF</ogc:Literal>   
+               <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                      
              </ogc:Function>        
            </CssParameter>  
            <CssParameter name="font-size">
              <ogc:Div> 
                <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-               <ogc:Literal>0.45</ogc:Literal>
+               <ogc:Literal>0.4</ogc:Literal>
               </ogc:Div>         
              </CssParameter>
 
