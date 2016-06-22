@@ -1080,7 +1080,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
           </TextSymbolizer>
        </Rule>            
   
-<!-- mustat, kirjasinkallistuskulma = 18 -->
+<!-- mustat, kirjasinkallistuskulma = 15 -->
         <Rule>
         
           <ogc:Filter>
@@ -1164,7 +1164,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
           </TextSymbolizer>
        </Rule>     
 
-<!-- siniset (kirjasinvarikoodi=55) ja kirjasinkallistuskulma -18 -->
+<!-- siniset (kirjasinvarikoodi=20) ja kirjasinkallistuskulma -15 -->
         <Rule>
         
           <ogc:Filter>
