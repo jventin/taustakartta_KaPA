@@ -3442,8 +3442,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFIRight</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBoldRight</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>	
               <CssParameter name="font-size">
@@ -3525,8 +3525,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>
               <CssParameter name="font-size">
@@ -3640,8 +3640,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFIRight</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBoldRight</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>	
               <CssParameter name="font-size">
@@ -3726,8 +3726,8 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>
               <CssParameter name="font-size">
