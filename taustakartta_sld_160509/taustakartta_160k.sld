@@ -1297,7 +1297,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                  <ogc:Literal>10</ogc:Literal>
                </ogc:Function>                                
                <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
-               <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                    
+               <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
              </ogc:Function>        
            </CssParameter>
            <CssParameter name="font-size">
@@ -1400,8 +1400,8 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                  <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                  <ogc:Literal>10</ogc:Literal>
                </ogc:Function>                                
-               <ogc:Literal>LiberationSansNLSF</ogc:Literal>   
-               <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                      
+               <ogc:Literal>LiberationSansNLSF</ogc:Literal>  
+               <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
              </ogc:Function>        
            </CssParameter>  
            <CssParameter name="font-size">
@@ -1434,11 +1434,6 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                 </Rotation> 				
               </PointPlacement>
             </LabelPlacement>     
-
-<!--          <Halo>
-           <Radius>15</Radius>
-
-         </Halo> -->
      
          <Fill>
            <CssParameter name="fill">#616568</CssParameter>
@@ -1534,6 +1529,9 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
       <!--MinScaleDenominator>90000</MinScaleDenominator-->
       <!--MaxScaleDenominator>180000</MaxScaleDenominator-->
 
+       
+
+        
        <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
          <Label>
            <ogc:PropertyName>teksti</ogc:PropertyName>
@@ -1592,10 +1590,15 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
             <VendorOption name="partials">true</VendorOption>
        </TextSymbolizer>
        </Rule>                  
-     </FeatureTypeStyle>
-     <FeatureTypeStyle>
+  
+ </FeatureTypeStyle>
 
-<!--VESISTONIMI 36111 valkoinen avaus -->        
+<FeatureTypeStyle>
+       
+	   
+	   
+	   
+<!--VESIST�NIMI 36111 valkoinen avaus -->        
        <Rule>
         
           <ogc:Filter>        
@@ -1646,7 +1649,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                  <ogc:Literal>10</ogc:Literal>
                </ogc:Function>                                
                <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
-               <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                    
+               <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
              </ogc:Function>        
            </CssParameter>
            <CssParameter name="font-size">
@@ -1698,7 +1701,10 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
        </Rule>          
   
       </FeatureTypeStyle>
+	  
+	  
 
+	  
       <FeatureTypeStyle>
   
 <!-- ASUTUSNIMET 48100 valkoinen avaus  -->        
@@ -1753,8 +1759,8 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                  <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                  <ogc:Literal>10</ogc:Literal>
                </ogc:Function>                                
-               <ogc:Literal>LiberationSansNLSF</ogc:Literal>   
-               <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                      
+               <ogc:Literal>LiberationSansNLSF</ogc:Literal>  
+               <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
              </ogc:Function>        
            </CssParameter>  
            <CssParameter name="font-size">

@@ -922,7 +922,7 @@
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
                   <ogc:Literal>LiberationSansNLSF</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                       
+                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
                 </ogc:Function>        
               </CssParameter>
               <CssParameter name="font-size">
@@ -964,7 +964,7 @@
        </Rule>            
   
 
-<!-- siniset (kirjasinvarikoodi=55) ja kirjasinkallistuskulma -18 -->
+<!-- siniset (kirjasinvarikoodi=20) ja kirjasinkallistuskulma -15 -->
         <Rule>
         
           <ogc:Filter>
@@ -998,7 +998,7 @@
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
                   <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                 
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function>        
               </CssParameter>
               <CssParameter name="font-size">

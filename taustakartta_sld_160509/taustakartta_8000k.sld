@@ -712,6 +712,14 @@
               </PointPlacement>
             </LabelPlacement>         
       
+            <!--<Halo>
+              <Radius>
+                <ogc:Div> 
+                  <ogc:PropertyName>kirjkoko</ogc:PropertyName>
+                  <ogc:Literal>0.35</ogc:Literal>
+                </ogc:Div>         
+              </Radius>        
+            </Halo> -->
             <Fill>
               <CssParameter name="fill">#4d4d4d</CssParameter>
             </Fill>

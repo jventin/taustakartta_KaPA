@@ -3860,7 +3860,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:Function name ="offset">
                 <ogc:PropertyName>sijainti_piste</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
-                <ogc:Literal>2.3</ogc:Literal>
+                <ogc:Literal>2.1</ogc:Literal>
               </ogc:Function>        
             </Geometry>  
             <Graphic>
@@ -3971,7 +3971,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:Function>				  
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -5127,7 +5127,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyName>nimi_suomi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -5276,7 +5276,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyName>nimi_ruotsi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -5397,7 +5397,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyName>nimi_suomi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -5517,7 +5517,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyName>nimi_ruotsi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -5662,7 +5662,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyName>nimi_ruotsi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -5806,7 +5806,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyName>nimi_suomi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -5849,66 +5849,53 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <Abstract>sld</Abstract>
       <FeatureTypeStyle>    
         <Rule> <!-- maastonimet -->
+<!-- Karttanimet harmaat italic eli kirjasinkallistuskulma 15 -->        
+		
           <ogc:Filter>
-            <ogc:Or>		  
-              <ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>34601</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72301</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>34901</ogc:Literal>	
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72401</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>25010</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72502</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35010</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72601</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35020</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72201</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35030</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72303</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35040</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72403</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35050</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72701</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35060</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
+                <ogc:Literal>72801</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35070</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35080</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35090</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35101</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>38501</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:Or>		  			  
-          </ogc:Filter>         
+                <ogc:PropertyName>kirjasinkallistuskulma</ogc:PropertyName>
+                <ogc:Literal>15</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+            </ogc:And>      
+          </ogc:Filter>      
+		  
           <!--MinScaleDenominator>10000</MinScaleDenominator-->
           <!--MaxScaleDenominator>20000</MaxScaleDenominator-->         
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -5923,15 +5910,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                <ogc:Literal>LiberationSansNLSFIRight</ogc:Literal>  
-                 <ogc:Literal>LiberationSansNLSFIBoldRight</ogc:Literal>                                                     
+                <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+                 <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>			  
              <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>2.3</ogc:Literal>
+                  <ogc:Literal>2.1</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -5947,7 +5934,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <DisplacementY>
                     <ogc:Div>
                       <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-14.04</ogc:Literal>
+                      <ogc:Literal>-14</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
                 </Displacement>
@@ -5973,39 +5960,53 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </TextSymbolizer>
         </Rule>
 <!-- Vesistonimet 36111 -->
+<!-- Karttanimet Siniset, kaikki kirjasinkallistuskulma -15 -->  
         <Rule>
           <ogc:Filter>
-            <ogc:Or>		  
-              <ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>36101</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72301</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>36201</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72401</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>36301</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72502</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>36410</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72601</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>36420</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72201</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>36490</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72303</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>38201</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:Or>		  			  
-          </ogc:Filter>         
+                <ogc:Literal>72403</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>72701</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>72801</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kirjasinkallistuskulma</ogc:PropertyName>
+                <ogc:Literal>-15</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+            </ogc:And>      
+          </ogc:Filter>      
+		  
           <!--MinScaleDenominator>10000</MinScaleDenominator-->
           <!--MaxScaleDenominator>20000</MaxScaleDenominator-->         
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -6020,15 +6021,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>                   
-                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>                   
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>		  
              <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>2.3</ogc:Literal>
+                  <ogc:Literal>2.1</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -6044,7 +6045,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <DisplacementY>
                     <ogc:Div>
                       <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-14.04</ogc:Literal>
+                      <ogc:Literal>-14</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
                 </Displacement> 
@@ -6070,31 +6071,58 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </TextSymbolizer>
         </Rule>
 <!-- Asutusnimet 48100 -->
+<!-- Karttanimet harmaat pysty eli kirjasinkallistuskulma 0 -->        
+
         <Rule>
           <ogc:Filter>
-            <ogc:Or>		  
-              <ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>48111</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72301</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>48112</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72401</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>48120</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72502</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>48130</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72601</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>48190</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:Or>		  			  
-          </ogc:Filter>         
+                <ogc:Literal>72201</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>72303</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>72403</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>72701</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>72801</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>12301</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>			  
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kirjasinkallistuskulma</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+            </ogc:And>      
+          </ogc:Filter>      
+		  
           <!--MinScaleDenominator>10000</MinScaleDenominator-->
           <!--MaxScaleDenominator>20000</MaxScaleDenominator-->         
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -6109,15 +6137,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                <ogc:Literal>LiberationSansNLSFI</ogc:Literal>                  
-                 <ogc:Literal>LiberationSansNLSFIBold</ogc:Literal>                                                     
+                <ogc:Literal>LiberationSansNLSF</ogc:Literal>                  
+                 <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>			  
              <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>2.6</ogc:Literal>
+                  <ogc:Literal>2.1</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -6133,7 +6161,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <DisplacementY>
                     <ogc:Div>
                       <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-14.04</ogc:Literal>
+                      <ogc:Literal>-14</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
                 </Displacement>
@@ -6168,66 +6196,52 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       <Abstract>sld</Abstract>
       <FeatureTypeStyle>    
         <Rule> <!-- maastonimet -->
-          <ogc:Filter>
-            <ogc:Or>		  
-              <ogc:PropertyIsEqualTo>
+		<!-- Karttanimet mustat italic eli kirjasinkallistuskulma 15 -->        
+
+            <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>34601</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72301</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>34901</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72401</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>25010</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72502</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35010</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72601</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35020</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72201</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35030</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72303</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35040</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72403</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35050</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72701</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35060</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
+                <ogc:Literal>72801</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35070</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35080</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35090</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>35101</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>38501</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:Or>		  			  
-          </ogc:Filter>         
+                <ogc:PropertyName>kirjasinkallistuskulma</ogc:PropertyName>
+                <ogc:Literal>15</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+            </ogc:And>      
+          </ogc:Filter>      
           <!--MinScaleDenominator>10000</MinScaleDenominator-->
           <!--MaxScaleDenominator>20000</MaxScaleDenominator-->         
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -6242,15 +6256,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                <ogc:Literal>LiberationSansNLSFIRight</ogc:Literal>  
-                 <ogc:Literal>LiberationSansNLSFIBoldRight</ogc:Literal>                                                     
+                <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+                 <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>			  
              <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>2.3</ogc:Literal>
+                  <ogc:Literal>2.1</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -6266,7 +6280,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <DisplacementY>
                     <ogc:Div>
                       <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-14.04</ogc:Literal>
+                      <ogc:Literal>-14</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
                 </Displacement>
@@ -6295,39 +6309,53 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </TextSymbolizer>
         </Rule>
 <!-- Vesistonimet 36111 -->
+<!-- Karttanimet Siniset, kaikki kirjasinkallistuskulma -15 -->        
+
         <Rule>
           <ogc:Filter>
-            <ogc:Or>		  
-              <ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>36101</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72301</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>36201</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72401</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>36301</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72502</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>36410</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72601</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>36420</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72201</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>36490</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72303</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>38201</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:Or>		  			  
-          </ogc:Filter>         
+                <ogc:Literal>72403</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>72701</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>72801</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kirjasinkallistuskulma</ogc:PropertyName>
+                <ogc:Literal>-15</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+            </ogc:And>      
+          </ogc:Filter>      
           <!--MinScaleDenominator>10000</MinScaleDenominator-->
           <!--MaxScaleDenominator>20000</MaxScaleDenominator-->         
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -6342,15 +6370,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>                   
-                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>                   
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>		  
              <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>2.3</ogc:Literal>
+                  <ogc:Literal>2.1</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -6366,7 +6394,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <DisplacementY>
                     <ogc:Div>
                       <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-14.04</ogc:Literal>
+                      <ogc:Literal>-14</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
                 </Displacement>
@@ -6395,31 +6423,57 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
           </TextSymbolizer>
         </Rule>
 <!-- Asutusnimet 48100 -->
+<!-- Karttanimet harmaat pysty eli kirjasinkallistuskulma 0 -->        
+
         <Rule>
           <ogc:Filter>
-            <ogc:Or>		  
-              <ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>48111</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72301</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>48112</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72401</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>48120</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72502</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>48130</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
+                <ogc:Literal>72601</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
                 <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
-                <ogc:Literal>48190</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:Or>		  			  
-          </ogc:Filter>         
+                <ogc:Literal>72201</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>72303</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>72403</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>72701</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>  
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>72801</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>
+              <ogc:PropertyIsNotEqualTo>
+                <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                <ogc:Literal>12301</ogc:Literal>
+              </ogc:PropertyIsNotEqualTo>			  
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kirjasinkallistuskulma</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsEqualTo>        
+            </ogc:And>      
+          </ogc:Filter>
           <!--MinScaleDenominator>10000</MinScaleDenominator-->
           <!--MaxScaleDenominator>20000</MaxScaleDenominator-->         
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -6434,15 +6488,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                <ogc:Literal>LiberationSansNLSFI</ogc:Literal>                  
-                 <ogc:Literal>LiberationSansNLSFIBold</ogc:Literal>                                                     
+                <ogc:Literal>LiberationSansNLSF</ogc:Literal>                  
+                 <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>			  
              <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>2.6</ogc:Literal>
+                  <ogc:Literal>2.1</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -6458,7 +6512,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                   <DisplacementY>
                     <ogc:Div>
                       <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-14.04</ogc:Literal>
+                      <ogc:Literal>-14</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
                 </Displacement>
@@ -6540,15 +6594,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>                   
-                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>                   
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>			  
            <!-- lasketaan fontin koko attribuutikent?n "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>2.3</ogc:Literal>
+                  <ogc:Literal>2.1</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>              
             </Font> 
@@ -6561,7 +6615,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                 </AnchorPoint>
                 <Displacement>
                   <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-10</DisplacementY>
+                  <DisplacementY>-14</DisplacementY>
                 </Displacement> 
                 <!-- suuntakulman muuntaminen asteisiin ja jakolaskulla pilkku oikeaan paikkaan --> 
                 <Rotation>

@@ -1565,7 +1565,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </ogc:Function>				  
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -2709,7 +2709,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyName>nimi_suomi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -2846,7 +2846,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyName>nimi_ruotsi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -2955,7 +2955,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyName>nimi_suomi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -3063,7 +3063,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyName>nimi_ruotsi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -3196,7 +3196,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyName>nimi_ruotsi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -3328,7 +3328,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               <ogc:PropertyName>nimi_suomi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">

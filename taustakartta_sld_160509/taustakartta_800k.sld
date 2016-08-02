@@ -1236,7 +1236,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
                   <ogc:Literal>LiberationSansNLSF</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                      
+                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
                 </ogc:Function>        
               </CssParameter>
               <CssParameter name="font-size">
@@ -1255,9 +1255,9 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                 </AnchorPoint>
 
                  <Displacement>
-                  <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-750</DisplacementY>
-                </Displacement>
+                  <DisplacementX>-75</DisplacementX>
+                  <DisplacementY>-500</DisplacementY>
+                </Displacement>  
                  <Rotation>
                    <ogc:Function name="toDegrees">
                     <ogc:Div>
@@ -1320,7 +1320,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
                   <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                         
+                  <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
                 </ogc:Function>        
               </CssParameter>
               <CssParameter name="font-size">
@@ -1339,8 +1339,8 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                 </AnchorPoint>
 
                  <Displacement>
-                  <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-750</DisplacementY>
+                  <DisplacementX>-75</DisplacementX>
+                  <DisplacementY>-500</DisplacementY>
                 </Displacement>   
                  <Rotation>
                    <ogc:Function name="toDegrees">
@@ -1370,7 +1370,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
           </TextSymbolizer>
        </Rule>     
 
-<!-- siniset (kirjasinvarikoodi=55) ja kirjasinkallistuskulma -18 -->
+<!-- siniset (kirjasinvarikoodi=20) ja kirjasinkallistuskulma -15 -->
         <Rule>
         
           <ogc:Filter>
@@ -1404,7 +1404,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
                   <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                    
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function>        
               </CssParameter>
               <CssParameter name="font-size">
@@ -1422,12 +1422,10 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                   <AnchorPointY>0</AnchorPointY>
                 </AnchorPoint>
 
-                 <Displacement>
-                  <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-750</DisplacementY>
-
-                </Displacement> 
-
+                  <Displacement>
+                  <DisplacementX>-75</DisplacementX>
+                  <DisplacementY>-500</DisplacementY>
+                </Displacement>  
                  <Rotation>
                    <ogc:Function name="toDegrees">
                     <ogc:Div>

@@ -892,7 +892,7 @@
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
                   <ogc:Literal>LiberationSansNLSF</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                       
+                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
                 </ogc:Function>        
               </CssParameter>
               <CssParameter name="font-size">
@@ -933,7 +933,7 @@
           </TextSymbolizer>
        </Rule>            
  
-<!-- siniset (kirjvari=55) ja kallistus -18 -->
+<!-- siniset (kirjvari=20) ja kallistus -15 -->
         <Rule>
         
           <ogc:Filter>
@@ -967,7 +967,7 @@
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
                   <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                  
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function>        
               </CssParameter>
               <CssParameter name="font-size">

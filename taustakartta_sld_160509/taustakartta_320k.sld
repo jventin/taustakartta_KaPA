@@ -1030,7 +1030,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
                   <ogc:Literal>LiberationSansNLSF</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                      
+                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
                 </ogc:Function>        
               </CssParameter>
               <CssParameter name="font-size">
@@ -1080,7 +1080,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
           </TextSymbolizer>
        </Rule>            
   
-<!-- mustat, kirjasinkallistuskulma = 15 -->
+<!-- mustat, kirjasinkallistuskulma = 18 -->
         <Rule>
         
           <ogc:Filter>
@@ -1114,7 +1114,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
                   <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                       
+                  <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
                 </ogc:Function>        
               </CssParameter>
               <CssParameter name="font-size">
@@ -1164,7 +1164,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
           </TextSymbolizer>
        </Rule>     
 
-<!-- siniset (kirjasinvarikoodi=20) ja kirjasinkallistuskulma -15 -->
+<!-- siniset (kirjasinvarikoodi=55) ja kirjasinkallistuskulma -18 -->
         <Rule>
         
           <ogc:Filter>
@@ -1198,7 +1198,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
                   <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                        
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function>        
               </CssParameter>
               <CssParameter name="font-size">
@@ -1251,7 +1251,12 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
           </TextSymbolizer>
        </Rule>            
 
+ 
+
+
       </FeatureTypeStyle>  
+  
+  
     </UserStyle>
   </NamedLayer> 
   
