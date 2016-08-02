@@ -1105,8 +1105,8 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
       <FeatureTypeStyle> 
 
 		   <!-- MAASTONIMET 35111 harmaa teksti--> 
-		   <Rule>
-        
+        <Rule>
+
           <ogc:Filter>        
             <ogc:Or>    
 
@@ -1180,9 +1180,6 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
       <!--MinScaleDenominator>90000</MinScaleDenominator-->
       <!--MaxScaleDenominator>180000</MaxScaleDenominator-->
 
-       
-
-        
        <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
          <Label>
            <ogc:PropertyName>teksti</ogc:PropertyName>

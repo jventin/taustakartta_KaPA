@@ -992,13 +992,11 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
 
   
       <FeatureTypeStyle> 
-  
-  
 
-			  
-<!-- mustat, kirjasinkallistuskulma=0 -->
+<!-- mustat, kirjasinkallistuskulma = 0 eli pysty -->
+
         <Rule>
-        
+		
           <ogc:Filter>
             <ogc:And>        
               <ogc:PropertyIsEqualTo>
@@ -1015,9 +1013,6 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
           <!--MinScaleDenominator>180000</MinScaleDenominator-->
           <!--MaxScaleDenominator>300000</MaxScaleDenominator-->
 
-       
-
-        
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:PropertyName>teksti</ogc:PropertyName>
@@ -1062,15 +1057,6 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                 </Rotation>				
               </PointPlacement>
             </LabelPlacement>         
-      
-<!--             <Halo>
-              <Radius>
-                <ogc:Div> 
-                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>1.5</ogc:Literal>
-                </ogc:Div>         
-              </Radius>        
-            </Halo> -->
      
             <Fill>
               <CssParameter name="fill">#4d4d4d</CssParameter>
@@ -1080,7 +1066,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
           </TextSymbolizer>
        </Rule>            
   
-<!-- mustat, kirjasinkallistuskulma = 18 -->
+<!-- mustat, kirjasinkallistuskulma = 15 -->
         <Rule>
         
           <ogc:Filter>
@@ -1098,9 +1084,6 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
 
           <!--MinScaleDenominator>180000</MinScaleDenominator-->
           <!--MaxScaleDenominator>300000</MaxScaleDenominator-->
-
-       
-
         
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
@@ -1146,16 +1129,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                 </Rotation>				
               </PointPlacement>
             </LabelPlacement>       
-      
-<!--             <Halo>
-              <Radius>
-                <ogc:Div> 
-                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>1.5</ogc:Literal>
-                </ogc:Div>         
-              </Radius>        
-            </Halo> -->
-     
+
             <Fill>
               <CssParameter name="fill">#4d4d4d</CssParameter>
             </Fill>
@@ -1164,7 +1138,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
           </TextSymbolizer>
        </Rule>     
 
-<!-- siniset (kirjasinvarikoodi=55) ja kirjasinkallistuskulma -18 -->
+<!-- siniset (kirjasinvarikoodi=20) ja kirjasinkallistuskulma -15 -->
         <Rule>
         
           <ogc:Filter>
@@ -1183,9 +1157,6 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
           <!--MinScaleDenominator>180000</MinScaleDenominator-->
           <!--MaxScaleDenominator>300000</MaxScaleDenominator-->
 
-       
-
-        
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:PropertyName>teksti</ogc:PropertyName>
@@ -1234,15 +1205,6 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
               </PointPlacement>
             </LabelPlacement>       
       
-<!--             <Halo>
-              <Radius>
-                <ogc:Div> 
-                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>1.5</ogc:Literal>
-                </ogc:Div>         
-              </Radius>        
-            </Halo> -->
-     
             <Fill>
               <CssParameter name="fill">#075799</CssParameter>
             </Fill>
@@ -1251,15 +1213,8 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
           </TextSymbolizer>
        </Rule>            
 
- 
-
-
       </FeatureTypeStyle>  
-  
-  
     </UserStyle>
   </NamedLayer> 
-  
-  
-  
+
 </StyledLayerDescriptor> 
