@@ -911,7 +911,7 @@
 	
 			  
 			  
-  <!-- harmaat, kirjasinkallistuskulma=0 -->
+  <!-- Paikannimet harmaat, kirjasinkallistuskulma=0 -->
         <Rule>
         
           <ogc:Filter>
@@ -930,9 +930,6 @@
           <!--MinScaleDenominator>600000</MinScaleDenominator-->
           <!--MaxScaleDenominator>1500000</MaxScaleDenominator-->
 
-       
-
-        
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:PropertyName>teksti</ogc:PropertyName>
@@ -944,8 +941,8 @@
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>Arial</ogc:Literal>  
-                  <ogc:Literal>Arial Lihavoitu</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSF</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                           
                 </ogc:Function>        
               </CssParameter>
               <CssParameter name="font-size">
@@ -985,9 +982,80 @@
             <VendorOption name="partials">true</VendorOption>
           </TextSymbolizer>
        </Rule>            
-  
 
-<!-- siniset (kirjasinvarikoodi=55) ja kirjasinkallistuskulma -18 -->
+	   <!-- Maastonimet harmaat (kirjasinvarikoodi=10) ja kirjasinkallistuskulma 15 -->
+        <Rule>
+        
+          <ogc:Filter>
+            <ogc:And>        
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kirjasinkallistuskulma</ogc:PropertyName>
+                <ogc:Literal>15</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kirjasinvarikoodi</ogc:PropertyName>
+                <ogc:Literal>10</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>        
+          </ogc:Filter> 
+
+          <!--MinScaleDenominator>600000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>1500000</MaxScaleDenominator-->
+
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <ogc:PropertyName>teksti</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">
+                <ogc:Function name="if_then_else">
+                  <ogc:Function name="equalTo">
+                    <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
+                    <ogc:Literal>10</ogc:Literal>
+                  </ogc:Function>                                
+                  <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                            
+                </ogc:Function>        
+              </CssParameter>
+              <CssParameter name="font-size">
+                <ogc:Div> 
+                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                  <ogc:Literal>0.05</ogc:Literal>
+                </ogc:Div>         
+              </CssParameter>
+            </Font>
+      
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0</AnchorPointX>
+                  <AnchorPointY>0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-1500</DisplacementY>
+                </Displacement> 
+
+                 <Rotation>
+                   <ogc:Function name="toDegrees">
+                    <ogc:Div>
+                       <ogc:PropertyName>suunta</ogc:PropertyName>
+                      <ogc:Literal>-10000</ogc:Literal> 
+                    </ogc:Div>        
+                  </ogc:Function> 
+                </Rotation> 				
+              </PointPlacement>
+            </LabelPlacement>       
+
+            <Fill>
+              <CssParameter name="fill">#4d4d4d</CssParameter>
+            </Fill>
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="partials">true</VendorOption>
+          </TextSymbolizer>
+       </Rule> 
+
+<!-- Vesinimet siniset (kirjasinvarikoodi=20) ja kirjasinkallistuskulma -15 -->
         <Rule>
         
           <ogc:Filter>
@@ -1006,9 +1074,6 @@
           <!--MinScaleDenominator>600000</MinScaleDenominator-->
           <!--MaxScaleDenominator>1500000</MaxScaleDenominator-->
 
-       
-
-        
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:PropertyName>teksti</ogc:PropertyName>
@@ -1020,8 +1085,8 @@
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>Arial Takakeno</ogc:Literal>  
-                  <ogc:Literal>Arial Lihavoitu Takakeno</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                      
                 </ogc:Function>        
               </CssParameter>
               <CssParameter name="font-size">
@@ -1052,9 +1117,6 @@
                     </ogc:Div>        
                   </ogc:Function> 
                 </Rotation> 				
-				
-
-        
               </PointPlacement>
             </LabelPlacement>       
       
