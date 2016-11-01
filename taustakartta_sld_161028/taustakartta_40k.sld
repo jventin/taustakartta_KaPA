@@ -1298,7 +1298,7 @@
               </ogc:Function>				  
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -2442,7 +2442,7 @@
               <ogc:PropertyName>nimi_suomi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -2579,7 +2579,7 @@
               <ogc:PropertyName>nimi_ruotsi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -2688,7 +2688,7 @@
               <ogc:PropertyName>nimi_suomi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -2796,7 +2796,7 @@
               <ogc:PropertyName>nimi_ruotsi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -2929,7 +2929,7 @@
               <ogc:PropertyName>nimi_ruotsi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -3061,7 +3061,7 @@
               <ogc:PropertyName>nimi_suomi</ogc:PropertyName> 
             </Label>
             <Font>
-              <CssParameter name="font-family">Arial</CssParameter> 
+              <CssParameter name="font-family">LiberationSansNLSF</CssParameter> 
               <CssParameter name="font-size">
                 <ogc:Function name="if_then_else">                 
                   <ogc:Function name="equalTo">
@@ -3103,6 +3103,89 @@
     <Name>mtk:karttanimi_40000</Name>
     <UserStyle>
       <FeatureTypeStyle>
+	  
+<!-- ASUTUSNIMET 48100  -->        
+        <Rule>
+          <Name>asutusnimet</Name>
+          <Title>asutusnimet</Title>	 
+          <ogc:Filter>  
+            <ogc:Or>        
+           <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>paikkatyyppikoodi</ogc:PropertyName> <!-- kaupungin nimi 540 -->
+              <ogc:Literal>540</ogc:Literal>
+            </ogc:PropertyIsEqualTo>               
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>paikkatyyppikoodi</ogc:PropertyName> <!-- kunnan nimi, maaseutu 550 -->
+                <ogc:Literal>550</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>paikkatyyppikoodi</ogc:PropertyName> <!-- kylan, kaupunginosan tai kulmakunnan nimi 560 -->
+                <ogc:Literal>560</ogc:Literal>
+              </ogc:PropertyIsEqualTo>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>paikkatyyppikoodi</ogc:PropertyName> <!-- talon nimi 560 -->
+                <ogc:Literal>570</ogc:Literal>
+              </ogc:PropertyIsEqualTo>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>paikkatyyppikoodi</ogc:PropertyName> <!-- muu asutusnimi 590 -->
+                <ogc:Literal>590</ogc:Literal>
+              </ogc:PropertyIsEqualTo>               
+            </ogc:Or>
+          </ogc:Filter>
+      
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->  
+  
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <ogc:PropertyName>teksti</ogc:PropertyName>
+            </Label>
+			
+            <Font>
+              <CssParameter name="font-family">
+                <ogc:Function name="if_then_else">
+                  <ogc:Function name="equalTo">
+                    <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
+                    <ogc:Literal>10</ogc:Literal>
+                  </ogc:Function>                                
+                  <ogc:Literal>LiberationSansNLSF</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
+                </ogc:Function> 			 
+              </CssParameter>	
+              <CssParameter name="font-size">
+                <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+              </CssParameter>
+            </Font>
+		 
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0</AnchorPointX>
+                  <AnchorPointY>0</AnchorPointY>
+                </AnchorPoint>
+                 <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-22</DisplacementY>
+                </Displacement>      
+                  <Rotation>
+                   <ogc:Function name="toDegrees">
+                    <ogc:Div>
+                       <ogc:PropertyName>suunta</ogc:PropertyName>
+                      <ogc:Literal>-10000</ogc:Literal> 
+                    </ogc:Div>        
+                  </ogc:Function> 
+                </Rotation> 				
+              </PointPlacement>
+            </LabelPlacement>
+			
+            <Fill>
+              <CssParameter name="fill">#918a8c</CssParameter>
+            </Fill>
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="partials">true</VendorOption>
+          </TextSymbolizer>
+        </Rule>
+	  
         <Rule>
           <Name>maastokohteiden nimet</Name>
           <Title>maastokohteiden nimet</Title>	   		
@@ -3175,8 +3258,8 @@
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFIRight</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBoldRight</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>	
               <CssParameter name="font-size">
@@ -3258,8 +3341,8 @@
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>
               <CssParameter name="font-size">
@@ -3301,6 +3384,90 @@
     <Name>mtk:karttanimi_40000</Name>
     <UserStyle>
       <FeatureTypeStyle>
+	  
+<!-- ASUTUSNIMET 48100  -->        
+        <Rule>
+          <Name>asutusnimet</Name>
+          <Title>asutusnimet</Title>	 
+          <ogc:Filter>  
+            <ogc:Or>        
+           <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>paikkatyyppikoodi</ogc:PropertyName> <!-- kaupungin nimi 540 -->
+              <ogc:Literal>540</ogc:Literal>
+            </ogc:PropertyIsEqualTo>               
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>paikkatyyppikoodi</ogc:PropertyName> <!-- kunnan nimi, maaseutu 550 -->
+                <ogc:Literal>550</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>paikkatyyppikoodi</ogc:PropertyName> <!-- kylan, kaupunginosan tai kulmakunnan nimi 560 -->
+                <ogc:Literal>560</ogc:Literal>
+              </ogc:PropertyIsEqualTo>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>paikkatyyppikoodi</ogc:PropertyName> <!-- talon nimi 560 -->
+                <ogc:Literal>570</ogc:Literal>
+              </ogc:PropertyIsEqualTo>      
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>paikkatyyppikoodi</ogc:PropertyName> <!-- muu asutusnimi 590 -->
+                <ogc:Literal>590</ogc:Literal>
+              </ogc:PropertyIsEqualTo>               
+            </ogc:Or>
+          </ogc:Filter>
+      
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->  
+  
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <ogc:PropertyName>teksti</ogc:PropertyName>
+            </Label>
+			
+            <Font>
+              <CssParameter name="font-family">
+                <ogc:Function name="if_then_else">
+                  <ogc:Function name="equalTo">
+                    <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
+                    <ogc:Literal>10</ogc:Literal>
+                  </ogc:Function>                                
+                  <ogc:Literal>LiberationSansNLSF</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
+                </ogc:Function> 			 
+              </CssParameter>	
+              <CssParameter name="font-size">
+                <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+              </CssParameter>
+            </Font>
+		 
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0</AnchorPointX>
+                  <AnchorPointY>0</AnchorPointY>
+                </AnchorPoint>
+                 <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-22</DisplacementY>
+                </Displacement>      
+                  <Rotation>
+                   <ogc:Function name="toDegrees">
+                    <ogc:Div>
+                       <ogc:PropertyName>suunta</ogc:PropertyName>
+                      <ogc:Literal>-10000</ogc:Literal> 
+                    </ogc:Div>        
+                  </ogc:Function> 
+                </Rotation> 				
+              </PointPlacement>
+            </LabelPlacement>
+            <Halo>
+              <Radius>6</Radius>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#ffffff</CssParameter>
+           </Fill>
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="partials">true</VendorOption>
+          </TextSymbolizer>
+        </Rule>	  
        <Rule>
           <Name>maastokohteiden nimet</Name>
           <Title>maastokohteiden nimet</Title>	 
@@ -3373,8 +3540,8 @@
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFIRight</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBoldRight</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>	
               <CssParameter name="font-size">
@@ -3459,8 +3626,8 @@
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>
               <CssParameter name="font-size">
