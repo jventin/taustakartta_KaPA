@@ -1003,14 +1003,14 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFIRight</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBoldRight</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>	
               <CssParameter name="font-size">
                 <ogc:Div> 
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>0.5</ogc:Literal>
+                  <ogc:Literal>0.4</ogc:Literal>
                  </ogc:Div>			   
               </CssParameter>
             </Font>	
@@ -1022,7 +1022,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                 </AnchorPoint>
                  <Displacement>
                   <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-120</DisplacementY>
+                  <DisplacementY>-70</DisplacementY>
                 </Displacement>      
                   <Rotation>
                    <ogc:Function name="toDegrees">
@@ -1089,14 +1089,14 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>
               <CssParameter name="font-size">
                 <ogc:Div> 
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>0.5</ogc:Literal>
+                  <ogc:Literal>0.4</ogc:Literal>
                 </ogc:Div>			   
               </CssParameter>
             </Font>
@@ -1108,7 +1108,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                 </AnchorPoint>
                  <Displacement>
                   <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-120</DisplacementY>
+                  <DisplacementY>-70</DisplacementY>
                 </Displacement> 		   
                   <Rotation>
                    <ogc:Function name="toDegrees">
@@ -1167,14 +1167,14 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFI</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBold</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSF</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>	
               <CssParameter name="font-size">
                 <ogc:Div> 
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>0.5</ogc:Literal>
+                  <ogc:Literal>0.4</ogc:Literal>
                  </ogc:Div>			   
                 </CssParameter>
             </Font>
@@ -1186,7 +1186,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                 </AnchorPoint>
                  <Displacement>
                   <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-120</DisplacementY>
+                  <DisplacementY>-70</DisplacementY>
                 </Displacement>      
                   <Rotation>
                    <ogc:Function name="toDegrees">
@@ -1284,14 +1284,14 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFIRight</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBoldRight</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>	
               <CssParameter name="font-size">
                 <ogc:Div> 
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>0.5</ogc:Literal>
+                  <ogc:Literal>0.4</ogc:Literal>
                  </ogc:Div>			   
               </CssParameter>
             </Font>	
@@ -1303,7 +1303,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                 </AnchorPoint>
                  <Displacement>
                   <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-120</DisplacementY>
+                  <DisplacementY>-70</DisplacementY>
                 </Displacement>      
                   <Rotation>
                    <ogc:Function name="toDegrees">
@@ -1373,14 +1373,14 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>
               <CssParameter name="font-size">
                 <ogc:Div> 
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>0.5</ogc:Literal>
+                  <ogc:Literal>0.4</ogc:Literal>
                 </ogc:Div>			   
               </CssParameter>
             </Font>
@@ -1392,7 +1392,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                 </AnchorPoint>
                  <Displacement>
                   <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-120</DisplacementY>
+                  <DisplacementY>-70</DisplacementY>
                 </Displacement> 		   
                   <Rotation>
                    <ogc:Function name="toDegrees">
@@ -1454,14 +1454,14 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName>
                     <ogc:Literal>10</ogc:Literal>
                   </ogc:Function>                                
-                  <ogc:Literal>LiberationSansNLSFI</ogc:Literal>  
-                  <ogc:Literal>LiberationSansNLSFIBold</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSF</ogc:Literal>  
+                  <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
                 </ogc:Function> 			 
               </CssParameter>	
               <CssParameter name="font-size">
                 <ogc:Div> 
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>0.5</ogc:Literal>
+                  <ogc:Literal>0.4</ogc:Literal>
                 </ogc:Div>			   
               </CssParameter>
             </Font>
@@ -1473,7 +1473,7 @@ xlink:href="http://avoindata.maanmittauslaitos.fi/sld/taustakartta/SLentokone_va
                 </AnchorPoint>
                  <Displacement>
                   <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-120</DisplacementY>
+                  <DisplacementY>-70</DisplacementY>
                 </Displacement>      
                   <Rotation>
                    <ogc:Function name="toDegrees">
