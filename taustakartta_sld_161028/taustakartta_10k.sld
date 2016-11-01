@@ -7775,15 +7775,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                <ogc:Literal>LiberationSansNLSFIRight</ogc:Literal>  
-                 <ogc:Literal>LiberationSansNLSFIBoldRight</ogc:Literal>                                                     
+                <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+                 <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>			  
              <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4.5</ogc:Literal>
+                  <ogc:Literal>4.2</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -7796,10 +7796,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                 </AnchorPoint>
                 <Displacement>
                   <DisplacementX>
-                    <ogc:Div>
-                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-150</ogc:Literal>
-                    </ogc:Div>
+                    <ogc:Literal>0</ogc:Literal>
                   </DisplacementX>
                   <DisplacementY>
                     <ogc:Div>
@@ -7877,15 +7874,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>                   
-                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>                   
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>		  
              <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4.5</ogc:Literal>
+                  <ogc:Literal>4.2</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -7898,10 +7895,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                 </AnchorPoint>
                 <Displacement>
                   <DisplacementX>
-                    <ogc:Div>
-                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-150</ogc:Literal>
-                    </ogc:Div>
+                    <ogc:Literal>0</ogc:Literal>
                   </DisplacementX>
                   <DisplacementY>
                     <ogc:Div>
@@ -7909,7 +7903,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                       <ogc:Literal>-30</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
-                </Displacement>  
+                </Displacement> 
                 <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
                 <Rotation>
                   <ogc:Function name="toDegrees">
@@ -7971,15 +7965,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                <ogc:Literal>LiberationSansNLSFI</ogc:Literal>                  
-                 <ogc:Literal>LiberationSansNLSFIBold</ogc:Literal>                                                     
+                <ogc:Literal>LiberationSansNLSF</ogc:Literal>                  
+                 <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>			  
              <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4.5</ogc:Literal>
+                  <ogc:Literal>4.2</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -7992,10 +7986,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                 </AnchorPoint>
                 <Displacement>
                   <DisplacementX>
-                    <ogc:Div>
-                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-150</ogc:Literal>
-                    </ogc:Div>
+                    <ogc:Literal>0</ogc:Literal>
                   </DisplacementX>
                   <DisplacementY>
                     <ogc:Div>
@@ -8003,7 +7994,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                       <ogc:Literal>-30</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
-                </Displacement>  
+                </Displacement> 
                 <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
                 <Rotation>
                   <ogc:Function name="toDegrees">
@@ -8109,15 +8100,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                <ogc:Literal>LiberationSansNLSFIRight</ogc:Literal>  
-                 <ogc:Literal>LiberationSansNLSFIBoldRight</ogc:Literal>                                                     
+                <ogc:Literal>LiberationSansNLSFRight</ogc:Literal>  
+                 <ogc:Literal>LiberationSansNLSFBoldRight</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>			  
              <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4.5</ogc:Literal>
+                  <ogc:Literal>4.2</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -8130,10 +8121,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                 </AnchorPoint>
                 <Displacement>
                   <DisplacementX>
-                    <ogc:Div>
-                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-150</ogc:Literal>
-                    </ogc:Div>
+                    <ogc:Literal>0</ogc:Literal>
                   </DisplacementX>
                   <DisplacementY>
                     <ogc:Div>
@@ -8141,7 +8129,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                       <ogc:Literal>-30</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
-                </Displacement>  
+                </Displacement> 
                 <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
                 <Rotation>
                   <ogc:Function name="toDegrees">
@@ -8214,15 +8202,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>                   
-                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>                   
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>		  
              <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4.5</ogc:Literal>
+                  <ogc:Literal>4.2</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -8235,10 +8223,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                 </AnchorPoint>
                 <Displacement>
                   <DisplacementX>
-                    <ogc:Div>
-                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-150</ogc:Literal>
-                    </ogc:Div>
+                    <ogc:Literal>0</ogc:Literal>
                   </DisplacementX>
                   <DisplacementY>
                     <ogc:Div>
@@ -8246,7 +8231,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                       <ogc:Literal>-30</ogc:Literal>
                     </ogc:Div>
                   </DisplacementY>
-                </Displacement>  
+                </Displacement> 
                 <!-- kirjaimen kiertokulman laskeminen suunta-arvon perusteella -->
                 <Rotation>
                   <ogc:Function name="toDegrees">
@@ -8311,15 +8296,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                <ogc:Literal>LiberationSansNLSFI</ogc:Literal>                  
-                 <ogc:Literal>LiberationSansNLSFIBold</ogc:Literal>                                                     
+                <ogc:Literal>LiberationSansNLSF</ogc:Literal>                  
+                 <ogc:Literal>LiberationSansNLSFBold</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>			  
              <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4.5</ogc:Literal>
+                  <ogc:Literal>4.2</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>
             </Font> 
@@ -8332,10 +8317,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                 </AnchorPoint>
                 <Displacement>
                   <DisplacementX>
-                    <ogc:Div>
-                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                      <ogc:Literal>-150</ogc:Literal>
-                    </ogc:Div>
+                    <ogc:Literal>0</ogc:Literal>
                   </DisplacementX>
                   <DisplacementY>
                     <ogc:Div>
@@ -8422,15 +8404,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                     <ogc:PropertyName>kirjasintyyppikoodi</ogc:PropertyName> 
                     <ogc:Literal>10</ogc:Literal>					
                   </ogc:Function>                  
-                  <ogc:Literal>LiberationSansNLSFILeft</ogc:Literal>                   
-                  <ogc:Literal>LiberationSansNLSFIBoldLeft</ogc:Literal>                                                     
+                  <ogc:Literal>LiberationSansNLSFLeft</ogc:Literal>                   
+                  <ogc:Literal>LiberationSansNLSFBoldLeft</ogc:Literal>                                                     
                 </ogc:Function>           
               </CssParameter>			  
            <!-- lasketaan fontin koko attribuutikent?n "kirjasinkoko" perusteella -->                
              <CssParameter name="font-size">
                 <ogc:Div>
                   <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
-                  <ogc:Literal>4</ogc:Literal>
+                  <ogc:Literal>4.2</ogc:Literal>
                 </ogc:Div>         
               </CssParameter>              
             </Font> 
@@ -8443,7 +8425,12 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
                 </AnchorPoint>
                 <Displacement>
                   <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-10</DisplacementY>
+                  <DisplacementY>
+                    <ogc:Div>
+                      <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                      <ogc:Literal>-30</ogc:Literal>
+                    </ogc:Div>
+                  </DisplacementY>
                 </Displacement> 
                 <!-- suuntakulman muuntaminen asteisiin ja jakolaskulla pilkku oikeaan paikkaan --> 
                 <Rotation>
