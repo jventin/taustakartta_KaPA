@@ -9404,5 +9404,105 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
       </FeatureTypeStyle>    
     </UserStyle>
   </NamedLayer>  
- 
+   <NamedLayer> <!-- osoitepisteet  -->
+    <Name>mtk:__osoite_5000__</Name>
+    <UserStyle>
+      <Title>mtk:__osoite_5000__</Title>
+      <Abstract>sld</Abstract>
+      <FeatureTypeStyle>    
+        <Rule>
+          <Name>osoitteet</Name>
+          <Title>osoitteet</Title>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>jarjestysnumero</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>		 
+              <ogc:Or>		  
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                  <ogc:Literal>554221</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                  <ogc:Literal>554222</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                  <ogc:Literal>554223</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                  <ogc:Literal>554224</ogc:Literal>
+                </ogc:PropertyIsEqualTo>			 
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>kohdeluokka</ogc:PropertyName>
+                  <ogc:Literal>554225</ogc:Literal>
+                </ogc:PropertyIsEqualTo>				 			 
+              </ogc:Or>
+            </ogc:And>			
+          </ogc:Filter>         		
+          <!--MinScaleDenominator>15000</MinScaleDenominator-->
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator--> 
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <ogc:PropertyName>katunumero_merkki</ogc:PropertyName>
+            </Label>
+     
+            <Font>            			  
+              <!-- Fontin valinta -->			
+              <CssParameter name="font-family">
+                <ogc:Literal>LiberationSansNLSF</ogc:Literal>          
+              </CssParameter>			  
+        
+             <!-- lasketaan fontin koko attribuutikentan "kirjasinkoko" perusteella -->                
+             <CssParameter name="font-size">
+                <ogc:Div>
+                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                  <ogc:Literal>12</ogc:Literal>
+                </ogc:Div>         
+              </CssParameter>
+              
+   
+            </Font> 
+
+            <!-- karttanimen sijainnin marittaminen -->            
+            <LabelPlacement>
+              <PointPlacement>
+			  
+                <AnchorPoint>
+                  <AnchorPointX>0</AnchorPointX>
+                  <AnchorPointY>0</AnchorPointY>
+                </AnchorPoint>
+
+                <Displacement>
+                  <DisplacementX>
+                      <ogc:Literal>0</ogc:Literal>
+                  </DisplacementX>
+                  <DisplacementY>
+                      <ogc:Literal>-3.25</ogc:Literal>
+                  </DisplacementY>
+                </Displacement>  
+      
+              </PointPlacement>
+            </LabelPlacement>   
+         
+            <Halo>
+              <Radius>0.5</Radius>
+            </Halo>
+            <!-- karttanimen varin maarittaminen -->
+            <Fill>
+              <CssParameter name="fill">                               
+                <ogc:Literal>#242020</ogc:Literal>  
+              </CssParameter>
+            </Fill>
+      
+            <VendorOption name="conflictResolution">false</VendorOption>
+            <VendorOption name="partials">true</VendorOption>     
+          </TextSymbolizer>         
+        </Rule>   	  
+      </FeatureTypeStyle>    
+    </UserStyle>
+  </NamedLayer>  
 </StyledLayerDescriptor>  
