@@ -9495,7 +9495,7 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
             </LabelPlacement>   
          
             <Halo>
-              <Radius>0.5</Radius>
+              <Radius>1</Radius>
             </Halo>
             <!-- karttanimen varin maarittaminen -->
             <Fill>
