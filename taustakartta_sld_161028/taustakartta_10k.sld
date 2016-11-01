@@ -8142,7 +8142,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </PointPlacement>
             </LabelPlacement>   
             <Halo>
-              <Radius>1</Radius>
+              <Radius>
+                <ogc:Div>
+                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                  <ogc:Literal>110</ogc:Literal>
+                </ogc:Div>
+			  </Radius>     
+              <Fill>
+                <CssParameter name="fill">#FFFFFF</CssParameter>
+              </Fill>
             </Halo>
             <!-- karttanimen varin maarittaminen -->
             <Fill>
@@ -8244,7 +8252,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </PointPlacement>
             </LabelPlacement>   
             <Halo>
-              <Radius>1</Radius>
+              <Radius>
+                <ogc:Div>
+                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                  <ogc:Literal>110</ogc:Literal>
+                </ogc:Div>
+			  </Radius>     
+              <Fill>
+                <CssParameter name="fill">#FFFFFF</CssParameter>
+              </Fill>
             </Halo>
             <!-- karttanimen varin maarittaminen -->
             <Fill>
@@ -8338,7 +8354,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
               </PointPlacement>
             </LabelPlacement>   
             <Halo>
-              <Radius>1</Radius>
+              <Radius>
+                <ogc:Div>
+                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                  <ogc:Literal>110</ogc:Literal>
+                </ogc:Div>
+			  </Radius>     
+              <Fill>
+                <CssParameter name="fill">#FFFFFF</CssParameter>
+              </Fill>
             </Halo>
             <!-- karttanimen varin maarittaminen -->
             <Fill>
@@ -8445,7 +8469,15 @@ xlink:href="http://jventin.github.io/taustakartta_KaPA/sld/taustakartta_symbols/
             </LabelPlacement>   
             <!-- tekstin maski -->         
             <Halo>
-              <Radius>1</Radius>
+              <Radius>
+                <ogc:Div>
+                  <ogc:PropertyName>kirjasinkoko</ogc:PropertyName>
+                  <ogc:Literal>110</ogc:Literal>
+                </ogc:Div>
+			  </Radius>     
+              <Fill>
+                <CssParameter name="fill">#FFFFFF</CssParameter>
+              </Fill>
             </Halo>
             <!-- karttanimen v?rin m??ritt?minen -->            
             <Fill>
