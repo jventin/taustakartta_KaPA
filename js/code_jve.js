@@ -52,7 +52,7 @@ function init() {
 									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'http://jventin.github.io/taustakartta_KaPA/sld_jve/taustakartta_4000k.sld',
+										'SLD': 'http://jventin.github.io/taustakartta_KaPA/sld_jve/taustakartta_4000k_original.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -187,7 +187,7 @@ function init() {
 									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'http://jventin.github.io/taustakartta_KaPA/sld_jve/taustakartta_5k.sld',
+										'SLD': 'http://jventin.github.io/taustakartta_KaPA/sld_jve/taustakartta_5k_original.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver'),
